@@ -8,3 +8,4 @@ Code Institute - Japanese Restaurant Shibuya - Maurice Vossen
 ## Testing
 * Language flags are too big for iPad and smartphone, size to be adjusted.
 * On smaller devices, the English flag stays on top of the Dutch flag, this should be otherway around, to be fixed.
+* Map image will not center in section, to be fixed.
