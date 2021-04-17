@@ -110,6 +110,9 @@
         background-color: lightgrey;
         text-align: center;
         border-top: 2px solid black;
+        float: left;
+        clear: left;
+        width: 100%;
     }
 
     #footer-follow-us {
@@ -254,15 +257,62 @@
 
     </header>
 
-    <!-- main content here -->
+    <!-- main webpage content -->
+
+    <style>
+
+        #main-div {
+            background-color: green;
+            position: relative;
+            padding: 500px auto;
+            top: 0;
+            float: left;
+            width: 100%;
+
+        }
+
+        .section-div {
+            width: 60%;
+            background-color: lightgrey;
+            margin: 200px auto;
+            text-align: center;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
 
 
-    <div style="text-align: center; padding: 30px;">index page</div>
+        .section-div > h2 {
+            font-size: 24px;
+            letter-spacing: 1px;
+            padding-top: 30px;
+            padding-bottom: 0;
+            margin: 0;
+        }
 
-    
+        .section-div p
+        {
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            padding: 0 30px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+    </style>
 
 
-   
+    <div id="main-div">
+
+        <section class="section-div">
+
+            <h2>Welcome Section</h2>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum ipsa laudantium modi id ullam officia, tempore ea et. Est, laudantium possimus ratione voluptatum quia quis sequi quam vel. Dolorum?</p>
+
+        </section>
+
+   </div>
 
 
 
@@ -282,7 +332,6 @@
         </div>
 
     </footer>
-
 
 </body>
 
