@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <title>Japanese Restaurant Shibuya</title>
+
+    <!-- Credit: social media icons imported from fontawesome: https://www.fontawesome.com/ -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous" />
+
+</head>
+
+<!-- header styling -->
+<style>
+
+    /* header restaurant logo */
+    #header-logo-div {
+        height: 130px;
+        width: 70%;
+        background-color: lightgrey;
+        float: left;
+    }
+
+    #logo-div {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    #logo-text-top {
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    #logo-text-bottom {
+        font-size: 44px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+    #logo-div > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* header language flags */
+    #header-flags-div {
+        height: 130px;
+        width: 30%;
+        background-color: lightgrey;
+        float: left;
+    }
+
+    .flag-div {
+        width: 46px;
+        height: 30px;
+        float: right;
+        border: 1px solid black;
+        margin-top: 25px;
+        margin-right: 25px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* header navbar */
+    #header-navbar-div {
+        width: 100%;
+        background-color: lightgrey;
+        border-bottom: 2px solid black;
+    }
+
+    nav > ul {
+        padding: 22px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav > ul > li {
+        list-style-type: none;
+        font-size: 26px;
+        font-weight: 200;
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    nav > ul > li > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav > ul > li > a:hover {
+        text-decoration: underline;
+    }
+
+    #navbar-linebreak {
+        display: none;
+    }
+
+ 
+
+    /* footer */
+
+    footer {
+        background-color: lightgrey;
+        text-align: center;
+        border-top: 2px solid black;
+        float: left;
+        clear: left;
+        width: 100%;
+    }
+
+    #footer-follow-us {
+        margin-top: 50px;
+    }
+
+    #footer-follow-us > span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #footer-follow-us li {
+        list-style-type: none;
+        display: inline;
+        margin: 0 30px;
+        font-size: 30px;
+    }
+
+    #footer-follow-us ul {
+        text-align: center;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #footer-follow-us a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer-follow-us a:hover {
+        color: red;
+    }
+
+    #copyright {
+        font-size: 16px;
+        font-weight: 200;
+        padding-bottom: 30px;
+    }
+
+    #footer-linebreak {
+        display: none;
+    }
+
+
+    /* article */
+    article {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #index-div {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* media queries */
+    @media only screen and (max-width: 767px) 
+    {
+        nav > ul > li {
+            padding: 0 20px;
+        }
+
+        #navbar-linebreak {
+            display: inline;
+        }
+    }
+
+    @media only screen and (max-width: 600px)
+    {
+       #copyright {
+           font-size: 14px;
+       }
+    }
+
+
+    @media only screen and (max-width: 400px) {
+        #logo-text-top {
+            font-size: 14px;
+        }
+
+        #logo-text-bottom {
+            font-size: 38px;
+        }
+
+        nav > ul > li {
+            font-size: 20px;
+            padding: 0 10px;
+        }
+
+        #footer-linebreak {
+            display: inline;
+        }
+    }
+
+
+
+</style>
+
+
+<!-- body -->
+<body>
+    
+    <header>
+
+        
+
+        <div id="header-logo-div">
+            
+            <div id="logo-div">
+
+                <a href="index.html">
+                    <span id="logo-text-top">JAPANESE RESTAURANT</span><br>
+                    <span id="logo-text-bottom">SHIBUYA</span>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div id="header-flags-div">
+
+            <div class="flag-div"><a href="index.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
+            <div class="flag-div"><a href="index-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+
+        </div>
+
+        <div id="header-navbar-div">
+            <nav>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li><br id="navbar-linebreak">
+                    <li><a href="reservations.html">RESERVATIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+    
+
+    </header>
+
+    <!-- main webpage content -->
+
+    <style>
+
+        #main-div {
+            background-color: green;
+            position: relative;
+            padding: 500px auto;
+            top: 0;
+            float: left;
+            width: 100%;
+
+        }
+
+        .section-div {
+            width: 60%;
+            background-color: lightgrey;
+            margin: 200px auto;
+            text-align: center;
+            border-radius: 20px;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+
+        .section-div div {
+            float: left;
+            width: 50%;
+        }
+
+        .section-div h2 {
+            font-size: 24px;
+            letter-spacing: 1px;
+            margin: 20px 30px 0px 30px;
+        }
+
+        .section-div p
+        {
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            padding: 0 30px;
+            margin: 10px 30px 30px 30px;
+            box-sizing: border-box;
+        }
+
+        #map-image {
+            width: 60%;
+            border: 1px solid black;
+            margin: 10px auto 30px auto;
+            background-color: white;
+        }
+
+        @media only screen and (max-width: 800px) 
+            {
+                .section-div div{
+                    display: block;
+                    float: none;
+                    width: 100%;
+                }
+            }
+
+    </style>
+
+
+    <div id="main-div">
+
+        <section class="section-div">
+
+            <h2>Welcome to our restaurant</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum ipsa laudantium modi id ullam officia, tempore ea et. Est, laudantium possimus ratione voluptatum quia quis sequi quam vel. Dolorum?</p>
+
+        </section>
+
+        <section class="section-div">
+
+            <h2>About our restaurant</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum ipsa laudantium modi id ullam officia, tempore ea et. Est, laudantium possimus ratione voluptatum quia quis sequi quam vel. Dolorum?</p>
+
+        </section>
+
+
+        <!-- Credit: overflow: hidden coming from w3schools.com -->
+        <section class="section-div">
+
+                <div>
+                
+                    <h2>Where to find us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel vero unde repellat ducimus tempora, ratione esse provident, numquam et atque accusantium tempore exercitationem cum quis illum praesentium error similique?</p>
+                
+                </div>
+
+                <div>
+                
+                    <h2>Opening hours</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel vero unde repellat ducimus tempora, ratione esse provident, numquam et atque accusantium tempore exercitationem cum quis illum praesentium error similique?</p>
+                
+                </div>
+
+        </section>
+
+        <section class="section-div">
+
+            <div style="background-color: white;">
+                image
+            </div>
+
+        </section>
+
+   </div>
+
+
+
+    <footer>
+
+        <div id="footer-follow-us">
+            <span>Follow us on social media</span>
+
+            <ul>
+                <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter socials-link"></i></a></li>
+                <li><a href="https://www.facebook.com/" target ="_blank"><i class="fab fa-facebook socials-link"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram socials-link"></i></a></li>
+            </ul>
+
+            <p id="copyright">COPYRIGHT © 2021 <br id="footer-linebreak">JAPANESE RESTAURANT SHIBUYA<br> - ALL RIGHTS RESERVED -</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
