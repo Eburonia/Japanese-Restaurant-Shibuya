@@ -111,7 +111,6 @@
         text-align: center;
         border-top: 2px solid black;
         float: left;
-        clear: left;
         width: 100%;
     }
 
@@ -216,9 +215,9 @@
 <!-- body -->
 <body>
     
-    <header>
 
-        
+    <!-- header -->
+    <header>
 
         <div id="header-logo-div">
             
@@ -258,7 +257,6 @@
     </header>
 
     <!-- main webpage content -->
-
     <style>
 
         #main-div {
@@ -268,7 +266,7 @@
             top: 0;
             float: left;
             width: 100%;
-
+            overflow: hidden;
         }
 
         .section-div {
@@ -279,6 +277,26 @@
             border-radius: 20px;
             border: 2px solid black;
             overflow: hidden;
+        }
+
+        #location-section {
+            width: 60%;
+            background-color: lightgrey;
+            margin: 200px auto;
+            text-align: center;
+            border-radius: 20px;
+            border: 2px solid black;
+ 
+            box-sizing: border-box;
+        }
+
+        #location-section div {
+            background-color: lightgrey;
+            margin: 0 30px;
+            height: 400px;
+            margin-bottom: 30px;
+            border: 1px solid black;
+            box-sizing: border-box;
         }
 
         .section-div div {
@@ -338,6 +356,7 @@
         </section>
 
 
+        <!-- Where to find us - Opening hours section -->
         <!-- Credit: overflow: hidden coming from w3schools.com -->
         <section class="section-div">
 
@@ -357,10 +376,15 @@
 
         </section>
 
-        <section class="section-div">
+        <!-- location section -->
+        <!-- aspect ratio: https://css-tricks.com/aspect-ratio-boxes/ -->
+
+        <section id="location-section">
+
+            <h2>Restaurant location</h2>
 
             <div style="background-color: white;">
-                image
+                google
             </div>
 
         </section>
@@ -368,7 +392,7 @@
    </div>
 
 
-
+   <!-- footer -->
     <footer>
 
         <div id="footer-follow-us">
@@ -385,6 +409,7 @@
         </div>
 
     </footer>
+
 
 </body>
 
