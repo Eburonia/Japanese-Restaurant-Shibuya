@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;500&display=swap');
 
 
+/* CHECK DOUBLE CODE */
+/* MAKE FLAGS SMALLER */
+/* MAKE ONE STYLING CLASS FOR ALL SECTIONS */
+/* ADJUST COMPANY LOGO SO IT FITS AT SMALLER SIZES */
+
+
+
+
+
 /* body */
 body {
     margin: 0;
@@ -17,9 +26,14 @@ body {
 }
 
 /* header */
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid rgb(223, 152, 96);
+}
+
 #header-navbar-div {
     width: 100%;
-    background-color: lightgrey;
     border-bottom: 2px solid black;
     }
 
@@ -37,14 +51,6 @@ nav > ul > li {
     padding: 0 30px;
     }
 
-nav > ul > li > a {
-    text-decoration: none;
-    color: black;
-    }
-
-nav > ul > li > a:hover {
-    text-decoration: underline;
-    }
 
 #navbar-linebreak {
     display: none;
@@ -54,21 +60,18 @@ nav > ul > li > a:hover {
 #header-flags-div {
     height: 130px;
     width: 30%;
-    background-color: yellow;
     float: right;
     display: flex;
     flex-direction: row-reverse;
     justify-content: right;
     align-items: unset;
-    
-
     }
 
 .flag-div {
     width: 46px;
     height: 30px;
     float: right;
-    border: 1px solid black;
+    border: 1px solid rgb(100, 100, 100);
     margin-top: 25px;
     margin-right: 25px;
     text-align: center;
@@ -79,7 +82,6 @@ nav > ul > li > a:hover {
 #header-logo-div {
     height: 130px;
     width: 70%;
-    background-color: lightgrey;
     float: left;
     }
 
@@ -89,38 +91,26 @@ nav > ul > li > a:hover {
     }
 
 #logo-text-top {
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: white;
     }
 
 #logo-text-bottom {
-    font-size: 44px;
+    font-size: 45px;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
+    color: rgb(223, 152, 96);
     }
 
 #logo-div > a {
     text-decoration: none;
-    color: black;
-    }
-
-.flag-div {
-    width: 46px;
-    height: 30px;
-    float: right;
-    border: 1px solid black;
-    margin-top: 25px;
-    margin-right: 25px;
-    text-align: center;
-    font-size: 12px;
     }
 
 /* header navbar */
 #header-navbar-div {
     width: 100%;
-    background-color: lightgrey;
-    border-bottom: 2px solid black;
     }
 
 nav > ul {
@@ -139,17 +129,21 @@ nav > ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
-    color: black;
+    color: white;
     }
 
 nav > ul > li > a:hover {
+    
+    color:white;
     text-decoration: underline;
+    transition: 1s;
+    /* https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out */
     }
+
 
 #navbar-linebreak {
     display: none;
     }
-
 
 /* index */
 #main-div {
@@ -163,26 +157,26 @@ nav > ul > li > a:hover {
 
 .section-div {
     width: 60%;
-    background-color: lightgrey;
-    margin: 200px auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 30vh auto;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid white;
     overflow: hidden;
     }
 
 #location-section {
     width: 60%;
-    background-color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.85);
     margin: 200px auto;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid white;
     box-sizing: border-box;
+    color: white;
     }
 
 #location-section div {
-    background-color: lightgrey;
     margin: 0 30px;
     height: 400px;
     margin-bottom: 30px;
@@ -197,17 +191,20 @@ nav > ul > li > a:hover {
 
 .section-div h2 {
     font-size: 24px;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 2px;
     margin: 20px 30px 0px 30px;
+    color: rgb(223, 152, 96);
     }
 
 .section-div p {
     font-size: 20px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     padding: 0 30px;
     margin: 10px 30px 30px 30px;
     box-sizing: border-box;
+    color: white;
     }
 
 #map-image {
@@ -220,9 +217,9 @@ nav > ul > li > a:hover {
 
 /* footer */
 footer {
-    background-color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    border-top: 2px solid black;
+    border-top: 2px solid rgb(223, 152, 96);
     float: left;
     width: 100%;
     }
@@ -234,6 +231,8 @@ footer {
 #footer-div > span {
     font-size: 16px;
     font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
     }
 
 #footer-div li {
@@ -251,18 +250,21 @@ footer {
 
 #footer-div a {
     text-decoration: none;
-    color: black;
+    color: rgb(140, 204, 119);
     }
 
 #footer-div a:hover {
-    color: red;
+    color: white;
     }
 
 #copyright {
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 300;
     padding-bottom: 30px;
-    margin-top: 30px;   
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: px;
     }
 
 #footer-linebreak {
