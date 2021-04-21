@@ -9,9 +9,11 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 
    
-    background: url('/assets/images/asuka.jpg') no-repeat top center;
+    background: url('/assets/images/background.jpg') no-repeat top center;
     background-attachment: fixed;
-    background-size: auto 100%;
+
+    /* https://www.bitdegree.org/learn/responsive-image */
+    background-size: cover;
 }
 
 /* header */
@@ -52,8 +54,14 @@ nav > ul > li > a:hover {
 #header-flags-div {
     height: 130px;
     width: 30%;
-    background-color: lightgrey;
-    float: left;
+    background-color: yellow;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: unset;
+    
+
     }
 
 .flag-div {
@@ -279,6 +287,13 @@ footer {
        #copyright {
            font-size: 14px;
        }
+
+       #header-flags-div {
+            flex-direction: column-reverse;
+            justify-content: right;
+            align-items: flex-end;
+       }
+
     }
 
 @media only screen and (max-width: 400px)
