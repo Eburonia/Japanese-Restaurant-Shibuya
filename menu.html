@@ -69,40 +69,84 @@
     <style>
 
         #menu-outer-div {
-            background-color: lightgray;
+            background-color: rgb(0, 0, 0, 0.85);
             width: 60%;
             margin: 300px auto;
             overflow: hidden;
+            border: 2px solid black;
+            border-radius: 20px;
         }
 
         #menu-outer-div h2 {
             text-align: center;
-            padding: 30px 0;
-            margin: 0;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            padding: 20px 30px 0px 30px;
+            color: rgb(223, 152, 96);
         }
 
         #menu-inner-div {
-            background-color: white;
+            background-color: transparent;
             margin-left: 50px;
             margin-right: 50px;
             margin-bottom: 50px;
-
+            
             /* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
-            
+            flex-wrap: wrap;   
         }
 
         .menu-section {
-            height: 200px;
+            
             padding: 30px;
             box-sizing: border-box;
             width: 50%;
         }
 
+        .menu-image {
+            background-color: lightgrey;
+            border: 1px solid black;
+            height: 300px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        table {
+            color: white;
+            letter-spacing: 1px;
+            font-size: 18px;
+        }
+
+        table h3 {
+            color: rgb(223, 152, 96);
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table th {
+            text-align: left;
+        }
+
+        table td {
+            font-style: oblique;
+        }
+
+        table tr {
+            height: 30px;
+        }
+
+
         @media only screen and (max-width: 1200px)
         {
+            #menu-outer-div {
+                width: 70%;
+            }
+
             #menu-inner-div {
                 flex-direction: column;
             }
@@ -135,9 +179,15 @@
                 order: 6;
             }
 
+        }
 
-
-
+         @media only screen and (max-width: 600px)
+        {
+            #menu-outer-div {
+                width: auto;
+                margin-left: 30px;
+                margin-right: 30px;
+            }
         }
 
     </style>
@@ -151,15 +201,55 @@
                     <div id="menu-inner-div">
                             
                         <section id="menu-section-A" class="menu-section">
-                            Section 1
+                            
+                            <table>
+
+                                <th colspan="2" style="background-color: yellow;"><h3>Sushi</h3></th>
+
+                                <tr>
+                                    <td style="background-color: red;">Nakamura</td>
+                                    <td style="background-color: red;">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="background-color: red;">Nakamura</td>
+                                    <td style="background-color: red;">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="background-color: red;">Nakamura</td>
+                                    <td style="background-color: red;">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="background-color: red;">Nakamura</td>
+                                    <td style="background-color: red;">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="background-color: red;">Nakamura</td>
+                                    <td style="background-color: red;">$50,-</td>
+                                </tr>
+
+                            </table>
+
+
                         </section>
 
                         <section id="menu-section-B" class="menu-section">
-                            Image 1
+                            
+                            <div class="menu-image">
+                                Image 1
+                            </div>
+
                         </section>
 
                         <section id="menu-section-C" class="menu-section">
-                            Image 2
+                            
+                            <div class="menu-image">
+                                Image 2
+                            </div>
+
                         </section>
 
                         <section id="menu-section-D"class="menu-section">
@@ -171,7 +261,11 @@
                         </section>
 
                         <section id="menu-section-F" class="menu-section">
-                            Image 3
+                            
+                            <div class="menu-image">
+                                Image 3
+                            </div>
+
                         </section>
 
                     </div>
