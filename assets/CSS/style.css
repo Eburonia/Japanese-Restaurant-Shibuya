@@ -6,6 +6,8 @@
 /* MAKE FLAGS SMALLER */
 /* MAKE ONE STYLING CLASS FOR ALL SECTIONS */
 /* ADJUST COMPANY LOGO SO IT FITS AT SMALLER SIZES */
+/* ADD AUDIO TO WEBSITE */
+/* ADD FIGURES INSTEAD OF IMAGES TO MENU */
 
 
 
@@ -68,8 +70,8 @@ nav > ul > li {
     }
 
 .flag-div {
-    width: 46px;
-    height: 30px;
+
+    height: 20px;
     float: right;
     border: 1px solid rgb(100, 100, 100);
     margin-top: 25px;
