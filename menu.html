@@ -64,77 +64,121 @@
     </header>
 
     <!-- main webpage content -->
-    <div id="main-div">
-
-        <!-- Welcome section-->
-        <section class="section-div">
-
-            <h2>Welcome to our restaurant</h2>
-            <p>Please scroll down for more information <i class="fa fa-arrow-circle-down"></i></p>
-
-        </section>
-
-        <!-- About section-->
-        <section class="section-div">
-
-            <h2>About our restaurant</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam harum ipsa laudantium modi id ullam officia, tempore ea et. Est, laudantium possimus ratione voluptatum quia quis sequi quam vel. Dolorum?</p>
-
-        </section>
 
 
-        <section class="section-div">
+    <style>
 
-                <!-- Credit: overflow: hidden coming from w3schools.com -->
-                <!-- Where to find us section -->
-                <div>
-                    <h2>Where to find us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel vero unde repellat ducimus tempora, ratione esse provident, numquam et atque accusantium tempore exercitationem cum quis illum praesentium error similique?</p>
+        #menu-outer-div {
+            background-color: lightgray;
+            width: 60%;
+            margin: 300px auto;
+            overflow: hidden;
+        }
+
+        #menu-outer-div h2 {
+            text-align: center;
+            padding: 30px 0;
+            margin: 0;
+        }
+
+        #menu-inner-div {
+            background-color: white;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+
+            /* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+
+        .menu-section {
+            height: 200px;
+            padding: 30px;
+            box-sizing: border-box;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 1200px)
+        {
+            #menu-inner-div {
+                flex-direction: column;
+            }
+
+            .menu-section {
+                width: 100%;
+            }
+
+            #menu-section-A {
+                order: 1;
+            }
+
+            #menu-section-B {
+                order: 2;
+            }
+
+            #menu-section-C {
+                order: 4;
+            }
+
+            #menu-section-D {
+                order: 3;
+            }
+
+            #menu-section-E {
+                order: 5;
+            }
+
+            #menu-section-F {
+                order: 6;
+            }
+
+
+
+
+        }
+
+    </style>
+
+
+    <div>
+            <div id="menu-outer-div">
                 
-                </div>
+                <h2>Our menu</h2>
 
-                <!-- Opening hours section -->
-                <div>
-                
-                    <h2>Opening hours</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel vero unde repellat ducimus tempora, ratione esse provident, numquam et atque accusantium tempore exercitationem cum quis illum praesentium error similique?</p>
-                
-                </div>
+                    <div id="menu-inner-div">
+                            
+                        <section id="menu-section-A" class="menu-section">
+                            Section 1
+                        </section>
 
-        </section>
+                        <section id="menu-section-B" class="menu-section">
+                            Image 1
+                        </section>
 
-        <!-- location section -->
-        <section id="location-section">
+                        <section id="menu-section-C" class="menu-section">
+                            Image 2
+                        </section>
 
-            <h2>Restaurant location</h2>
+                        <section id="menu-section-D"class="menu-section">
+                            Section 2
+                        </section>
 
-            <!-- aspect ratio: https://css-tricks.com/aspect-ratio-boxes/ -->
-            <div style="background-color: white;">
-                google
+                        <section id="menu-section-E" class="menu-section">
+                            Section 3
+                        </section>
+
+                        <section id="menu-section-F" class="menu-section">
+                            Image 3
+                        </section>
+
+                    </div>
+                        
+
             </div>
-
-        </section>
-
-        <!-- Where to find us - Opening hours section -->
-        <section class="section-div">
-
-            <div>
-                <!-- Credit: overflow: hidden coming from w3schools.com -->
-                <h2>Mailing list</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel vero unde repellat ducimus tempora, ratione esse provident, numquam et atque accusantium tempore exercitationem cum quis illum praesentium error similique?</p>
-                
-            </div>
-
-            <div>
-                
-                <h2>Payment methods</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel vero unde repellat ducimus tempora, ratione esse provident, numquam et atque accusantium tempore exercitationem cum quis illum praesentium error similique?</p>
-                
-            </div>
-
-        </section>
-
-   </div>
+    </div>
 
 
    <!-- footer -->
