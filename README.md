@@ -1,4 +1,18 @@
 
+#### TODO LIST
+<ul style="color: red;">
+
+    - CHECK DOUBLE CODE
+    - MAKE FLAGS SMALLER
+    - MAKE ONE STYLING CLASS FOR ALL SECTIONS
+    - ADJUST COMPANY LOGO SO IT FITS AT SMALLER SIZES
+    - ADD AUDIO TO WEBSITE
+    - ADD FIGURES INSTEAD OF IMAGES TO MENU
+
+</ul>
+
+
+
 <h1>Japanese Restaurant Shibuya Website</h1>
 
 <p style="color: red">Two paragraphs here providing an overview of your project</p>
@@ -67,6 +81,10 @@ View the project Mockup [here](#)
 3. ...
 
 ## Testing
+
+The following online validators were used to check whether every page of the project gave any syntax errors:
+- [W3C Markup Validator](https://validator.w3.org/) <span style="color:red">Result</span>.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) <span style="color:red">Result</span>.
 
 ### Testing User Stories from User Experience (UX) section
 ...
