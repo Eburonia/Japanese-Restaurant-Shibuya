@@ -28,15 +28,21 @@ body {
 }
 
 /* header */
-
 header {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1.0);
     border-bottom: 2px solid rgb(223, 152, 96);
-}
+    }
 
 #header-navbar-div {
     width: 100%;
     border-bottom: 2px solid black;
+    }
+
+/* header-logo */
+#header-logo-div {
+    height: 130px;
+    width: 70%;
+    float: left;
     }
 
 #logo-div {
@@ -63,57 +69,7 @@ header {
     }
 
 
-nav > ul {
-    padding: 22px 0;
-    margin: 0;
-    text-align: center;
-    }
-
-nav > ul > li {
-    list-style-type: none;
-    font-size: 26px;
-    font-weight: 200;
-    display: inline-block;
-    padding: 0 30px;
-    }
-
-
-#navbar-linebreak {
-    display: none;
-    }
-
-/* header language flags */
-#header-flags-div {
-    height: 130px;
-    width: 30%;
-    float: right;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: right;
-    align-items: unset;
-    }
-
-.flag-div {
-
-    height: 20px;
-    float: right;
-    border: 1px solid rgb(100, 100, 100);
-    margin-top: 25px;
-    margin-right: 25px;
-    text-align: center;
-    font-size: 12px;
-    }
-
-/* header restaurant logo */
-#header-logo-div {
-    height: 130px;
-    width: 70%;
-    float: left;
-    }
-
-
-
-/* header navbar */
+/* header-navigation */
 #header-navbar-div {
     width: 100%;
     }
@@ -134,27 +90,43 @@ nav > ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
-    color: white;
+    color: rgb(223, 152, 96);
     }
 
 nav > ul > li > a:hover {
-    
-    color:white;
+    color: rgb(146, 253, 178);
     text-decoration: underline;
     transition: 1s;
     /* https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out */
     }
 
+/* header-flags */
+#header-flags-div {
+    height: 130px;
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: unset;
+    }
+
+.flag-div {
+    height: 20px;
+    float: right;
+    border: 1px solid rgb(100, 100, 100);
+    margin-top: 25px;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 12px;
+    }
 
 #navbar-linebreak {
     display: none;
     }
 
-/* index */
+/* index page */
 #main-div {
-    position: relative;
-    padding: 500px auto;
-    top: 0;
     float: left;
     width: 100%;
     overflow: hidden;
@@ -163,20 +135,20 @@ nav > ul > li > a:hover {
 .section-div {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.85);
-    margin: 30vh auto;
+    margin: 30vh auto 60vh auto;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(108, 171, 127);
     overflow: hidden;
     }
 
 #location-section {
     width: 60%;
     background-color: rgba(0, 0, 0, 0.85);
-    margin: 200px auto;
+    margin: 30vh auto 60vh auto;
     text-align: center;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(108, 171, 127);
     box-sizing: border-box;
     color:  rgb(223, 152, 96);
     padding-bottom: 20px;
@@ -184,12 +156,24 @@ nav > ul > li > a:hover {
 
 #location-section div {
     margin: 0 40px;
-    border: 0px solid red;
     box-sizing: border-box;
     }
 
+#location-section > p{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
 #location-map {
     object-fit: contain;
+}
+
+#location-map > img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
 }
 
 .section-div div {
@@ -201,25 +185,33 @@ h2 {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
-    margin: 20px 30px 10px 30px;
-    color: rgb(223, 152, 96);
+    margin: 20px 20px 10px 20px;
+    color: rgb(146, 253, 178);
     }
-
-
 
 .section-div p {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
-    padding: 0 30px;
-    margin: 10px 30px 30px 30px;
+    line-height: 25px;
+    margin: 10px 20px 30px 20px;
     box-sizing: border-box;
     color: white;
     }
 
+.button {
+    border-radius: 5px;
+    background-color: rgba(146, 253, 178, 0.7);
+    border: 2px solid black;
+    margin: 20px 0;
+    font-size: 16px;
+    padding: 5px 10px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 /* footer */
 footer {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     text-align: center;
     border-top: 2px solid rgb(223, 152, 96);
     float: left;
@@ -256,9 +248,9 @@ footer {
     }
 
 #footer-div a:hover {
-    /* Credit: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
-
-    color: red;
+    /* Credit: transition: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
+    transition: 1s;
+    color: rgb(223, 152, 96);
    
     }
 
@@ -269,7 +261,6 @@ footer {
     margin-top: 30px;
     color: white;
     letter-spacing: 1px;
-    line-height: px;
     }
 
 #footer-linebreak {
@@ -277,9 +268,8 @@ footer {
     }
 
 /* media queries */
-    @media only screen and (max-width: 800px)
+@media only screen and (max-width: 900px)
     {
-
         #main-div {
             box-sizing: border-box;
             overflow: hidden;
@@ -340,6 +330,17 @@ footer {
         nav > ul > li {
             font-size: 20px;
             padding: 0 10px;
+            
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+
+        .section-div p {
+            font-size: 14px;
+            margin: 10px 20px 30px 20px;
+     
         }
 
         #footer-linebreak {
