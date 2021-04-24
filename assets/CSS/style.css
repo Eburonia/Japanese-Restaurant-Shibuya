@@ -3,14 +3,14 @@
 
 
 /* CHECK DOUBLE CODE */
-/* MAKE FLAGS SMALLER */
 /* MAKE ONE STYLING CLASS FOR ALL SECTIONS */
-/* ADJUST COMPANY LOGO SO IT FITS AT SMALLER SIZES */
 /* ADD AUDIO TO WEBSITE */
 /* ADD FIGURES INSTEAD OF IMAGES TO MENU */
+/* FOOTER HOVER COLOR NOT WORKING */
 
-
-
+/* Credit: overflow: hidden coming from w3schools.com */
+/* aspect ratio: https://css-tricks.com/aspect-ratio-boxes/ */
+/* Credit: overflow: hidden coming from w3schools.com */
 
 
 /* body */
@@ -38,6 +38,30 @@ header {
     width: 100%;
     border-bottom: 2px solid black;
     }
+
+#logo-div {
+    margin-top: 25px;
+    margin-left: 25px;
+    }
+
+#logo-text-top {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    color: white;
+    }
+
+#logo-text-bottom {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: rgb(223, 152, 96);
+    }
+
+#logo-div > a {
+    text-decoration: none;
+    }
+
 
 nav > ul {
     padding: 22px 0;
@@ -87,28 +111,7 @@ nav > ul > li {
     float: left;
     }
 
-#logo-div {
-    margin-top: 25px;
-    margin-left: 25px;
-    }
 
-#logo-text-top {
-    font-size: 18px;
-    font-weight: 200;
-    letter-spacing: 2px;
-    color: white;
-    }
-
-#logo-text-bottom {
-    font-size: 45px;
-    font-weight: 500;
-    letter-spacing: 8px;
-    color: rgb(223, 152, 96);
-    }
-
-#logo-div > a {
-    text-decoration: none;
-    }
 
 /* header navbar */
 #header-navbar-div {
@@ -175,32 +178,37 @@ nav > ul > li > a:hover {
     border-radius: 20px;
     border: 2px solid white;
     box-sizing: border-box;
-    color: white;
+    color:  rgb(223, 152, 96);
+    padding-bottom: 20px;
     }
 
 #location-section div {
-    margin: 0 30px;
-    height: 400px;
-    margin-bottom: 30px;
-    border: 1px solid black;
+    margin: 0 40px;
+    border: 0px solid red;
     box-sizing: border-box;
     }
+
+#location-map {
+    object-fit: contain;
+}
 
 .section-div div {
     float: left;
     width: 50%;
     }
 
-.section-div h2 {
-    font-size: 24px;
+h2 {
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
-    margin: 20px 30px 0px 30px;
+    margin: 20px 30px 10px 30px;
     color: rgb(223, 152, 96);
     }
 
+
+
 .section-div p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
     padding: 0 30px;
@@ -208,14 +216,6 @@ nav > ul > li > a:hover {
     box-sizing: border-box;
     color: white;
     }
-
-#map-image {
-    width: 60%;
-    border: 1px solid black;
-    margin: 10px auto 30px auto;
-    background-color: white;
-    }
-
 
 /* footer */
 footer {
@@ -231,7 +231,7 @@ footer {
     }
 
 #footer-div > span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: white;
     letter-spacing: 1px;
@@ -241,7 +241,7 @@ footer {
     list-style-type: none;
     display: inline;
     margin: 0 20px;
-    font-size: 30px;
+    font-size: 24px;
     }
 
 #footer-div ul {
@@ -252,15 +252,18 @@ footer {
 
 #footer-div a {
     text-decoration: none;
-    color: rgb(140, 204, 119);
-    }
-
-#footer-div a:hover {
     color: white;
     }
 
+#footer-div a:hover {
+    /* Credit: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
+
+    color: red;
+   
+    }
+
 #copyright {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     padding-bottom: 30px;
     margin-top: 30px;
@@ -273,55 +276,8 @@ footer {
     display: none;
     }
 
-
 /* media queries */
-@media only screen and (max-width: 767px) 
-    {
-        nav > ul > li {
-        padding: 0 20px;
-        }
-
-        #navbar-linebreak {
-            display: inline;
-        }
-    }
-
-@media only screen and (max-width: 600px)
-    {
-       #copyright {
-           font-size: 14px;
-       }
-
-       #header-flags-div {
-            flex-direction: column-reverse;
-            justify-content: right;
-            align-items: flex-end;
-       }
-
-    }
-
-@media only screen and (max-width: 400px)
-    {
-
-        #logo-text-top {
-            font-size: 14px;
-        }
-
-        #logo-text-bottom {
-            font-size: 38px;
-        }
-
-        nav > ul > li {
-            font-size: 20px;
-            padding: 0 10px;
-        }
-
-        #footer-linebreak {
-            display: inline;
-        }
-    }
-
-@media only screen and (max-width: 800px)
+    @media only screen and (max-width: 800px)
     {
 
         #main-div {
@@ -344,4 +300,50 @@ footer {
         #location-section {
             width: 90%;
         }
+
+        nav > ul > li {
+        padding: 0 20px;
+        }
+
+        #navbar-linebreak {
+            display: inline;
+        }
     }
+
+
+@media only screen and (max-width: 600px)
+    {
+       #copyright {
+           font-size: 14px;
+       }
+
+       #header-flags-div {
+            flex-direction: column-reverse;
+            justify-content: right;
+            align-items: flex-end;
+       }
+
+    }
+
+@media only screen and (max-width: 400px)
+    {
+
+        #logo-text-top {
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        #logo-text-bottom {
+            font-size: 36px;
+        }
+
+        nav > ul > li {
+            font-size: 20px;
+            padding: 0 10px;
+        }
+
+        #footer-linebreak {
+            display: inline;
+        }
+    }
+
