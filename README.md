@@ -14,6 +14,12 @@
 
 </ul>
 
+#### BUG LIST
+<ul>
+
+    - MAP IMAGE DOES NOT FIT 100% IN THE DIV 
+
+</ul>
 
 <h1>Website - Japanese Restaurant Shibuya</h1>
 
