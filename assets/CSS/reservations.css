@@ -1,0 +1,63 @@
+#reservations-div {
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 152, 96);
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+
+
+#reservations-form label{
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.reservation-textbox {
+    font-size: 18px;
+    font-weight: 100;
+    width: 600px;
+    border: 1px solid rgb(223, 152, 96);
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    outline: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.small-textbox {
+    width: 200px;
+}
+
+.mandatory-astrisk {
+    font-family: 'Libre Franklin', sans-serif;
+    color: red;
+    font-size: 18px;
+}
+
+#reservations-button {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid rgb(223, 152, 96);
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+}
+
+#reservations-button:hover {
+    background-color: rgb(223, 152, 96);
+    border-color: white;
+}
+
+#request {
+    resize: none;
+}
