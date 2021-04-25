@@ -11,6 +11,7 @@
     <meta name="description" content="#">
 
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/menu.css">
 
     <title>Japanese Restaurant Shibuya</title>
 
@@ -61,169 +62,71 @@
 
     </header>
 
-    <style>
 
-        #menu-outer-div {
-            background-color: rgb(0, 0, 0, 0.85);
-            width: 60%;
-            margin: 300px auto;
-            overflow: hidden;
-            border: 2px solid black;
-            border-radius: 20px;
-        }
-
-        #menu-outer-div h2 {
-            text-align: center;
-            font-size: 24px;
-            font-weight: 400;
-            letter-spacing: 2px;
-            padding: 20px 30px 0px 30px;
-            color: rgb(223, 152, 96);
-        }
-
-        #menu-inner-div {
-            background-color: transparent;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 50px;
-            
-            /* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;   
-        }
-
-        .menu-section {
-            
-            padding: 30px;
-            box-sizing: border-box;
-            width: 50%;
-        }
-
-        .menu-image {
-            background-color: lightgrey;
-            border: 1px solid black;
-            height: 300px;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        table {
-            color: white;
-            letter-spacing: 1px;
-            font-size: 18px;
-        }
-
-        table h3 {
-            color: rgb(223, 152, 96);
-            margin: 0;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        table th {
-            text-align: left;
-        }
-
-        table td {
-            font-style: oblique;
-        }
-
-        table tr {
-            height: 30px;
-        }
-
-
-        @media only screen and (max-width: 1200px)
-        {
-            #menu-outer-div {
-                width: 70%;
-            }
-
-            #menu-inner-div {
-                flex-direction: column;
-            }
-
-            .menu-section {
-                width: 100%;
-            }
-
-            #menu-section-A {
-                order: 1;
-            }
-
-            #menu-section-B {
-                order: 2;
-            }
-
-            #menu-section-C {
-                order: 4;
-            }
-
-            #menu-section-D {
-                order: 3;
-            }
-
-            #menu-section-E {
-                order: 5;
-            }
-
-            #menu-section-F {
-                order: 6;
-            }
-
-        }
-
-         @media only screen and (max-width: 600px)
-        {
-            #menu-outer-div {
-                width: auto;
-                margin-left: 30px;
-                margin-right: 30px;
-            }
-        }
-
-    </style>
+    <!-- main page -->
 
 
     <div>
             <div id="menu-outer-div">
                 
-                <h2>Our menu</h2>
+                <h2>Our Menu <i class="fas fa-utensils "></i></h2>
 
                     <div id="menu-inner-div">
                             
                         <section id="menu-section-A" class="menu-section">
                             
-                            <table>
+                            <table class="menu-table">
 
-                                <th colspan="2" style="background-color: yellow;"><h3>Sushi</h3></th>
+                                <th colspan="2"><h3 class="menu-category-header">Sushi</h3></th>
 
                                 <tr>
-                                    <td style="background-color: red;">Nakamura</td>
-                                    <td style="background-color: red;">$50,-</td>
+                                    <td class="menu-item">Nakamura<span id="new-menu-item"> (NEW)</span></td>
+                                    <td class="menu-item">$50,-</td>
                                 </tr>
 
                                 <tr>
-                                    <td style="background-color: red;">Nakamura</td>
-                                    <td style="background-color: red;">$50,-</td>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
                                 </tr>
 
                                 <tr>
-                                    <td style="background-color: red;">Nakamura</td>
-                                    <td style="background-color: red;">$50,-</td>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
                                 </tr>
 
                                 <tr>
-                                    <td style="background-color: red;">Nakamura</td>
-                                    <td style="background-color: red;">$50,-</td>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
                                 </tr>
 
                                 <tr>
-                                    <td style="background-color: red;">Nakamura</td>
-                                    <td style="background-color: red;">$50,-</td>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
                                 </tr>
 
                             </table>
@@ -233,39 +136,170 @@
 
                         <section id="menu-section-B" class="menu-section">
                             
-                            <div class="menu-image">
-                                Image 1
-                            </div>
+                             <div class="menu-image">
+
+                                    <figure>
+
+                                        <img src="assets/images/sample-menu-image.jpg" alt="#" title="add description">
+                                        <figcaption>sushi</figcaption>
+                                    
+                                    </figure> 
+
+                                </div>
 
                         </section>
 
                         <section id="menu-section-C" class="menu-section">
                             
-                            <div class="menu-image">
-                                Image 2
-                            </div>
+                                 <div class="menu-image">
+
+                                    <figure>
+
+                                        <img src="assets/images/sample-menu-image.jpg" alt="#" title="add description">
+                                        <figcaption>sushi</figcaption>
+                                    
+                                    </figure> 
+
+                                </div>
 
                         </section>
 
-                        <section id="menu-section-D"class="menu-section">
-                            Section 2
+                        <section id="menu-section-D" class="menu-section">
+                            
+                            <table class="menu-table">
+
+                                <th colspan="2"><h3 class="menu-category-header">Sushi</h3></th>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                            </table>
+
                         </section>
 
                         <section id="menu-section-E" class="menu-section">
-                            Section 3
+                            
+                            <table class="menu-table">
+
+                                <th colspan="2"><h3 class="menu-category-header">Sushi</h3></th>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="menu-item">Nakamura</td>
+                                    <td class="menu-item">$50,-</td>
+                                </tr>
+
+                            </table>
+
                         </section>
 
                         <section id="menu-section-F" class="menu-section">
                             
-                            <div class="menu-image">
-                                Image 3
-                            </div>
+                        
+                               
+                                 <div class="menu-image">
+
+                                    <figure>
+
+                                        <img src="assets/images/sample-menu-image.jpg" alt="#" title="add description">
+                                        <figcaption>sushi</figcaption>
+                                    
+                                    </figure> 
+
+                                </div>
+
+                         
+
+                           
 
                         </section>
 
+                       
+
                     </div>
                         
-
+                        <p id="menu-updated">Menu last time updated:<br>13-04-2021</p>
             </div>
     </div>
 
