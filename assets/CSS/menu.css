@@ -1,6 +1,6 @@
 #menu-outer-div {
     background-color: rgba(0, 0, 0, 0.9);
-    width: 60%;
+    width: 70%;
     margin: 100px auto;
     overflow: hidden;
     border: 2px solid rgb(223, 152, 96);
@@ -59,11 +59,20 @@
     color: whitesmoke;
 }
 
-.menu-item {
+.menu-item-top {
     font-size: 16px;
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    vertical-align: top;
+}
+
+.menu-item-bottom {
+    font-size: 16px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-weight: 100;
+    vertical-align: top;
 }
 
 #new-menu-item {
@@ -88,7 +97,7 @@ figure {
     }
 
 figcaption {
-    font-size: 16px;
+    font-size: 14px;
     color: whitesmoke;
     margin: 5px 0 0 0;
     font-weight: 300;
@@ -104,7 +113,7 @@ figcaption {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1300px)
         {
         #menu-outer-div {
         width: 70%;
@@ -142,14 +151,13 @@ figcaption {
                 order: 6;
             }
 
-
             .menu-section {
                 padding: 30px 0;
             }
 
         }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 800px)
         {
             #menu-outer-div {
                 width: auto;
