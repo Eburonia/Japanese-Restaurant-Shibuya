@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="assets/CSS/reservations.css">
 
-    <title>Japanese Restaurant Shibuya</title>
+    <title>Japanese Restaurant Shibuya | Reservations</title>
 
     <!-- Credit: social media icons imported from fontawesome: https://www.fontawesome.com/ -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
@@ -67,7 +67,7 @@
          
           <div id="reservations-div">
 
-                <h2 style="text-align: left; margin: 20px 0 20px 50px;">Make a Reservation <i class="fas fa-pencil-alt"></i></h2>
+                <h2>Make a Reservation <i class="fas fa-pencil-alt"></i></h2>
 
                 <form id="reservations-form" action="#">
 
@@ -84,13 +84,35 @@
                     <input type="text" class="reservation-textbox" id="pnumber" name="phone-number" required><br>
 
                     <label for="date">Date<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="date" class="reservation-textbox small-textbox" id="date" name="date" max="2021-6-1" required><br>
+                    <input type="date" class="reservation-textbox small-textbox" id="date" name="date" required><br>
 
                     <label for="time">Time<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="time" class="reservation-textbox small-textbox" id="time" name="time" required><br>
+                    <select id="time" name="time" class="reservation-textbox small-selectbox">
+                            <option value="16:00">16:00</option>
+                            <option value="16:30">16:30</option>
+                            <option value="17:00">17:00</option>
+                            <option value="17:30">17:30</option>
+                            <option value="18:00">18:00</option>
+                            <option value="18:30">18:30</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                    </select><br>
+
                     
                     <label for="guests">Number of guests<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="number" class="reservation-textbox small-textbox" id="guests" name="guests" min="1" max="8" value="2" readonly><br>
+                    <select id="guests" name="guests" class="reservation-textbox small-selectbox">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                    </select><br>
 
                     <label for="request">Special request</label><br>
                     <textarea id="request" class="reservation-textbox" name="request" rows="6" cols="50" placeholder="Optional"></textarea><br>
