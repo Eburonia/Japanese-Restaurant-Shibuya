@@ -1,5 +1,5 @@
 /* Credit: Font Type implemented from Google Fonts -> https://fonts.google.com/specimen/Libre+Franklin */ 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500&display=swap');
 
 
 /* CHECK DOUBLE CODE */
@@ -164,10 +164,24 @@ h2 {
     color: white;
     }
 
-#section-welcome {
+#welcome-section {
     margin-top: 30vh;
     margin-bottom: 50vh;
+}
+
+#welcome-section div {
+    float: left;
     }
+
+#welcome-section p {
+     padding-top: 0;
+    }
+
+/* Credit: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild */
+#welcome-section div:first-child{
+    width: 100%;
+   
+}
 
 #location-map {
     object-fit: cover;
@@ -203,20 +217,20 @@ h2 {
 
 .button {
     font-family: 'Libre Franklin', sans-serif;
-    background-color: transparent;
-    border: 1px solid whitesmoke;
-    border-radius: 6px;
-    color: whitesmoke;
+    background-color: rgb(28, 97, 65);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
     margin: 20px 0 30px 0;
     font-size: 16px;
     padding: 5px 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .button:hover {
-    background-color: rgb(223, 152, 96);
-    transition: 1s;
-    color: black;
-    border-color: black;
+    background-color: rgb(89, 216, 157);
+    transition: 2s;
 }
 
 .payment-icon {
