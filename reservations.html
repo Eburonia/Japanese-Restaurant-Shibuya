@@ -65,14 +65,14 @@
     </header>
 
          
-          <div id="reservations-div" style="width: 800px; margin: 100px auto; float: none; padding: 20px 0px;">
+          <div id="reservations-div">
 
                 <h2 style="text-align: left; margin: 20px 0 20px 50px;">Make a Reservation <i class="fas fa-pencil-alt"></i></h2>
 
-                <form id="reservations-form" action="#" style="text-align: left; padding: 0 50px;">
+                <form id="reservations-form" action="#">
 
                     <label for="fname">Firstname<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="text" class="reservation-textbox" id="fname" name="firstname" required>
+                    <input type="text" class="reservation-textbox" id="fname" name="firstname" required><br>
 
                     <label for="lname">Lastname<span class="mandatory-astrisk"> *</span></label><br>
                     <input type="text" class="reservation-textbox" id="lname" name="lastname" required><br>
@@ -90,12 +90,12 @@
                     <input type="time" class="reservation-textbox small-textbox" id="time" name="time" required><br>
                     
                     <label for="guests">Number of guests<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="number" class="reservation-textbox small-textbox" id="guests" name="guests" min="1" max="8" value="2">
+                    <input type="number" class="reservation-textbox small-textbox" id="guests" name="guests" min="1" max="8" value="2" readonly><br>
 
                     <label for="request">Special request</label><br>
                     <textarea id="request" class="reservation-textbox" name="request" rows="6" cols="50" placeholder="Optional"></textarea><br>
 
-                    <input type="submit" value="submit" id="reservations-button"><br><br>
+                    <input type="submit" value="submit" class="button"><br><br>
 
                     <span class="mandatory-astrisk">* Required fields</span>
 
