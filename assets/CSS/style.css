@@ -94,6 +94,7 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
     color: rgb(223, 152, 96);
+    text-decoration: underline;
     transition: 1s;
     /* https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out */
     }
@@ -229,8 +230,8 @@ h2 {
 }
 
 .button:hover {
-    background-color: rgb(89, 216, 157);
-    transition: 2s;
+    background-color: rgb(10, 34, 23);
+    transition: 1s;
 }
 
 .payment-icon {
