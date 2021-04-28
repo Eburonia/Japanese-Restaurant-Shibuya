@@ -20,7 +20,6 @@
     padding: 0 50px;
 }
 
-
 #reservations-form label {
     font-size: 18px;
     font-weight: 200;
@@ -40,6 +39,11 @@
     margin-top: 6px;
     margin-bottom: 20px;
     font-family: 'Libre Franklin', sans-serif;
+}
+
+.reservation-textbox:focus {
+   /* https://stackoverflow.com/questions/9345656/changing-the-outline-color-of-a-textarea */
+   outline: whitesmoke solid 1px;
 }
 
 .small-textbox {
