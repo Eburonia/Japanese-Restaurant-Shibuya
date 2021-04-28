@@ -1,0 +1,122 @@
+#contact-div {
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 152, 96);
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+
+#contact-div > h2 {
+    text-align: left;
+    margin: 20px 0 20px 50px;
+}
+
+#contact-form {
+    text-align: left;
+    padding: 0 50px;
+}
+
+#contact-form label {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.contact-textbox {
+    font-size: 18px;
+    font-weight: 100;
+    width: 100%;
+    border: 1px solid rgb(223, 152, 96);
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.contact-textbox:focus {
+   /* https://stackoverflow.com/questions/9345656/changing-the-outline-color-of-a-textarea */
+   outline: whitesmoke solid 1px;
+}
+
+.small-textbox {
+    width: 150px;
+    padding: 5px 0 5px 10px;
+}
+
+.small-selectbox {
+    width: 160px;
+}
+
+.button {
+        margin: 0;
+        }
+
+.mandatory-astrisk {
+    font-family: 'Libre Franklin', sans-serif;
+    color: red;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#request {
+    resize: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 860px) {
+
+    #contact-div {
+            box-sizing: border-box;
+            width: auto;
+            margin: 100px 30px;
+            }
+    }
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+        #contact-form {
+            box-sizing: border-box;
+            width: 100%;
+            padding-left: 20px;
+            }
+
+        #contact-div > h2 {
+            font-size: 16px;
+            text-align: left;
+            margin: 20px 0 20px 20px;
+            }
+
+        #contact-form label {
+            font-size: 14px;
+            }
+
+        .contact-textbox {
+            font-size: 14px;
+            padding: 2px 5px;
+            }
+
+        .button {
+            font-size: 14px;
+            padding: 3px 10px;
+            border-radius: 6px;
+            margin: 0;
+            }
+
+        .mandatory-astrisk {
+            font-size: 14px;
+            }
+}
+    
