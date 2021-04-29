@@ -101,6 +101,13 @@ nav > ul > li > a:hover {
     margin-bottom: 10px;
 }
 
+audio {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(28, 97, 65);
+    border-radius: 10px;
+    border: 1px solid white;
+}
 
 #navbar-linebreak {
     display: none;
