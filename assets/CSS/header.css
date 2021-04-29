@@ -1,0 +1,150 @@
+/* Credit: Font Type implemented from Google Fonts -> https://fonts.google.com/specimen/Libre+Franklin */ 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500&display=swap');
+
+/* header */
+header {
+    background-color: rgba(0, 0, 0, 0.85);
+    }
+
+#header-navbar-div {
+    width: 100%;
+    
+    }
+
+/* header-logo */
+#header-logo-div {
+    height: 130px;
+    width: 70%;
+    float: left;
+    }
+
+#logo-div {
+    margin-top: 25px;
+    margin-left: 25px;
+    }
+
+#logo-text-top {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    color: white;
+    }
+
+#logo-text-bottom {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: rgb(223, 152, 96);
+    }
+
+#logo-div > a {
+    text-decoration: none;
+    }
+
+
+/* header-navigation */
+#header-navbar-div {
+    width: 100%;
+    }
+
+nav > ul {
+    padding: 22px 0;
+    margin: 0;
+    text-align: center;
+    }
+
+nav > ul > li {
+    list-style-type: none;
+    font-size: 26px;
+    font-weight: 200;
+    display: inline-block;
+    padding: 0 30px;
+    }
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    }
+
+nav > ul > li > a:hover {
+    color: rgb(223, 152, 96);
+    text-decoration: underline;
+
+    /* https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out */
+    transition: 1s;
+    }
+
+/* header-flags */
+#header-flags-div {
+    height: 130px;
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: unset;
+    }
+
+.flag-div {
+    height: 20px;
+    float: right;
+    border: 1px solid rgb(100, 100, 100);
+    margin-top: 25px;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 12px;
+    }
+
+#audio-div {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+#navbar-linebreak {
+    display: none;
+    }
+
+/* media queries */
+@media only screen and (max-width: 900px)
+    {
+        nav > ul > li {
+        padding: 0 20px;
+        }
+
+        #navbar-linebreak {
+            display: inline;
+        }
+    }
+
+    @media only screen and (max-width: 600px)
+    {
+       
+       #header-flags-div {
+            flex-direction: column-reverse;
+            justify-content: right;
+            align-items: flex-end;
+       }
+
+    }
+
+    @media only screen and (max-width: 400px)
+    {
+
+        #logo-text-top {
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        #logo-text-bottom {
+            font-size: 36px;
+        }
+
+        nav > ul > li {
+            font-size: 20px;
+            padding: 0 10px;
+            
+        } 
+
+    }
