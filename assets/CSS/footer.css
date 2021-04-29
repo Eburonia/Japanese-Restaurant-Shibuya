@@ -1,0 +1,79 @@
+
+
+
+/* footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    border-top: 2px solid rgb(223, 152, 96);
+    float: left;
+    width: 100%;
+    }
+
+#footer-div {
+    margin-top: 30px;
+    }
+
+#footer-div > span {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    }
+
+#footer-div li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+    font-size: 24px;
+    }
+
+
+#footer-div ul {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+    }
+
+#footer-div a {
+    text-decoration: none;
+    color: white;
+    }
+
+#footer-div a:hover {
+    /* Credit: transition: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
+    transition: 1s;
+    color: rgb(223, 152, 96);
+   
+    }
+
+#copyright {
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 1px;
+    }
+
+#footer-linebreak {
+    display: none;
+    }
+
+
+@media only screen and (max-width: 600px)
+    {
+       #copyright {
+           font-size: 14px;
+       }
+
+    }
+
+
+    @media only screen and (max-width: 400px)
+    {
+        
+        #footer-linebreak {
+            display: inline;
+        }
+    }
