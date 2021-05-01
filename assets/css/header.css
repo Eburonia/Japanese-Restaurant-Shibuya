@@ -17,11 +17,15 @@ header {
     height: 130px;
     width: 70%;
     float: left;
+    margin: 0;
+    padding: 0;
+    
     }
 
 #logo-div {
     margin-top: 25px;
     margin-left: 25px;
+
     }
 
 #logo-text-top {
@@ -29,6 +33,7 @@ header {
     font-weight: 200;
     letter-spacing: 1.2px;
     color: white;
+    
     }
 
 #logo-text-bottom {
@@ -36,6 +41,7 @@ header {
     font-weight: 500;
     letter-spacing: 6px;
     color: rgb(223, 152, 96);
+    line-height: 44px;
     }
 
 #logo-div > a {
@@ -96,9 +102,10 @@ nav > ul > li > a:hover {
     }
 
 #audio-div {
-    text-align: center;
+    text-align: right;
     color: white;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 audio {
@@ -120,12 +127,10 @@ audio {
         padding: 0 20px;
         }
 
-        #navbar-linebreak {
-            display: inline;
-        }
+        
     }
 
-    @media only screen and (max-width: 600px)
+    @media only screen and (max-width: 650px)
     {
        
        #header-flags-div {
@@ -134,11 +139,36 @@ audio {
             align-items: flex-end;
        }
 
+        ul {
+            margin-top: 50px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        nav > ul > li {
+            display: block;
+        }
+
     }
 
     @media only screen and (max-width: 400px)
     {
+        #logo-text-top {
+            font-size: 14px;
+            font-weight: 300;
+        }
 
+         #logo-text-bottom {
+            font-size: 34px;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 300px)
+    {
         #logo-text-top {
             font-size: 15px;
             letter-spacing: 1px;
@@ -151,7 +181,5 @@ audio {
         nav > ul > li {
             font-size: 20px;
             padding: 0 10px;
-            
         } 
-
     }
