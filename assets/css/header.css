@@ -97,6 +97,10 @@ audio {
     border: 1px solid white;
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
 
 .navbar {
     background-color: transparent;
