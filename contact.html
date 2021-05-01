@@ -10,6 +10,10 @@
     <meta name="keywords" content="#">
     <meta name="description" content="#">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/contact.css">
@@ -26,7 +30,7 @@
 <!-- body -->
 <body>
     
-     <!-- header -->
+   <!-- header -->
     <header>
 
         <div id="header-logo-div">
@@ -49,21 +53,44 @@
 
         </div>
 
+        
         <div id="header-navbar-div">
-            <nav>
+
+            <nav class="navbar navbar-inverse">
+
+                <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+  
+                </div>
                 
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="menu.html">MENU</a></li><br id="navbar-linebreak">
-                    <li><a href="reservations.html">RESERVATIONS</a></li>
-                    <li><a class="active" href="contact.html">CONTACT</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="reservations.html">RESERVATIONS</a></li>
+                        <li><a id="active" href="contact.html">CONTACT</a></li>
+
+                    </ul>
+
+                </div>
+
+                </div>
 
             </nav>
+
         </div>
 
-      
-        
     </header>
 
     <div id="audio-div">
