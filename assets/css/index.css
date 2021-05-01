@@ -1,14 +1,41 @@
 
+
 #main-div {
     float: left;
     width: 100%;
     overflow: hidden;
     }
 
+.section-div {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 20vh auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 152, 96);
+    overflow: hidden;
+    box-sizing: border-box;
+   }
+
+.section-div div {
+    float: left;
+    width: 50%;
+    }
+
+.section-div p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin: 10px 20px 30px 20px;
+    box-sizing: border-box;
+    color: white;
+    }
+
 #welcome-section {
     margin-top: 30vh;
     margin-bottom: 50vh;
-    }
+}
 
 #welcome-section div {
     float: left;
@@ -21,6 +48,7 @@
 /* Credit: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild */
 #welcome-section div:first-child{
     width: 100%;
+   
 }
 
 #location-map {
@@ -40,18 +68,72 @@
     }
 
 #location-map > a > img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
     }
+
+.text-field {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(223, 152, 96);
+    width: 50%; padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid rgb(223, 152, 96);
+    background-color: transparent;
+}
+
+.button {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: rgb(28, 97, 65);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.button:hover {
+    background-color: rgb(10, 34, 23);
+    transition: 1s;
+}
 
 .payment-icon {
     font-size: 38px;
     margin: 0 6px;
     color: rgb(223, 152, 96);
-    }
+}
 
+
+
+/* media queries */
+@media only screen and (max-width: 900px)
+    {
+        #main-div {
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .section-div {
+            width: 90%;
+            box-sizing: border-box;
+            overflow: hidden;   
+        }
+
+        .section-div div {
+            display: block;
+            float: none;
+            width: 100%;
+        }
+
+        #location-section {
+            width: 90%;
+        }
+
+    }
 
 /* media queries */
 @media only screen and (max-width: 900px)
@@ -80,14 +162,19 @@
     }
 
 
+@media only screen and (max-width: 600px)
+    {
+       
+    }
+
 @media only screen and (max-width: 400px)
     {
-        
+
+
 
         .section-div p {
             font-size: 14px;
             margin: 10px 20px 30px 20px;
-     
         }
 
     }

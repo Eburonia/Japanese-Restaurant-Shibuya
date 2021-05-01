@@ -3,12 +3,13 @@
 
 /* header */
 header {
+    font-family: 'Libre Franklin', sans-serif;
     background-color: rgba(0, 0, 0, 0.85);
+    border-bottom: 2px solid rgb(223, 152, 96);
     }
 
 #header-navbar-div {
     width: 100%;
-    
     }
 
 /* header-logo */
@@ -68,7 +69,6 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
     color: rgb(223, 152, 96);
-    text-decoration: underline;
 
     /* https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out */
     transition: 1s;
