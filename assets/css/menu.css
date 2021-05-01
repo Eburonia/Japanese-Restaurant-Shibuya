@@ -151,6 +151,22 @@ figcaption {
                 order: 6;
             }
 
+            #menu-section-G {
+                order: 8;
+            }
+
+            #menu-section-H {
+                order: 7;
+            }
+
+            #menu-section-I {
+                order: 9;
+            }
+
+            #menu-section-J {
+                order: 10;
+            }
+
             .menu-section {
                 padding: 30px 0;
             }
