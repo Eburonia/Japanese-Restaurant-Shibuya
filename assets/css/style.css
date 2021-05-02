@@ -28,10 +28,6 @@ body {
     background-size: cover;
 }
 
-.active {
-    color: rgb(223, 152, 96);
-    border-bottom: 2px solid rgb(223, 152, 96);
-}
 
 h2 {
     font-size: 20px;

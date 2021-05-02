@@ -1,32 +1,16 @@
 /* Credit: Font Type implemented from Google Fonts -> https://fonts.google.com/specimen/Libre+Franklin */ 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500&display=swap');
 
-    
-/* header */
-header {
-    font-family: 'Libre Franklin', sans-serif;
-    background-color: rgba(0, 0, 0, 0.85);
-    border-bottom: 2px solid rgb(223, 152, 96);
-    }
-
-#header-navbar-div {
-    width: 100%;
-    }
-
-/* header-logo */
 #header-logo-div {
-    height: 130px;
-    width: 70%;
+    width: 80%;
     float: left;
-    margin: 0;
-    padding: 0;
-    
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.85);
     }
 
 #logo-div {
     margin-top: 25px;
     margin-left: 25px;
-
     }
 
 #logo-text-top {
@@ -34,7 +18,6 @@ header {
     font-weight: 200;
     letter-spacing: 1.2px;
     color: white;
-    
     }
 
 #logo-text-bottom {
@@ -49,45 +32,57 @@ header {
     text-decoration: none;
     }
 
-
-/* header-navigation */
-#header-navbar-div {
-    width: 100%;
-    }
-
-#active {
-    border-bottom: 2px solid rgb(223, 152, 96);
-    color: white;
-    font-weight: 100;
-    }
-
-/* header-flags */
-#header-flags-div {
+    #header-flags-div {
     height: 130px;
     width: 30%;
-    float: right;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: right;
-    align-items: unset;
+    }
+
+#header-flags-div {
+    width: 20%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.85);
     }
 
 .flag-div {
-    height: 20px;
     float: right;
+    height: 20px;
     border: 1px solid rgb(100, 100, 100);
     margin-top: 25px;
     margin-right: 25px;
-    text-align: center;
     font-size: 12px;
+    }
+
+.navbar {
+    float: left;
+    width: 100%;
+    background-color:transparent;
+    border-bottom: 2px solid rgb(223, 152, 96);
+    background-color: rgba(0, 0, 0, 0.85);
+    }
+
+#myNavbar {
+    font-size: 26px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    }
+
+.nav-color {
+    color: white;
+    }
+
+#index-anchor, #menu-anchor, #reservations-anchor, #contact-anchor{
+    color: white;
+    }
+
+#active {
+    color: rgb(223, 152, 96);
     }
 
 #audio-div {
     text-align: right;
     color: white;
-    margin-top: 20px;
     margin-right: 20px;
-}
+    }
 
 audio {
     width: 120px;
@@ -95,101 +90,23 @@ audio {
     background-color: rgb(28, 97, 65);
     border-radius: 10px;
     border: 1px solid white;
-}
-
-.container-fluid {
-    display: flex;
-    justify-content: center;
-}
-
-.navbar {
-    background-color: transparent;
-    border:0;
-}
-
- #myNavbar li {
-    font-size: 26px;
-    font-weight: 200;
-    margin: 0 10px;
-}
-
-
-
-#navbar-linebreak {
-    display: none;
     }
 
-/* media queries */
-@media only screen and (max-width: 900px)
+@media only screen and (min-width: 769px)
     {
-        nav > ul > li {
-        padding: 0 20px;
+        .container-fluid {
+            display: flex;
+            justify-content: center;
         }
-
-        
     }
 
-
-    @media only screen and (max-width: 769px)
-                    {
-                        #myNavbar > ul > li {
-                        display: flex;
-                        justify-content: center;
-                        margin-bottom: 10px;
-                        }
-                    }
-
-
-    @media only screen and (max-width: 650px)
-    {
-       
-       #header-flags-div {
-            flex-direction: column-reverse;
-            justify-content: right;
-            align-items: flex-end;
-       }
-
-        ul {
-            margin-top: 50px;
-        }
-
-        li {
-            margin: 10px 0;
-        }
-
-        nav > ul > li {
-            display: block;
-        }
-
-    }
-
-    @media only screen and (max-width: 400px)
+@media only screen and (max-width: 400px)
     {
         #logo-text-top {
-            font-size: 14px;
-            font-weight: 300;
-        }
-
-         #logo-text-bottom {
-            font-size: 34px;
-        }
-
-    }
-
-
-    @media only screen and (max-width: 300px)
-    {
-        #logo-text-top {
-            font-size: 15px;
-            letter-spacing: 1px;
+            font-size: 16px;
         }
 
         #logo-text-bottom {
-            font-size: 36px;
+            font-size: 39px;
         }
-
-        nav > ul > li {
-            font-size: 20px;
-            padding: 0 10px;
-        } 
     }
