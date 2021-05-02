@@ -30,78 +30,74 @@
 <!-- body -->
 <body>
     
-    <!-- header -->
-    <header>
+  
+<!-- header -->
+<header>
 
-        <div id="header-logo-div">
+    <div id="header-logo-div">
             
-            <div id="logo-div">
+        <div id="logo-div">
 
-                <a href="index.html" title="Back home">
-                    <span id="logo-text-top">JAPANESE RESTAURANT</span><br>
-                    <span id="logo-text-bottom">SHIBUYA</span>
-                </a>
+            <a href="index.html" title="Back home">
+                <span id="logo-text-top">JAPANESE RESTAURANT</span><br>
+                <span id="logo-text-bottom">SHIBUYA</span>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div id="header-flags-div">
+
+        <div class="flag-div"><a href="index.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
+        <div class="flag-div"><a href="index-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+
+    </div>
+
+    <nav class="navbar navbar-inverse">
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+        
+                <ul class="nav navbar-nav">
+                    <li><a id="index-anchor" href="index.html">HOME</a></li>
+                    <li><a id="menu-anchor" href="menu.html">MENU</a></li>
+                    <li><a id="active" href="reservations.html">RESERVATIONS</a></li>
+                    <li><a id="contact-anchor" href="contact.html">CONTACT</a></li>
+                </ul>
 
             </div>
 
         </div>
 
-        <div id="header-flags-div">
+    </nav> 
 
-            <div class="flag-div"><a href="index.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
-            <div class="flag-div"><a href="index-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+</header>
+         
 
-        </div>
+        <div id="audio-div">
 
-        
-        <div id="header-navbar-div">
-
-            <nav class="navbar navbar-inverse">
-
-                <div class="container-fluid">
-
-                <div class="navbar-header">
-
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-
-                    </button>
-  
-                </div>
-                
-                <div class="collapse navbar-collapse" id="myNavbar">
-
-                    <ul class="nav navbar-nav">
-
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="menu.html">MENU</a></li>
-                        <li><a id="active" href="reservations.html">RESERVATIONS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-
-                    </ul>
-
-                </div>
-
-                </div>
-
-            </nav>
-
-        </div>
-
-    </header>
-
-    <div id="audio-div">
-            <audio src="assets/audio/Jamie.mp3" controls autoplay muted>
+            <audio src="assets/audio/Jamie.mp3" controls>
         
                 <span>Your browser doesn't support HTML5 audio:</span>
                 <a href="assets/audio/Jamie.mp3">Link to the audio</a>
         
             </audio>
         </div>
-         
+
+
+
           <div id="reservations-div">
 
                 <h2>Make a Reservation <i class="fas fa-pencil-alt"></i></h2>
