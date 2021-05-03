@@ -21,7 +21,8 @@ body {
     padding: 0;
     font-family: 'Libre Franklin', sans-serif;
    
-    background: url('/assets/images/background.jpg') no-repeat top center;
+    /* Credit: Hero Image: https://www.asuka-oosterhout.nl/ */
+    background: url('/assets/images/hero-image.jpg') no-repeat top center;
     background-attachment: fixed;
 
     /* https://www.bitdegree.org/learn/responsive-image */
