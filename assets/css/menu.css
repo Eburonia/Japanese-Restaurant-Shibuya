@@ -35,6 +35,10 @@
     width: 50%;
     }
 
+.menu-h2 {
+    margin-left: 0;
+    }
+
 .menu-category-header {
     font-size: 20px;
     color: rgb(223, 152, 96);
@@ -82,7 +86,7 @@
     vertical-align: top;
 }
 
-#new-menu-item {
+.new-menu-item {
     font-size: 16px;
     color: red;
     letter-spacing: 1px;
