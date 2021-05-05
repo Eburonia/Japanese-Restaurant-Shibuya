@@ -35,6 +35,10 @@
     margin-bottom: 50vh;
 }
 
+#welcome-section:first-child {
+    
+}
+
 #welcome-section div {
     float: left;
     }
@@ -46,7 +50,6 @@
 /* Credit: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild */
 #welcome-section div:first-child{
     width: 100%;
-   
 }
 
 #location-map {
@@ -58,18 +61,24 @@
     border: 2px solid black;
     }
 
-#map-description {
-    font-size: 14px;
+#map-description-top {
+    font-size: 16px;
     color: white;
-    padding: 0;
-    margin: 0 auto 30px auto;
+    margin: 0;
+    }
+
+#map-description-bottom {
+    font-size: 12px;
+    color: white;
+    padding: 2px 0 30px 0;
+    margin: 0;
     }
 
 #location-map > a > img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
     }
 
 .text-field {
@@ -79,7 +88,7 @@
     font-size: 16px;
     border: 1px solid rgb(223, 152, 96);
     background-color: transparent;
-}
+    }
 
 .button {
     font-family: 'Libre Franklin', sans-serif;
@@ -92,22 +101,37 @@
     padding: 5px 20px;
     letter-spacing: 1px;
     font-weight: 400;
-}
+    }
 
 .button:hover {
     background-color: rgb(10, 34, 23);
     transition: 1s;
+    }
+
+.anchor-button {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: rgb(28, 97, 65);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline;
+    margin-bottom: 60px;
+    margin-top: 100px;
 }
 
 .payment-icon {
     font-size: 38px;
     margin: 0 6px;
     color: rgb(223, 152, 96);
-}
+    }
 
 
-
-/* media queries */
+/* media queries for index.html only */
 @media only screen and (max-width: 900px)
     {
         #main-div {
@@ -159,16 +183,8 @@
         
     }
 
-
-@media only screen and (max-width: 600px)
-    {
-       
-    }
-
 @media only screen and (max-width: 400px)
     {
-
-
 
         .section-div p {
             font-size: 14px;
