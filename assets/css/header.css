@@ -1,16 +1,21 @@
 /* Credit: Font Type implemented from Google Fonts -> https://fonts.google.com/specimen/Libre+Franklin */ 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500&display=swap');
 
+
+/* restaurant logo */
 #header-logo-div {
-    width: 80%;
     float: left;
+    width: 80%;
     height: 130px;
     background-color: rgba(0, 0, 0, 0.85);
     }
 
 #logo-div {
-    margin-top: 25px;
-    margin-left: 25px;
+    margin: 25px 0 0 25px;
+    }
+
+#logo-div > a {
+    text-decoration: none;
     }
 
 #logo-text-top {
@@ -28,34 +33,27 @@
     line-height: 44px;
     }
 
-#logo-div > a {
-    text-decoration: none;
-    }
-
-    #header-flags-div {
-    height: 130px;
-    width: 30%;
-    }
-
+/* language selection flags */
 #header-flags-div {
-    width: 20%;
     float: left;
+    width: 20%;
+    height: 130px;
     background-color: rgba(0, 0, 0, 0.85);
     }
 
 .flag-div {
     float: right;
     height: 20px;
-    border: 1px solid rgb(100, 100, 100);
-    margin-top: 25px;
-    margin-right: 25px;
     font-size: 12px;
+    border: 1px solid rgb(100, 100, 100);
+    margin: 25px 25px 0 0;
     }
 
+/* navigation bar */
 .navbar {
     float: left;
     width: 100%;
-    background-color:transparent;
+    background-color: transparent;
     border-bottom: 2px solid rgb(223, 152, 96);
     background-color: rgba(0, 0, 0, 0.85);
     }
@@ -92,6 +90,7 @@ audio {
     border: 1px solid white;
     }
 
+/* media queries for header only */
 @media only screen and (min-width: 769px)
     {
         .container-fluid {
