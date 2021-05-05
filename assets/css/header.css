@@ -64,16 +64,19 @@
     padding-bottom: 10px;
     }
 
-.nav-color {
-    color: white;
-    }
+/* Credit: https://stackoverflow.com/questions/30842694/change-text-color-in-nav-bar-bootstrap/30842777 */
+.nav.navbar-nav li a {
+   color: #fff;
+ }
 
-#index-anchor, #menu-anchor, #reservations-anchor, #contact-anchor{
-    color: white;
-    }
+ .nav.navbar-nav li a:hover {
+   color: rgb(223, 152, 96);
+   transition: 1s;
+ }
 
 #active {
-    color: rgb(223, 152, 96);
+    color: #fff;
+    text-decoration: underline;
     }
 
 #audio-div {
