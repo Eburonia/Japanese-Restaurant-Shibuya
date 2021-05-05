@@ -10,6 +10,7 @@
     <meta name="keywords" content="#">
     <meta name="description" content="#">
 
+    <!-- Credit: Navigation bar created by using bootstrap: https://www.getbootstrap.com/ -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -19,16 +20,15 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/footer.css">
 
+    <title>Japanese Restaurant Shibuya | Home</title>
 
-    <title>Japanese Restaurant Shibuya</title>
-
-    <!-- Credit: social media icons imported from fontawesome: https://www.fontawesome.com/ -->
+    <!-- Credit: Social media icons imported from fontawesome: https://www.fontawesome.com/ -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
 	 crossorigin="anonymous" />
 
 </head>
 
-<!-- body -->
+
 <body>
     
 <!-- header -->
@@ -51,6 +51,7 @@
     <!-- language selection (flags) -->
     <div id="header-flags-div">
 
+        <!-- Language flags .png files created by website creator, see also README.md file -->
         <div class="flag-div"><a href="index.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
         <div class="flag-div"><a href="index-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
 
@@ -88,23 +89,25 @@
 
 </header>
 
-    <!-- main webpage content -->
+<!-- background audio -->
+<div id="audio-div">
+
+        <audio src="assets/audio/Jamie.mp3" controls>
+        
+            <span>Your browser doesn't support HTML5 audio:</span>
+
+            <!-- Credit: Audio coming from a video game called Leisure Suit Larry 7 -->
+            <!-- https://allowe.com/downloads/music-larry.html -->
+            <!-- according website audio is free te use, but not for to sell -->
+
+            <a href="assets/audio/Jamie.mp3">Link to the audio</a>
+        
+        </audio>
+        
+</div>
+
+
     <div id="main-div">
-
-        <div id="audio-div">
-
-            <audio src="assets/audio/Jamie.mp3" controls>
-        
-                <span>Your browser doesn't support HTML5 audio:</span>
-
-                <!-- Credit: Audio coming from a video game called Leisure Suit Larry 7 -->
-                <!-- https://allowe.com/downloads/music-larry.html -->
-                <!-- according website audio is free te use, but not for to sell -->
-
-                <a href="assets/audio/Jamie.mp3">Link to the audio</a>
-        
-            </audio>
-        </div>
 
         <!-- Welcome section-->
         <section class="section-div" id="welcome-section">
@@ -214,23 +217,24 @@
    </div>
 
 
-   <!-- footer -->
-    <footer>
+<!-- footer -->
+<footer>
 
-        <div id="footer-div">
-            <span>Follow us on social media</span>
+    <div id="footer-div">
 
-            <ul>
-                <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter socials-link"></i></a></li>
-                <li><a href="https://www.facebook.com/" target ="_blank"><i class="fab fa-facebook socials-link"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram socials-link"></i></a></li>
-            </ul>
+        <span>Follow us on social media</span>
 
-            <p id="copyright">COPYRIGHT © 2021 JAPANESE RESTAURANT SHIBUYA<br> - ALL RIGHTS RESERVED -</p>
+        <ul>
+            <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter socials-link" title="twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target ="_blank"><i class="fab fa-facebook socials-link" title="facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram socials-link" title="instagram"></i></a></li>
+        </ul>
 
-        </div>
+        <p id="copyright">COPYRIGHT © 2021<br id="copyright-breakline"> JAPANESE RESTAURANT SHIBUYA<br>- ALL RIGHTS RESERVED -</p>
 
-    </footer>
+    </div>
+
+</footer>
 
 
 </body>
