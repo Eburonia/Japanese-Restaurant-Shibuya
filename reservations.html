@@ -99,7 +99,7 @@
 
             <!-- Credit: Audio coming from a video game called Leisure Suit Larry 7 -->
             <!-- https://allowe.com/downloads/music-larry.html -->
-            <!-- according website audio is free te use, but not for to sell -->
+            <!-- according website audio is free te use, but not to sell -->
 
             <a href="assets/audio/Jamie.mp3">Link to the audio</a>
         
@@ -108,64 +108,68 @@
 </div>
 
 
+<div id="reservations-div">
 
-          <div id="reservations-div">
+    <h2>Make a Reservation <i class="fas fa-pencil-alt"></i></h2>
 
-                <h2>Make a Reservation <i class="fas fa-pencil-alt"></i></h2>
+        <form id="reservations-form" action="#" method="POST">
 
-                <form id="reservations-form" action="#" method="POST">
+            <label for="fname">Firstname<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="text" class="reservation-textbox" id="fname" name="firstname" required><br>
 
-                    <label for="fname">Firstname<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="text" class="reservation-textbox" id="fname" name="firstname" required><br>
+            <label for="lname">Lastname<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="text" class="reservation-textbox" id="lname" name="lastname" required><br>
 
-                    <label for="lname">Lastname<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="text" class="reservation-textbox" id="lname" name="lastname" required><br>
+            <label for="email">E-mail<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="email" class="reservation-textbox" id="email" name="e-mail" required><br>
 
-                    <label for="email">E-mail<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="email" class="reservation-textbox" id="email" name="e-mail" required><br>
+            <label for="pnumber">Phone number<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="tel" class="reservation-textbox" id="pnumber" name="phone-number" required><br>
 
-                    <label for="pnumber">Phone number<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="tel" class="reservation-textbox" id="pnumber" name="phone-number" required><br>
+            <label for="date">Date<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="date" class="reservation-textbox small-textbox" id="date" name="date" min="2021-06-01" max="2021-12-31" value="2021-06-05" required><br>
 
-                    <label for="date">Date<span class="mandatory-astrisk"> *</span></label><br>
-                    <input type="date" class="reservation-textbox small-textbox" id="date" name="date" min="2021-06-01" max="2021-12-31" value="2021-06-05" required><br>
+            <label for="time">Time<span class="mandatory-astrisk"> *</span></label><br>
+            <select id="time" name="time" class="reservation-textbox small-selectbox">
 
-                    <label for="time">Time<span class="mandatory-astrisk"> *</span></label><br>
-                    <select id="time" name="time" class="reservation-textbox small-selectbox">
-                            <option value="16:00">16:00</option>
-                            <option value="16:30">16:30</option>
-                            <option value="17:00">17:00</option>
-                            <option value="17:30">17:30</option>
-                            <option value="18:00">18:00</option>
-                            <option value="18:30">18:30</option>
-                            <option value="19:00">19:00</option>
-                            <option value="19:30">19:30</option>
-                            <option value="20:00">20:00</option>
-                            <option value="20:30">20:30</option>
-                            <option value="21:00">21:00</option>
-                    </select><br>
+                <option value="16:00">16:00</option>
+                <option value="16:30">16:30</option>
+                <option value="17:00">17:00</option>
+                <option value="17:30">17:30</option>
+                <option value="18:00">18:00</option>
+                <option value="18:30">18:30</option>
+                <option value="19:00">19:00</option>
+                <option value="19:30">19:30</option>
+                <option value="20:00">20:00</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
 
-                    <label for="guests">Number of guests<span class="mandatory-astrisk"> *</span></label><br>
-                    <select id="guests" name="guests" class="reservation-textbox small-selectbox">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                    </select><br>
+            </select><br>
 
-                    <label for="request">Special request</label><br>
-                    <textarea id="request" class="reservation-textbox" name="request" rows="6" cols="50" placeholder="Optional"></textarea><br>
+            <label for="guests">Number of guests<span class="mandatory-astrisk"> *</span></label><br>
+            <select id="guests" name="guests" class="reservation-textbox small-selectbox">
 
-                    <input type="submit" value="submit" class="button"><br><br>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
 
-                    <span class="mandatory-astrisk">* Required fields</span>
+            </select><br>
 
-                </form>
-          </div>
+                <label for="request">Special request</label><br>
+                <textarea id="request" class="reservation-textbox" name="request" rows="6" cols="50" placeholder="Optional"></textarea><br>
+
+                <input type="submit" value="submit" class="button"><br><br>
+
+                <span class="mandatory-astrisk">* Required fields</span>
+
+        </form>
+        
+</div>
 
 
 <!-- footer -->
