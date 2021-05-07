@@ -10,7 +10,7 @@
     float: left;
     width: 80%;
     height: 130px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.9);
     }
 
 #logo-div {
@@ -41,7 +41,7 @@
     float: left;
     width: 20%;
     height: 130px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.9);
     }
 
 .flag-div {
@@ -58,7 +58,7 @@
     width: 100%;
     background-color: transparent;
     border-bottom: 2px solid rgb(223, 152, 96);
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.9);
     }
 
 #myNavbar {

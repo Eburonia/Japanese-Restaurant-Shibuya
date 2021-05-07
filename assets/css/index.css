@@ -9,7 +9,7 @@
 
 .section-div {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.9);
     margin: 10vh auto;
     text-align: center;
     border-radius: 20px;
@@ -27,7 +27,7 @@
 
 .section-div p {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 2px;
     line-height: 25px;
     margin: 10px 20px 30px 20px;
