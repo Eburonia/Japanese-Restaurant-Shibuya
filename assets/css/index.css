@@ -1,3 +1,6 @@
+/* index.css */
+/* Author: Maurice Vossen */
+
 #main-div {
     float: left;
     width: 100%;
@@ -35,7 +38,7 @@
 #welcome-section {
     margin-top: 10vh;
     margin-bottom: 50vh;
-}
+    }
 
 #welcome-section div {
     float: left;
@@ -46,9 +49,9 @@
     }
 
 /* Credit: Selecting first child: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild */
-#welcome-section div:first-child{
+#welcome-section div:first-child {
     width: 100%;
-}
+    }
 
 #location-map {
     object-fit: cover;
@@ -80,7 +83,6 @@
     }
 
 .text-field {
-    font-family: 'Libre Franklin', sans-serif;
     color: rgb(223, 152, 96);
     width: 50%; padding: 5px 10px;
     font-size: 16px;
@@ -89,7 +91,6 @@
     }
 
 .button {
-    font-family: 'Libre Franklin', sans-serif;
     background-color: rgb(28, 97, 65);
     border: 1px solid whitesmoke;
     border-radius: 10px;
@@ -112,7 +113,6 @@
     }
 
 .anchor-button a {
-    font-family: 'Libre Franklin', sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
     font-weight: 400;
@@ -157,7 +157,7 @@
 
     }
 
-/* media queries */
+/* media queries for index page only */
 @media only screen and (max-width: 900px)
     {
         #main-div {
@@ -185,7 +185,6 @@
 
 @media only screen and (max-width: 400px)
     {
-
         .section-div p {
             font-size: 14px;
             margin: 10px 20px 30px 20px;

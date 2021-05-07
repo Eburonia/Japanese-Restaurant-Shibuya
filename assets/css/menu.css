@@ -1,3 +1,6 @@
+/* menu.css */
+/* Author: Maurice Vossen */
+
 #main-div {
     float: left;
     width: 100%;
@@ -27,7 +30,7 @@ h3 {
     margin-right: 50px;
     margin-bottom: 50px;
             
-    /* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+    /* Credit: Flexbox: https://www.w3schools.com/css/css3_flexbox_responsive.asp */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;   
@@ -46,35 +49,32 @@ h3 {
     font-weight: 500;
     margin: 0;
     padding: 0;
-}
+    }
 
 .menu-table {
     margin: 0;
     width: 100%;
-}
+    }
 
-.menu-table tr
-{
+.menu-table tr {
     padding: 0;
     margin: 0;
-}
+    }
 
 /* Credit: Select second child: https://www.w3schools.com/cssref/sel_nth-child.asp */
 .menu-table td:nth-child(2) {
     padding-left: 50px;
-}
-
+    }
 
 .menu-table th {
     text-align: left;
     padding: 0 0px;
-}
+    }
 
-.menu-table td
-{
+.menu-table td {
     padding: 6px 0px;
     color: whitesmoke;
-}
+    }
 
 .menu-item-top {
     font-size: 16px;
@@ -82,7 +82,7 @@ h3 {
     letter-spacing: 1px;
     font-weight: 300;
     vertical-align: top;
-}
+    }
 
 .menu-item-bottom {
     font-size: 16px;
@@ -90,14 +90,14 @@ h3 {
     letter-spacing: 1px;
     font-weight: 100;
     vertical-align: top;
-}
+    }
 
 .new-menu-item {
     font-size: 16px;
     color: red;
     letter-spacing: 1px;
     font-weight: 500;
-}
+    }
 
 .menu-image img {
     height: 100%;
@@ -106,7 +106,7 @@ h3 {
     display: block;
     border-radius: 10px;
     border: 2px solid rgb(223, 152, 96);
-}
+    }
 
 figure {
     width: 100%;
@@ -120,7 +120,7 @@ figcaption {
     font-weight: 300;
     text-align: center;
     letter-spacing: 1px;
-}
+    }
 
 #menu-updated {
     font-size: 14px;
@@ -128,12 +128,10 @@ figcaption {
     letter-spacing: 1px;
     text-align: center;
     font-weight: 500;
-}
+    }
 
 
-
-
-
+/* media queries for menu page only */
 @media only screen and (max-width: 1300px)
         {
         #menu-outer-div {

@@ -1,4 +1,5 @@
 /* contact.css */
+/* Author: Maurice Vossen */
 
 #contact-div {
     width: 800px;
@@ -26,7 +27,7 @@
     font-size: 18px;
     font-weight: 200;
     letter-spacing: 1px;
-    color: white;
+    color: whitesmoke;
     }
 
 .contact-textbox {
@@ -35,12 +36,11 @@
     width: 100%;
     border: 1px solid rgb(223, 152, 96);
     background-color: transparent;
-    color: white;
+    color: whitesmoke;
     padding: 5px 10px;
     letter-spacing: 1px;
     margin-top: 6px;
     margin-bottom: 20px;
-    font-family: 'Libre Franklin', sans-serif;
     }
 
 .contact-textbox:focus {
@@ -62,7 +62,6 @@
     }
 
 .mandatory-astrisk {
-    font-family: 'Libre Franklin', sans-serif;
     color: red;
     font-size: 16px;
     font-weight: 300;
@@ -71,10 +70,11 @@
 
 #message {
     resize: none;
-    color: white;
-}
+    color: whitesmoke;
+    }
 
 
+/* media queries for contact page only */
 @media only screen and (max-width: 860px) {
 
     #contact-div {
@@ -84,38 +84,37 @@
             }
     }
 
-
 @media only screen and (max-width: 600px) {
 
-        #contact-form {
-            box-sizing: border-box;
-            width: 100%;
-            padding-left: 20px;
-            }
+    #contact-form {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 20px;
+        }
 
-        #contact-div > h2 {
-            text-align: left;
-            margin: 20px 0 20px 20px;
-            }
+    #contact-div > h2 {
+        text-align: left;
+        margin: 20px 0 20px 20px;
+        }
 
-        #contact-form label {
-            font-size: 14px;
-            }
+    #contact-form label {
+        font-size: 14px;
+        }
 
-        .contact-textbox {
-            font-size: 14px;
-            padding: 2px 5px;
-            }
+    .contact-textbox {
+        font-size: 14px;
+        padding: 2px 5px;
+        }
 
-        .button {
-            font-size: 14px;
-            padding: 3px 10px;
-            border-radius: 6px;
-            margin: 0;
-            }
+    .button {
+        font-size: 14px;
+        padding: 3px 10px;
+        border-radius: 6px;
+        margin: 0;
+        }
 
-        .mandatory-astrisk {
-            font-size: 14px;
-            }
-}
+    .mandatory-astrisk {
+        font-size: 14px;
+        }
+    }
     
