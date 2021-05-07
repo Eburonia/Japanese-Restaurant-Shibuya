@@ -14,12 +14,10 @@
     }
 
 h2 {
-    font-size: 24px;
     text-align: center;
     }
 
 h3 {
-    font-size: 22px;
     margin-left: 0;
     color: rgb(223, 152, 96);
     }
@@ -227,21 +225,4 @@ figcaption {
                 margin-left: 0px;
                 margin-right: 0px;
             }
-        }
-
-@media only screen and (max-width: 400px)
-        {
-
-            #menu-outer-div > h2 {
-                font-size: 18px;
-            }
-
-            .menu-category-header {
-                font-size: 18px;
-            }
-
-            .menu-item {
-                font-size: 14px;
-            }
-
         }

@@ -1,19 +1,7 @@
-/* CHECK DOUBLE CODE */
-/* MAKE ONE STYLING CLASS FOR ALL SECTIONS */
-/* ADD AUDIO TO WEBSITE */
-/* ADD FIGURES INSTEAD OF IMAGES TO MENU */
-/* FOOTER HOVER COLOR NOT WORKING */
-/* Credit: overflow: hidden coming from w3schools.com */
-/* aspect ratio: https://css-tricks.com/aspect-ratio-boxes/ */
-/* Credit: overflow: hidden coming from w3schools.com */
-
-
-/* body */
-
+/* The style.css page contains code which is used on all pages */
 
 * {
 font-family: 'Libre Franklin', sans-serif;
-
 }
 
 body {
@@ -29,7 +17,6 @@ body {
     background-size: cover;
 }
 
-
 h2 {
     font-size: 20px;
     font-weight: 400;
@@ -37,6 +24,11 @@ h2 {
     margin: 20px 20px 10px 20px;
     color: rgb(223, 152, 96);
     }
+
+h3 {
+    font-size: 18px;
+}
+
 
 .text-field {
     color: rgb(223, 152, 96);
@@ -64,12 +56,5 @@ h2 {
 }
 
 
-/* media queries for all pages */
 
-@media only screen and (max-width: 400px)
-    {
-        h2 {
-            font-size: 16px;
-        }
-    }
 
