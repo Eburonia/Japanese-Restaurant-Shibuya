@@ -14,7 +14,8 @@
     border-radius: 20px;
     }
 
-#menu-outer-div > h2 {
+h2 {
+    font-size: 26px;
     text-align: center;
 }
 
@@ -29,14 +30,16 @@
     flex-wrap: wrap;   
     }
 
-.menu-section {
+.menu-text-image {
     padding: 30px;
     box-sizing: border-box;
     width: 50%;
     }
 
-.menu-h2 {
+h3 {
+    font-size: 24px;
     margin-left: 0;
+    color: rgb(223, 152, 96);
     }
 
 .menu-category-header {
@@ -108,7 +111,7 @@ figure {
     }
 
 figcaption {
-    font-size: 14px;
+    font-size: 16px;
     color: whitesmoke;
     margin: 5px 0 0 0;
     font-weight: 300;
@@ -134,47 +137,47 @@ figcaption {
         flex-direction: column;
         }
 
-            .menu-section {
+            .menu-text-image {
                 width: 100%;
             }
 
-            #menu-section-A {
+            #menu-A {
                 order: 1;
             }
 
-            #menu-section-B {
+            #menu-B {
                 order: 2;
             }
 
-            #menu-section-C {
+            #menu-C {
                 order: 4;
             }
 
-            #menu-section-D {
+            #menu-D {
                 order: 3;
             }
 
-            #menu-section-E {
+            #menu-E {
                 order: 5;
             }
 
-            #menu-section-F {
+            #menu-F {
                 order: 6;
             }
 
-            #menu-section-G {
+            #menu-G {
                 order: 8;
             }
 
-            #menu-section-H {
+            #menu-H {
                 order: 7;
             }
 
-            #menu-section-I {
+            #menu-I {
                 order: 9;
             }
 
-            #menu-section-J {
+            #menu-J {
                 order: 10;
             }
 
@@ -200,7 +203,6 @@ figcaption {
                 margin-right: 10px;
             }
 
-
             #menu-inner-div {
                 margin-left: 20px;
                 margin-right: 20px;
@@ -218,5 +220,4 @@ figcaption {
                 font-size: 14px;
             }
 
-            
         }
