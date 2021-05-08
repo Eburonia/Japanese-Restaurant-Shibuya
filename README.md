@@ -23,18 +23,33 @@
 
 </ul>
 
-<h1>Website - Japanese Restaurant Shibuya</h1>
+<h1>Japanese Restaurant Shibuya - Example Website</h1>
 
-This is the main website for a Japanese Restaurant called 'Shibuya'.    
-The main purpose of the website is to deliver useful information about the restaurant to the visitors of the website.  
-The purpose of this information is to attract potential new and returning guests to the restaurant, making it the most important Marketing Tool for the restaurant.
+<!-- Mock up here-->
 
-
+<!-- check link -->
 [View the live project here.](#) <span style="color:red;">CHECK</span>
 
-<h2 style="color: red;">Mock-up Here</h2>
+## About
+<hr>
+
+This Japanese Restaurant website is created as an example for restaurant owners without a webpage and shows how a restaurant website might look like in case their business is not active on the internet.
+Information about the restaurant you can find on the index (home) page. A stylish menu page is included to give potential customers an idea of what the restaurant has to offer.
+Additionally, a reservation and contact page was added to show the usefulness of the website to potential clients.
+Because the example website is located in the Netherlands, customers can even select the website's preferred language (English or Dutch). The website is responsive on all devices with a minimum screen width of 320 pixels.  
+  
+
+## Table of Contents
+<hr>
+
+[User Experience (UX)](#UX)
+
+[Features](#FEAT)
 
 
+
+
+<a name="UX"></a>
 ## User Experience (UX)
 
 ### User Stories
@@ -78,7 +93,7 @@ The purpose of this information is to attract potential new and returning guests
 #### Imagery
 
 
-
+<a name="FEAT"></a>
 ## Features
 
 ## Technologies Used
