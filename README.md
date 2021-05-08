@@ -10,7 +10,6 @@
     - CHECK ALL LINKS IN README FILE
     - CHECK SPELLING IN README FILE
     - CHECK CODE OF BUTTONS AND TEXTFIELDS
-
 </ul>
 
 #### BUG LIST
@@ -20,8 +19,15 @@
     - TEXT WON'T ALIGN IN CENTER SECTIONS
     - RESERVATIONS FORM - TIME AND NUMBER OF GUESTS FIELDS NOT WORKING
     - FOOTER COPYRIGHT OVERFLOW AT SMALL DEVICE
-
 </ul>
+
+
+
+
+
+
+
+
 
 <h1>Japanese Restaurant Shibuya - Example Website</h1>
 
@@ -30,8 +36,8 @@
 <!-- check link -->
 [View the live project here.](#) <span style="color:red;">CHECK</span>
 
+
 ## About
-<hr>
 
 This Japanese Restaurant website is created as an example for restaurant owners without a webpage and shows how a restaurant website might look like in case their business is not active on the internet.
 Information about the restaurant you can find on the index (home) page. A stylish menu page is included to give potential customers an idea of what the restaurant has to offer.
@@ -40,15 +46,24 @@ Because the example website is located in the Netherlands, customers can even se
   
 
 ## Table of Contents
-<hr>
 
 [User Experience (UX)](#UX)
 
-[Features](#FEAT)
+[Features](#features)
+
+[Technologies Used](#technologies)
+
+[Testing](#testing)
+
+[Deployment](#deployment)
+
+[Credits](#credits)
 
 
 
 
+
+<!-- User Experience -->
 <a name="UX"></a>
 ## User Experience (UX)
 
@@ -93,9 +108,20 @@ Because the example website is located in the Netherlands, customers can even se
 #### Imagery
 
 
-<a name="FEAT"></a>
+
+
+
+<!-- Features -->
+<a name="features"></a>
 ## Features
 
+
+
+
+
+
+<!-- Technologies Used -->
+<a name="technologies"></a>
 ## Technologies Used
 
 ### Languages Used
@@ -110,6 +136,15 @@ Because the example website is located in the Netherlands, customers can even se
 - [Photoshop](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize photos and to create the Dutch and United Kingdom flag.
 - [Adobe XD](https://www.adobe.com/products/xd.html) - Adobe XD was used to create the website's Wireframes. See the Wireframes section above for the endresult.
 
+
+
+
+
+
+
+
+<!-- Testing -->
+<a name="testing"></a>
 ## Testing
 
 ### Testing Code
@@ -160,7 +195,6 @@ The following online validators were used to check whether every page of the pro
 9. As a First Time Visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
 * On the website 'Home' page a 'Payments Method' section has been added. Next to paying with cash, it also indicates what credit cards are accepted by utilizing small images of the accepted credit cards including their logos. The remaining accepted payment method is bitcoin cash which is also indicated with a small image.
 
-
 #### Returning Restaurant Guest - Returning Visitor Goals
 1. As a Returning Visitor of the website, I want to know whether there are new items added to the menu in the recent weeks or months, so that I can decide whether I might order them next time when visiting the restaurant.
 * On the menu, it is indicated which menu items are added by adding next to the menu item's description 'new' with a red color.
@@ -175,6 +209,13 @@ The following online validators were used to check whether every page of the pro
 ### Known Bugs
 ...
 
+
+
+
+
+
+<!-- Deployment -->
+<a name="deployment"></a>
 ## Deployment
 
 ### GitHub pages
@@ -186,8 +227,14 @@ The following online validators were used to check whether every page of the pro
 ### Making a Local Clone
 ...
 
-## Credits
 
+
+
+
+
+<!-- Credits -->
+<a name="credits"></a>
+## Credits
 
 ### Code
 ...
