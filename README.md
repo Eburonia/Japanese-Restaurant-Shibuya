@@ -14,12 +14,15 @@
     - ADD ARIA LABELS
     - ADD WIREFRAMES
     - CHANGE HERO IMAGE
+    - CHECK PARAGRAPH SIZES
+    - CHECK TEXTBOX FONT SIZING
+    - NO HOOVER COLOR FOR MENU PAGE AND RESERVATIONS PAGE
+    - CHECK ALT TEXT
 
 </ul>
 
 #### BUG LIST
 <ul>
-
     - MAP IMAGE DOES NOT FIT 100% IN THE DIV
     - TEXT WON'T ALIGN IN CENTER SECTIONS
     - RESERVATIONS FORM - TIME AND NUMBER OF GUESTS FIELDS NOT WORKING
@@ -98,19 +101,19 @@ Because the example website is located in the Netherlands, customers can even se
 
 #### Colour Scheme
 - Colours used on the website meet the colours of the background hero image. Four types are used for styling the html elements:
-   * Black: rgba(0, 0, 0, 0.9) - used for sections background
-   * Orange type: rgb(223, 152, 96) - used for restaurant logo, h2 and h3 headers, section and image borders, and textboxes
-   * Smokewhite: rgb(245, 245, 245) - used in footer, navbar, for paragraphs, menu items, and form labels
-   * Turqoise type: rgb(28, 97, 65) - used as background colour in call to actions buttons, and audio player
+   * Black: rgba(0, 0, 0, 0.9) - used for sections background.
+   * Orange type: rgb(223, 152, 96) - used for restaurant logo, h2 and h3 headers, section and image borders, and textboxes.
+   * Smokewhite: rgb(245, 245, 245) - used in footer, navbar, for paragraphs, menu items, and form labels.
+   * Turqoise type: rgb(28, 97, 65) - used as background colour in call to actions buttons, and audio player.
 - The sections of the website have a black transparent colour. This to keep the hero image in the background visible.
 
 
 #### Typography
-- [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin#about) is the only font used throughout the website. Sans Serif is set as fallback colour.  
+- [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin#about) is the only font used throughout the website. Sans Serif is set as fallback font type.  
 This font is based on the 1912 Morris Fuller Benton classic and was designed by Pablo Impallari, an Argentinian type designer based in Rosario.
 
 #### Imagery
-- A background image (hero) has been added to every page which shows the interior of the restaurant. This gives the visitor of the website a good feeling   
+- A background image (hero) has been added to every page which shows the interior of the restaurant, giving the visitor a good idea about the atmosphere and of how the restaurant looks from the inside.  
 
 #### Wireframes
 
@@ -131,7 +134,7 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 
 ### Header
 
-* <b>Header</b> - The header exists out of the restaurant logo, navigation bar, and the preferred website language using clickable language flags 'English or Dutch' and is automatically loaded on every page.
+* <b>Header</b> - The header is located at the top of every page and exists out of the restaurant logo, navigation bar, and the preferred website language using clickable language flags 'English or Dutch' and is automatically loaded on every page.
 * <b>Restaurant Logo</b> - The restaurant logo on the upper left side indicates the website is about a Japanese restaurant named Shibuya and is a clickable anchor element always linking to the website's index page.
 * <b>The Navigation Bar</b> - The navigation bar is part of the header to let the visitor intuitively find it.
 The Bootstrap CSS wireframe is used for creating the navigation bar. The current page the visitor is on is indicated by underlining the page in the navigation bar. Hovering the remaining links in the navigation bar will change the colour of the link from a white colour to an orange colour, telling the visitor that it is clickable. The navigation bar will collapse in a hamburger-styled menu when viewed on smaller devices like a smartphone.
@@ -140,15 +143,30 @@ The Bootstrap CSS wireframe is used for creating the navigation bar. The current
 * <b>Background Audio</b> - Directly below the header on the right side, a small audio player is introduced including a Jazz song. The audio will not automatically play to not disturb the visitors when entering the website. By pressing the play button, the audio player will be looping the audio file. Together with the hero background image, it presents the restaurant's atmosphere.
 
 ### Footer
+* <b>Footer</b> - The footer has been located at the bottom of every page and exists out of links to the restaurant's social media pages, and a copyright notice.
+* <b>Social Media Links</b> - Icons presenting specific social media platforms from the fontawesome.com website are introduced in anchor links to redirect the visitor to the restaurant's external social media pages. By hovering the links the colour changes from white to orange, indicating these are clickable links.
+* <b>Copyright Notice</b> - A clear copyright notice is visible at the bottom of the footer.
 
-* <b>Footer</b> - The footer exists out of links to the restaurant's social media pages, and a copyright notice.
+### ARIA labels
+* <b>...</b> - 
+
+### Sections
+
+* <b>Sections</b> - The website has one or multiple sections, depending on which page you are on. These sections are recognized by a black transparent box surrounded by an orange border including a border radius. All sections start with an orange header title with a fontawesome.com icon at the end.
+* <b>Paragraphs</b> - For consistency, all paragraphs in the sections have the same styling on every page.
+
+### Buttons
+
+* <b>Buttons</b> - For consistency, all buttons are styled the same on every page. When you hover a button, the background colour of the button will change into a darker colour.
+
+### Images
+* <b>Images</b> - All images have been foreseen with 'alt' text.
+
+
 * <b></b>
 * <b></b>
 * <b></b>
-* <b></b>
-* <b></b>
-* <b></b>
-* <b></b>
+
 
 
 
