@@ -4,12 +4,17 @@
 
     - CHECK DOUBLE CODE
     - MAKE ONE STYLING CLASS FOR ALL SECTIONS
-    - ADD AUDIO TO WEBSITE
     - ADD FIGURES INSTEAD OF IMAGES TO MENU
     - CHECK ALL CREDITS
     - CHECK ALL LINKS IN README FILE
     - CHECK SPELLING IN README FILE
     - CHECK CODE OF BUTTONS AND TEXTFIELDS
+    - CHECK BACKGROUND COLOUR IN HEADER, HERO IMAGE NOT VISIBLE
+    - LOOP JAZZ SONG
+    - ADD ARIA LABELS
+    - ADD WIREFRAMES
+    - CHANGE HERO IMAGE
+
 </ul>
 
 #### BUG LIST
@@ -124,6 +129,27 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 <a name="features"></a>
 ## Features
 
+### Header
+
+* <b>Header</b> - The header exists out of the restaurant logo, navigation bar, and the preferred website language using clickable language flags 'English or Dutch' and is automatically loaded on every page.
+* <b>Restaurant Logo</b> - The restaurant logo on the upper left side indicates the website is about a Japanese restaurant named Shibuya and is a clickable anchor element always linking to the website's index page.
+* <b>The Navigation Bar</b> - The navigation bar is part of the header to let the visitor intuitively find it.
+The Bootstrap CSS wireframe is used for creating the navigation bar. The current page the visitor is on is indicated by underlining the page in the navigation bar. Hovering the remaining links in the navigation bar will change the colour of the link from a white colour to an orange colour, telling the visitor that it is clickable. The navigation bar will collapse in a hamburger-styled menu when viewed on smaller devices like a smartphone.
+* <b>Header Background Colour</b> - A black transparent background colour has been chosen to keep the hero image in the background partly visible. An orange colour has been used on the bottom border of the header to indicate where the header stops and the main content starts.
+* <b>Language Flags</b> - Visitors can select the preferred language of the website in the header by clicking one of the two available language flags English or Dutch. By hovering over the flags, a tooltip will show up telling which language the flag image presents.
+* <b>Background Audio</b> - Directly below the header on the right side, a small audio player is introduced including a Jazz song. The audio will not automatically play to not disturb the visitors when entering the website. By pressing the play button, the audio player will be looping the audio file. Together with the hero background image, it presents the restaurant's atmosphere.
+
+### Footer
+
+* <b>Footer</b> - The footer exists out of links to the restaurant's social media pages, and a copyright notice.
+* <b></b>
+* <b></b>
+* <b></b>
+* <b></b>
+* <b></b>
+* <b></b>
+* <b></b>
+
 
 
 
@@ -135,7 +161,7 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 
 ### Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries & Programs Used
 - [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the style.css file. This font style is used on all pages of the website.
