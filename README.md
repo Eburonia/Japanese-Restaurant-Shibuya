@@ -159,8 +159,18 @@ The Bootstrap CSS wireframe is used for creating the navigation bar. The current
 
 * <b>Buttons</b> - For consistency, all buttons are styled the same on every page. When you hover a button, the background colour of the button will change into a darker colour.
 
+### Responsiveness
+<b>Responsivess</b> - All pages are Responsive. Minimum viewport width: 320px.
+
+
 ### Images
 * <b>Images</b> - All images have been foreseen with 'alt' text.
+
+
+### Future Features
+* Feedback from previous visitors can be found on the social media pages of the restaurant. To directly implement feedback on the website, a guestbook might be a good idea to incorporate on the website. 
+* An older version of bootstrap has been implemented, update to the latest version.
+
 
 
 * <b></b>
@@ -180,25 +190,75 @@ The Bootstrap CSS wireframe is used for creating the navigation bar. The current
 ### Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [jquery](https://en.wikipedia.org/wiki/JQuery) - Part of bootstrap framework.
 
 ### Frameworks, Libraries & Programs Used
+- [Bootstrap v3.4.1](https://getbootstrap.com/docs/3.4/) - Only used for the responsive navigation bar, especially needed for creating the hamburger-styled menu on smaller devices like smartphones.
+- [jquery v3.5.1](https://jquery.com/download/) - Used for the hamburger-styled menu for the navigation bar.
 - [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the style.css file. This font style is used on all pages of the website.
-- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant.
+- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant and in the header text of the website sections.
 - [Git](https://wwww.git-scm.com/) - Git was used for version control of this project. The terminal in Gitpod was used to commit and to push the project to Github.
 - [Github](https://www.github.com/) - The project code has been stored on the Github website.
-- [Photoshop](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize photos and to create the Dutch and United Kingdom flag.
+- [GitPod](https://www.gitpod.io/) - GitPod used for creating code, testing of the website, commiting, and pushing the code to the github repository. 
+- [Photoshop v8.0](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize photos and to create the Dutch and United Kingdom flag.
 - [Adobe XD](https://www.adobe.com/products/xd.html) - Adobe XD was used to create the website's Wireframes. See the Wireframes section above for the endresult.
-
-
-
-
-
+- [JPEG Optimizer](http://jpeg-optimizer.com/) - JPEG Optimizer website used to compress image size in order to speed up loading time when loading the website/webpage.
 
 
 
 <!-- Testing -->
 <a name="testing"></a>
 ## Testing
+
+### Functionality Checklist
+
+#### Common
+- Check ARIA labels.
+- Check alt text.
+- Check transparency of sections.
+- If possible, reduce image file sizing to speed up the loading time of the images.
+- Check the spelling of pages (English and Dutch version of pages).
+
+#### Header
+- Check whether the header is always on top of the page.
+- Check whether the restaurant logo links back to the index page.
+- Check the Active page in the navigation bar and the remaining links change colour while being hovered.
+- Check for dead links.
+- Check whether website language links are working properly.
+- Check the responsiveness of the navbar (change to hamburger-style navbar).
+- Check whether there is no overflow while reducing screen size.
+- Check audio player is working properly.
+
+#### Footer
+- Check whether the footer is always at the bottom of the page.
+- Check whether all social media links are working properly and opening a new blank page.
+- Check whether the social media links change colour while hovering.
+- Check for dead links.
+- Check the responsiveness of the footer when changing the size of the viewport.
+
+#### Index Page
+- Check for dead links.
+- Check whether the mailing list is functioning.
+- Check the responsiveness of the sections when changing the size of the viewport.
+- Check transparency of the background in the sections.
+- Check Functionality of location image.
+
+#### Menu Page
+- Check the responsiveness of the menu sections when changing the size of the viewport.
+- Check correct order of menu categories and images at smaller viewport width.
+
+#### Reservations Page
+- Check the responsiveness of the reservations form when changing the width of the viewport.
+- Check the correct html code used for the form.
+- Check functionality of required fields.
+
+#### Contact Page
+- Check the responsiveness of the contact form when changing the width of the viewport.
+- Check the correct html code used for the form.
+- Check functionality of required fields.
+
+#### remaining
+- 
 
 ### Testing Code
 The following online validators were used to check whether every page of the project gave any syntax errors:
@@ -207,6 +267,9 @@ The following online validators were used to check whether every page of the pro
 
 ### Testing Grammar and Spelling 
 - [Grammarly.com](https://www.grammarly.com/) was used to check grammar and spelling mistakes.
+
+
+
 
 ### Testing User Stories from User Experience (UX) Section
 
