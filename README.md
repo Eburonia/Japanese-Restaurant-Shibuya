@@ -18,6 +18,7 @@
     - CHECK TEXTBOX FONT SIZING
     - NO HOOVER COLOR FOR MENU PAGE AND RESERVATIONS PAGE
     - CHECK ALT TEXT
+    - REPLACE AUDIO FILE
 
 </ul>
 
@@ -49,12 +50,11 @@ Because the example website is located in the Netherlands, customers can even se
 
 [Testing](#testing)
 
+[Known Bugs](#bugs)
+
 [Deployment](#deployment)
 
 [Credits](#credits)
-
-
-
 
 
 <!-- User Experience -->
@@ -241,9 +241,6 @@ The Bootstrap CSS wireframe is used for creating the navigation bar. The current
 - Check the correct html code used for the form.
 - Check functionality of required fields.
 
-#### remaining
-- 
-
 ### Testing Code
 The following online validators were used to check whether every page of the project gave any syntax errors:
 - [W3C Markup Validator](https://validator.w3.org/) <span style="color:red">Result</span>.
@@ -251,8 +248,6 @@ The following online validators were used to check whether every page of the pro
 
 ### Testing Grammar and Spelling 
 - [Grammarly.com](https://www.grammarly.com/) was used to check grammar and spelling mistakes.
-
-
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -306,13 +301,11 @@ The following online validators were used to check whether every page of the pro
 ### Further Testing
 ...
 
-### Known Bugs
-...
-
-
-
-
-
+<!-- Known Bugs -->
+<a name="bugs"></a>
+## Known Bugs
+- Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size.
+- Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar is loaded.
 
 <!-- Deployment -->
 <a name="deployment"></a>
@@ -333,11 +326,14 @@ GitHub Pages was used for publishing the website. The procedure was as follows:
 If you want to make a copy of the repository you can Fork it without changing the original repository by following the next procedure:
 
 1. Login to the [GitHub](https://www.github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
 3. On the right side of your screen, next to the 'Unwatch' pull-down menu, and the 'Star' button, you can find the 'Fork' button.
 4. By clicking this button, it will create a copy of the website in your repository.
 
 ### Cloning
+
+You can clone the repository by following the next procedure:
+
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
 3. Click on the 'Code' button next to the Green 'GitPod' button.
@@ -346,9 +342,14 @@ If you want to make a copy of the repository you can Fork it without changing th
 6. When in this repository, select the folder or create a folder where you want to copy the cloned directory.
 7. Go to the terminal and type: 'Git Clone https://github.com/Eburonia/Test-project.git' and press enter. The directory has been cloned now.
 
+### Downloading
 
+You can download the repository by following the next procedure:
 
-
+1. Login to the [GitHub](https://www.github.com/) website.
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
+3. Click on the 'Code' button next to the Green 'GitPod' button and then click on 'Download ZIP'.
+4. A .zip file of the repository content will be downloaded. 
 
 
 <!-- Credits -->
@@ -356,37 +357,43 @@ If you want to make a copy of the repository you can Fork it without changing th
 ## Credits
 
 ### Code
-...
+- All code was written by the website creator: Maurice Vossen
+- Colours were selected by using Photoshop v8.0
+- Understanding float and clear CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I)
+- Understanding display: flex CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Content
-...
+- The following README files were used as inspiration for creating this README file:
+   * Boredom Guide [README](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md) file
+   * Code Institute Website[README](https://github.com/Code-Institute-Solutions/SampleREADME) file
+   * Code Institute Love Running [README](https://github.com/Code-Institute-Solutions/readme-template) file
+- Inspiration for Restaurant's about section:
+   * <span style="color: red">ADD</span>
+
+- Inspiration for the menu page:
+   * Example Japanese menu [link](https://i.pinimg.com/originals/d3/2e/f4/d32ef41a9a546250ab54f856e1f71b6f.jpg)
+   * The 8 Most Popular Types of Fish Served as Sashimi [link](https://rbsushi.com/blog/8-most-popular-types-of-fish-served-as-sashimi/)
+   * Types of Sashimi in Japan: The Essential Guide [link](https://gurunavi.com/en/japanfoodie/2016/10/sashimi-in-japan.html?__ngt__=TT11bfdb473003ac1e4ae61dJHkbBnFG9SLeZoHOmkr4Ow)
+   * Wikipedia: List of Japanese soups and stews [link](https://en.wikipedia.org/wiki/List_of_Japanese_soups_and_stews)
+   * 10 Must Drink Types of Popular Japanese Alcohol [link]( https://gurunavi.com/en/japanfoodie/2017/07/10-must-drink-japanese-alcohol.html)
+   * How Many of These 10 Popular and Tasty Japanese “Yaki” Dishes Have You Tried? [link](https://jpninfo.com/105574)
 
 ### Media
-- All pictures shown are for illustration purposes only and are not owned by the web developer, all copyrights and credit go to the respective owner.  
-- The Dutch and United Kingdom flag used for selecting the website language was created by the website developer.
 
-#### Sources of Used Images
-- <span style="color: red">Add</span>
+#### Images
+- All pictures shown are for illustration purposes only and are not owned by the web developer, all copyrights and credit go to the respective owner
+- The background hero image <span style="color: red">ADD</span>
+- For the menu page, the following images were taken from the [pixabay](https://www.pixabay.com/) website:
+   * Sushi image [link](https://pixabay.com/photos/sushi-food-japan-2363418/)
+   * Sashimi image [link](https://pixabay.com/photos/sashimi-food-seafood-tuna-cuisine-2563650/)
+   * Okinawa Soba [link](https://pixabay.com/photos/okinawa-soba-okinawa-1697765/)
+   * Takoyaki [link](https://pixabay.com/photos/food-takoyaki-ball-1614130/)
+   * Highball Whiskey [link](https://pixabay.com/photos/whiskey-highball-nanning-654449/)   
+- The Dutch and United Kingdom flag used for selecting the website language were created by the website developer
 
+#### Audio
+- The background audio mp3 file comes from ... <span type="color:red">CHECK</span>
 
 ### Acknowledgements
-...
-
-
-
-
-
-
-
-
-## Bugs
-* Floating problem: header section moves down together with article section when the top-margin of the article-section is set to 30px. This problem was solved by deleting the CSS rule float: left; in the navbar-div.  
-
-## Testing
-* Language flags are too big for iPad and smartphone, size to be adjusted.
-* On smaller devices, the English flag stays on top of the Dutch flag, this should be otherway around, to be fixed.
-* Map image will not center in section, to be fixed.
-
-## fix
-* Background image file to be resized.
-* Make background image responsive.
+- Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback.
+- The many free coding forums on the internet for providing answers to my coding questions.
