@@ -21,22 +21,6 @@
 
 </ul>
 
-#### BUG LIST
-<ul>
-    - MAP IMAGE DOES NOT FIT 100% IN THE DIV
-    - TEXT WON'T ALIGN IN CENTER SECTIONS
-    - RESERVATIONS FORM - TIME AND NUMBER OF GUESTS FIELDS NOT WORKING
-    - FOOTER COPYRIGHT OVERFLOW AT SMALL DEVICE
-</ul>
-
-
-
-
-
-
-
-
-
 <h1>Japanese Restaurant Shibuya - Example Website</h1>
 
 <!-- Mock up here-->
@@ -334,14 +318,33 @@ The following online validators were used to check whether every page of the pro
 <a name="deployment"></a>
 ## Deployment
 
-### GitHub pages
-...
+### Publishing
+GitHub Pages was used for publishing the website. The procedure was as follows:
+1. Login to the [GitHub](https://www.github.com/) website.
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
+3. You can find a ribbon on the top of your screen, click on 'Settings'.
+4. In the selection menu on the left side of your screen, click on 'Pages'.
+5. Under 'Source' you will find a small pull-down menu. Click on it and select 'main' and then press the 'Save' button.
+6. You will automatically get redirected to the 'GitHub Pages' page. There will be a blue box telling the site will be published.
+7. Refresh the page and when this box turns green, the website has been published.
+8. Click the link in the green box to check the website.
 
-### Forking the GitHub Repository
-...
+### Forking
+If you want to make a copy of the repository you can Fork it without changing the original repository by following the next procedure:
 
-### Making a Local Clone
-...
+1. Login to the [GitHub](https://www.github.com/) website.
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
+3. On the right side of your screen, next to the 'Unwatch' pull-down menu, and the 'Star' button, you can find the 'Fork' button.
+4. By clicking this button, it will create a copy of the website in your repository.
+
+### Cloning
+1. Login to the [GitHub](https://www.github.com/) website.
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
+3. Click on the 'Code' button next to the Green 'GitPod' button.
+4. Click on 'HTTPS' and copy the hyperlink: https://github.com/Eburonia/Test-project.git below it.
+5. Go to the repository where you want to make a clone of the website. Or create a new repository.
+6. When in this repository, select the folder or create a folder where you want to copy the cloned directory.
+7. Go to the terminal and type: 'Git Clone https://github.com/Eburonia/Test-project.git' and press enter. The directory has been cloned now.
 
 
 
