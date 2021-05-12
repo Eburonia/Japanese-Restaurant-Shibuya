@@ -8,11 +8,11 @@
     }
 
 #menu-outer-div {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 70%;
     margin: 100px auto;
     overflow: hidden;
-    border: 2px solid rgb(223, 152, 96);
+    border: 2px solid rgb(195, 161, 104);
     border-radius: 20px;
     }
 
@@ -22,7 +22,7 @@ h2 {
 
 h3 {
     margin-left: 0;
-    color: rgb(223, 152, 96);
+    color: rgb(195, 161, 104);
     }
 
 #menu-inner-div {
@@ -44,7 +44,7 @@ h3 {
 
 .menu-category-header {
     font-size: 20px;
-    color: rgb(223, 152, 96);
+    color: rgb(195, 161, 104);
     letter-spacing: 1px;
     font-weight: 500;
     margin: 0;
@@ -105,7 +105,7 @@ h3 {
     object-fit: cover;
     display: block;
     border-radius: 10px;
-    border: 2px solid rgb(223, 152, 96);
+    border: 2px solid rgb(195, 161, 104);
     }
 
 figure {

@@ -5,8 +5,8 @@ footer {
     float: left;
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-top: 2px solid rgb(223, 152, 96);
+    background-color: rgba(0, 0, 0, 0.95);
+    border-top: 2px solid rgb(183, 151, 100);
     }
 
 #footer-div {
@@ -41,7 +41,7 @@ footer {
 #footer-div a:hover {
     /* Credit: transition: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
     transition: 1s;
-    color: rgb(223, 152, 96);
+    color: rgb(183, 151, 100);
     }
 
 #copyright {

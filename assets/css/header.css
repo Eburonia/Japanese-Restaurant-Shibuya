@@ -10,7 +10,7 @@
     float: left;
     width: 80%;
     height: 130px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     }
 
 #logo-div {
@@ -32,7 +32,7 @@
     font-size: 45px;
     font-weight: 500;
     letter-spacing: 6px;
-    color: rgb(223, 152, 96);
+    color: rgb(195, 161, 104);
     line-height: 44px;
     }
 
@@ -48,7 +48,7 @@
     float: right;
     height: 20px;
     font-size: 12px;
-    border: 1px solid rgb(100, 100, 100);
+    border: 1px solid rgb(148, 147, 147);
     margin: 25px 25px 0 0;
     }
 
@@ -57,7 +57,7 @@
     float: left;
     width: 100%;
     background-color: transparent;
-    border-bottom: 2px solid rgb(223, 152, 96);
+    border-bottom: 2px solid rgb(195, 161, 104);
     background-color: rgba(0, 0, 0, 0.9);
     }
 
@@ -73,7 +73,7 @@
     }
 
  .nav.navbar-nav li a:hover {
-   color: rgb(223, 152, 96);
+   color: rgb(195, 161, 104);
    transition: 1s;
     }
 
@@ -84,16 +84,16 @@
 
 #audio-div {
     text-align: right;
-    color: whitesmoke;
+    color: rgb(195, 161, 104);
     margin-right: 20px;
     }
 
 audio {
-    width: 120px;
+    width: 124px;
     height: 30px;
-    background-color: rgb(28, 97, 65);
+    background-color: transparent;
     border-radius: 10px;
-    border: 1px solid whitesmoke;
+    border: 2px solid rgb(195, 161, 104);
     }
 
 /* media queries for header only */
