@@ -94,10 +94,10 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 
 <p style="color: red">Update links below</p>
 
-- Wireframes for Home Page - [link](#)
-- Wireframes for Menu Page - [link](#)
-- Wireframes for Reservation Page - [link](#)
-- Wireframes for Contact Us Page - [link](#)
+- Wireframes for Index Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-index.pdf)
+- Wireframes for Menu Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-menu.pdf)
+- Wireframes for Reservations Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-reservations.pdf)
+- Wireframes for Contact Us Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-contact.pdf)
 
 
 
