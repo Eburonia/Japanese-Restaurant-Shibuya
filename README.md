@@ -92,14 +92,10 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 
 #### Wireframes
 
-<p style="color: red">Update links below</p>
-
 - Wireframes for Index Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-index.pdf)
 - Wireframes for Menu Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-menu.pdf)
 - Wireframes for Reservations Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-reservations.pdf)
 - Wireframes for Contact Us Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-contact.pdf)
-
-
 
 
 
@@ -358,8 +354,9 @@ You can download the repository by following the next procedure:
    * Boredom Guide [README](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md) file
    * Code Institute Website[README](https://github.com/Code-Institute-Solutions/SampleREADME) file
    * Code Institute Love Running [README](https://github.com/Code-Institute-Solutions/readme-template) file
-- Inspiration for Restaurant's about section:
-   * <span style="color: red">ADD</span>
+- Inspiration for Restaurant's about section
+   * Partly copied and adjusted from: [Japanese Restaurant Kobe Maastricht](https://www.restaurantkobe.com/)
+   * Partly copied and adjusted from a New York based Japanese restaurant, can't find the link to the website anymore.
 
 - Inspiration for the menu page:
    * Example Japanese menu [link](https://i.pinimg.com/originals/d3/2e/f4/d32ef41a9a546250ab54f856e1f71b6f.jpg)
