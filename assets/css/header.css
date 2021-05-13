@@ -70,6 +70,7 @@
 /* Credit: https://stackoverflow.com/questions/30842694/change-text-color-in-nav-bar-bootstrap/30842777 */
 .nav.navbar-nav li a {
    color: whitesmoke;
+   padding: 10px;
     }
 
  .nav.navbar-nav li a:hover {
@@ -78,8 +79,8 @@
     }
 
 #active {
-    color: whitesmoke;
-    text-decoration: underline;
+    color: rgb(195, 161, 104);
+    border-top: 2px solid rgb(195, 161, 104);
     }
 
 #audio-div {
@@ -97,13 +98,26 @@ audio {
     }
 
 /* media queries for header only */
-@media only screen and (min-width: 769px)
+@media only screen and (min-width: 768px)
     {
         .container-fluid {
             display: flex;
             justify-content: center;
         }
+
     }
+
+@media only screen and (max-width: 768px)
+    {
+       #active {
+           width: fit-content;
+           background-color: rgb(195, 161, 104);
+           color: black;
+       }
+    }
+
+
+
 
 @media only screen and (max-width: 400px)
     {
