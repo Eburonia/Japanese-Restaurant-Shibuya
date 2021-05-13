@@ -94,11 +94,13 @@
 
     #contact-div > h2 {
         text-align: left;
+        font-size: 16px;
         margin: 20px 0 20px 20px;
         }
 
     #contact-form label {
         font-size: 14px;
+        margin-bottom: 0;
         }
 
     .contact-textbox {
