@@ -12,8 +12,9 @@ body {
     padding: 0;
    
     /* Hero image used for illustration purposes only. Image is not owned by the web developer, all copyrights and credit go to the respective owner */
-    /* Credit: Hero Image: https://www.asuka-oosterhout.nl/ */
+    /* Credit: Hero Image:  */
     background: url('https://eburonia.github.io/japanese-restaurant-shibuya/assets/images/hero-image.jpg') no-repeat top center;
+
     background-attachment: fixed;
     background-size: cover;
     }
