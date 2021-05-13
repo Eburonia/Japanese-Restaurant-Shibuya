@@ -382,7 +382,7 @@ You can download the repository by following the next procedure:
 
 #### Images
 - All pictures shown are for illustration purposes only and are not owned by the web developer, all copyrights and credit go to the respective owner
-- The background hero image <span style="color: red">ADD</span>
+- The free to use background hero image is coming from [Unsplash.com](https://unsplash.com/@dineshramaswamy)
 - For the menu page, the following images were taken from the [pixabay](https://www.pixabay.com/) website:
    * Sushi image [link](https://pixabay.com/photos/sushi-food-japan-2363418/)
    * Sashimi image [link](https://pixabay.com/photos/sashimi-food-seafood-tuna-cuisine-2563650/)
@@ -392,7 +392,7 @@ You can download the repository by following the next procedure:
 - The Dutch and United Kingdom flag used for selecting the website language were created by the website developer
 
 #### Audio
-- The background audio mp3 file comes from ... <span type="color:red">CHECK</span>
+- The audio player's Jazz Loop mp3 file is a copyright free audio file coming from Youtube / Soundclound: [Ryan - Milk Coffee [No Copyright Music]](https://www.youtube.com/watch?v=eSOV2Zo_J1A)  
 
 ### Acknowledgements
 - Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback.
