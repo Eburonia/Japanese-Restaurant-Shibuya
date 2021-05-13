@@ -90,8 +90,6 @@
     background-color: transparent;
     }
 
-
-
 .anchor-button {
     margin-bottom: 30px;
     margin-top: 10px;
@@ -112,6 +110,21 @@
 .anchor-button a:hover {
     background-color: rgba(129, 91, 28, 0.5);
     transition: 1s;
+}
+
+.index-anchor {
+    color: rgb(195, 161, 104);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.index-anchor:hover {
+    color: rgb(195, 161, 104);
+    text-decoration: underline;
+}
+
+.index-anchor:active {
+    color: rgb(195, 161, 104);
 }
 
 .payment-icon {
