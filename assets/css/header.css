@@ -98,6 +98,16 @@ audio {
     }
 
 /* media queries for header only */
+
+@media only screen and (max-width: 768px)
+    {
+        #active {
+            color: black;
+            background-color: rgb(195, 161, 104);
+            border-top: none;
+        }
+    }
+
 @media only screen and (min-width: 768px)
     {
         .container-fluid {
