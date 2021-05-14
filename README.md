@@ -125,11 +125,11 @@ The footer has been located at the bottom of every page and exists out of anchor
 * <b>Social Media Links</b> - Icons presenting social media platforms from the fontawesome.com website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering the links the colour changes from white to cream colour, indicating these are clickable links.
 * <b>Copyright Notice</b> - A clear copyright notice is visible at the bottom of the footer.
 
-### Sections
+### Sections/Divisions
 The website has one or multiple sections/divisions with content, depending on which page you are on. These sections/divisions are recognized by a black transparent box surrounded by a cream-coloured border including a border-radius. All sections/divisions start with a cream-coloured header h2 with a fontawesome.com icon at the end.
 
 ### Menu Page
-The menu page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes too small, the sections and divisions will be on top of each other (block) to keep it readable.
+The 'Menu' page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes too small, the sections and divisions will be on top of each other (block) to keep it readable.
 
 ### Forms
 The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, fields, and header h2 will be smaller in size on smaller devices (smart phones) for readability purposes.
@@ -162,20 +162,18 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 ### Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [jquery](https://en.wikipedia.org/wiki/JQuery) - Part of bootstrap framework.
 
 ### Frameworks, Libraries & Programs Used
 - [Bootstrap v3.4.1](https://getbootstrap.com/docs/3.4/) - Only used for the responsive navigation bar, especially needed for creating the hamburger-styled menu on smaller devices like smartphones.
-- [jquery v3.5.1](https://jquery.com/download/) - Used for the hamburger-styled menu for the navigation bar.
-- [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the style.css file. This font style is used on all pages of the website.
-- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant and in the header text of the website sections.
+- [jquery v3.5.1](https://jquery.com/download/) - Used for the hamburger-styled menu for the navigation bar, part of the bootstrap framework.
+- [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the header.css file. This font style is used on all pages of the website.
+- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant and in the header h2/h3 of the website sections/divisions.
 - [Git](https://wwww.git-scm.com/) - Git was used for version control of this project. The terminal in Gitpod was used to commit and to push the project to Github.
-- [Github](https://www.github.com/) - The project code has been stored on the Github website.
-- [GitPod](https://www.gitpod.io/) - GitPod used for creating code, testing of the website, commiting, and pushing the code to the github repository. 
-- [Photoshop v8.0](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize photos and to create the Dutch and United Kingdom flag.
+- [Github](https://github.com/Eburonia/japanese-restaurant-shibuya) - The project code has been stored on the Github website.
+- [GitPod](https://www.gitpod.io/) - GitPod was used for creating the code, testing of the website, commiting, and pushing the code to the github repository. 
+- [Photoshop v8.0](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize images and to create the Dutch and United Kingdom language flags you can find in the header.
 - [Adobe XD](https://www.adobe.com/products/xd.html) - Adobe XD was used to create the website's Wireframes. See the Wireframes section above for the endresult.
-- [JPEG Optimizer](http://jpeg-optimizer.com/) - JPEG Optimizer website used to compress image size in order to speed up loading time when loading the website/webpage.
-
+- [JPEG Optimizer](http://jpeg-optimizer.com/) - JPEG Optimizer website was used to compress image size in order to speed up loading time when loading the website/webpage.
 
 
 <!-- Testing -->
