@@ -50,13 +50,24 @@ This website could also be valuable for restaurant owners who already own a pers
 [Credits](#credits)
 
 
-<!-- User Experience -->
+<!-- User Experience (UX) -->
 <a name="UX"></a>
 ## User Experience (UX)
 
 ### User Stories
 
 #### Potential Restaurant Guest - First Time Visitor Goals
+1. As a first-time visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it did not meet my expectation.
+2. As a first-time visitor of the website, I want to know more about the restaurant's atmosphere.
+3. As a first-time visitor of the website, I want to know what food the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my expectations.
+4. As a first-time visitor of the website, I want to know where the restaurant is located, so that I can decide whether the restaurant is within my desired traveling distance.
+5. As a first-time visitor of the website, I want to know what previous guests have to say about the restaurant, so that I have an idea of what to expect when visiting the restaurant.
+6. As a first-time visitor of the website, I want to know whether it is needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
+7. As a first-time visitor of the website, I want to know on what day and at what time it is possible to visit the restaurant, so that I know when to make a reservation in case I want to visit the restaurant in the future.
+8. As a first-time visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
+9. As a first-time visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
+
+
 1. As a First Time Visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it did not meet my expectation.
 2. As a First Time Visitor of the website,  I want to know more about the restaurant's atmosphere.
 3. As a First Time Visitor of the website, I want to know what the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my expectations.
