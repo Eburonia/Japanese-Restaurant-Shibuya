@@ -56,7 +56,7 @@ This website could also be valuable for restaurant owners who already own a pers
 
 ### User Stories
 
-#### Potential Restaurant Guest - First Time Visitor Goals
+#### Potential Restaurant Guest - First-time Visitor Goals
 1. As a first-time visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it did not meet my expectation.
 2. As a first-time visitor of the website, I want to know more about the restaurant's atmosphere.
 3. As a first-time visitor of the website, I want to know what food the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my expectations.
@@ -67,41 +67,28 @@ This website could also be valuable for restaurant owners who already own a pers
 8. As a first-time visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
 9. As a first-time visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
 
-
-1. As a First Time Visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it did not meet my expectation.
-2. As a First Time Visitor of the website,  I want to know more about the restaurant's atmosphere.
-3. As a First Time Visitor of the website, I want to know what the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my expectations.
-4. As a First Time Visitor of the website, I want to know where the restaurant is located, so that I can decide whether the restaurant is within my desired traveling distance.
-5. As a First Time Visitor of the website, I want to know what previous guests have to say about the restaurant, so that I have an idea of what to expect when visiting the restaurant.
-6. As a First Time Visitor of the website, I want to know whether it is needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
-7. As a First Time Visitor of the website,  I want to know on what day and at what time it is possible to visit the restaurant, so that I know when to make a reservation in case I want to visit the restaurant in the future.
-8. As a First Time Visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
-9. As a First Time Visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
-
-
 #### Returning Restaurant Guest - Returning Visitor Goals
-1. As a Returning Visitor of the website, I want to know whether there are new items added to the menu in the recent weeks or months, so that I can decide whether I might order them next time when visiting the restaurant.
-2. As a Returning Visitor of the website, I want to know whether there is any important news or announcement about the restaurant without having to check the website regularly.
+1. As a returning visitor of the website, I want to know whether there are new items added to the menu in the recent weeks or months, so that I can decide whether I might order them next time when I visit the restaurant.
+2. As a returning visitor of the website, I want to know whether there is any important news or announcement about the restaurant without having to check the website regularly.
 
 
 ### Design
 
-
 #### Colour Scheme
-- Colours used on the website meet the colours of the background hero image. Four types are used for styling the html elements:
-   * Black: rgba(0, 0, 0, 0.9) - used for sections background.
-   * Orange type: rgb(223, 152, 96) - used for restaurant logo, h2 and h3 headers, section and image borders, and textboxes.
-   * Smokewhite: rgb(245, 245, 245) - used in footer, navbar, for paragraphs, menu items, and form labels.
-   * Turqoise type: rgb(28, 97, 65) - used as background colour in call to actions buttons, and audio player.
-- The sections of the website have a black transparent colour. This to keep the hero image in the background visible.
-
+- To not get distracted too much, the used colours on the website meet the colours of the background hero image. Three types are used for styling the html elements:
+   * Black: rgba(0, 0, 0, 0.95) - used in headers, footers, and sections background.
+   * Cream colour type: rgb(195, 161, 104) - used in restaurant logo, h2 and h3 headers, sections, image borders, buttons, and textboxes.
+   * Smokewhite: rgb(245, 245, 245) - used in header, footer, navbar, paragraphs, menu items, and form labels.
+- The sections of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
+- For emphasizing purposes a red colour is used for new menu items and important messages like required text fields on a form.
 
 #### Typography
-- [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin#about) is the only font used throughout the website. Sans Serif is set as fallback font type.  
+- [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin#about) is the only font used throughout the website. Sans Serif is set as a fallback font type. Libre Franklin is a well-readable font. 
 This font is based on the 1912 Morris Fuller Benton classic and was designed by Pablo Impallari, an Argentinian type designer based in Rosario.
 
 #### Imagery
-- A background image (hero) has been added to every page which shows the interior of the restaurant, giving the visitor a good idea about the atmosphere and of how the restaurant looks from the inside.  
+- A background image (hero) has been added to every page showing the restaurant's interior, giving the visitor an idea about the restaurant's atmosphere.
+- Potential customers need to have an idea how some of the menu items might look like in reality. For that reason, every menu category has an image belonging to that category added including an example dish.  
 
 #### Wireframes
 
