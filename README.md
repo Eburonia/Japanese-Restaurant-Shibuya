@@ -184,10 +184,13 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 
 #### Common
 - Check ARIA labels.
-- Check alt text.
-- Check transparency of sections.
-- If possible, reduce image file sizing to speed up the loading time of the images.
+- Check alternative 'alt' text.
+- Check transparency of header, footer, and sections/divisions.
+- Reduce image file size to speed up the loading time of the images.
 - Check the spelling of pages (English and Dutch version of pages).
+
+#### Hero Image
+- Check if there is any strange behavior of the hero image on different devices.
 
 #### Header
 - Check whether the header is always on top of the page.
@@ -208,7 +211,7 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 
 #### Index Page
 - Check for dead links.
-- Check whether the mailing list is functioning.
+- Check whether required field in the mailing list is functioning.
 - Check the responsiveness of the sections when changing the size of the viewport.
 - Check transparency of the background in the sections.
 - Check Functionality of location image.
@@ -229,8 +232,33 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 
 ### Testing Code
 The following online validators were used to check whether every page of the project gave any syntax errors:
-- [W3C Markup Validator](https://validator.w3.org/) <span style="color:red">Result</span>.
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) <span style="color:red">Result</span>.
+
+#### W3C Markup Validator
+
+W3C Markup Validator Results of English Language Pages:
+* [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Findex.html)
+* [menu.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fmenu.html)
+* [reservations.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Freservations.html)
+* [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fcontact.html)
+
+W3C Markup Validator Results of Dutch Language Pages:
+* [index-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Findex-nl.html)
+* [menu-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fmenu-nl.html)
+* [reservations-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Freservations-nl.html)
+* [contact-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fcontact-nl.html)
+
+
+#### W3C CSS Validator
+
+W3C CSS Validator Results of Style Sheets:
+* [contact.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Fcontact.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [footer.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Ffooter.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [header.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Fheader.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [index.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Findex.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [menu.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Fmenu.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [reservations.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Freservations.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ### Testing Grammar and Spelling 
 - [Grammarly.com](https://www.grammarly.com/) was used to check grammar and spelling mistakes.
