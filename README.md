@@ -125,18 +125,8 @@ The footer has been located at the bottom of every page and exists out of anchor
 * <b>Social Media Links</b> - Icons presenting social media platforms from the fontawesome.com website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering the links the colour changes from white to cream colour, indicating these are clickable links.
 * <b>Copyright Notice</b> - A clear copyright notice is visible at the bottom of the footer.
 
-### Links
-Only the index page has clickable links outside the header and footer.
-* <b>Index Page</b> - Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are styled the same way as real buttons used on the website. The anchor links in the 'About' section are styled by a bold cream colour to distinguish themselves from the remaining text. By hovering the links an underline will appear, making it clear to visitors these are clickable links. 
-
-### Buttons
-Buttons can be found on the index, reservations, and contact page and are all styled the same way: cream colour border and text with a black background. When hovering the buttons also the background colour changes to a cream type of colour, making it clear to visitors it's a clickable button.
-
 ### Sections
-* <b>Sections</b> - The website has one or multiple sections, depending on which page you are on. These sections are recognized by a black transparent box surrounded by an orange border including a border radius. All sections start with an orange header title with a fontawesome.com icon at the end.
-
-### Paragraphs
-For consistency, all paragraphs have the same styling.
+The website has one or multiple sections/divisions with content, depending on which page you are on. These sections/divisions are recognized by a black transparent box surrounded by a cream-coloured border including a border-radius. All sections/divisions start with a cream-coloured header h2 with a fontawesome.com icon at the end.
 
 ### Menu Page
 The menu page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes too small, the sections and divisions will be on top of each other (block) to keep it readable.
@@ -144,27 +134,26 @@ The menu page exists out of a combination of sections (menu items) and divisions
 ### Forms
 The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, fields, and header h2 will be smaller in size on smaller devices (smart phones) for readability purposes.
 
-### Responsiveness
-<b>Responsivess</b> - All pages are responsive. Minimum viewport width: 320px.
+### Paragraphs
+For consistency, all paragraphs have the same styling.
 
-### Images
-* <b>Images</b> - All images have been foreseen with 'alt' text.
+### Links
+Only the index page has clickable links outside the header and footer.
+* <b>Index Page</b> - Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are styled the same way as real buttons used on the website. The anchor links in the 'About' section are styled by a bold cream colour to distinguish themselves from the remaining text. By hovering the links an underline will appear, making it clear to visitors these are clickable links. 
+
+### Buttons
+Buttons can be found on the index, reservations, and contact page and are all styled the same way: cream colour border and text with a black background. When hovering the buttons also the background colour changes to a cream type of colour, making it clear to visitors it's a clickable button.
+
+### Responsiveness
+All pages are responsive on all devices. Minimum viewport width: 320px.
+
+### Accessibility
+* All images have been foreseen with an alternative (alt) text in case the image cannot be loaded but also helps screen readers.
+<span color:red>ARIA LABELS</span>
 
 ### Future Features
 * Feedback from previous visitors can be found on the social media pages of the restaurant. To directly implement feedback on the website, a guestbook might be a good idea to incorporate on the website in the future.
 * An older version of bootstrap has been implemented for the navigation bar only. Update to the latest version in the future.
-
-
-
-* <b></b>
-* <b></b>
-* <b></b>
-
-
-
-
-
-
 
 <!-- Technologies Used -->
 <a name="technologies"></a>
