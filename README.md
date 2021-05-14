@@ -13,7 +13,7 @@
 
 </ul>
 
-<h1>Japanese Restaurant Shibuya - Example Website</h1>
+<h1>Japanese Restaurant Shibuya</h1>
 
 <!-- Responsive Image -->
 <img src="assets/readme-images/responsive.png" alt="Responsive Design of Website">
@@ -26,11 +26,10 @@ View the GitHub Repository [here](https://github.com/Eburonia/japanese-restauran
 
 <!-- About -->
 ## About
-
-This Japanese Restaurant website is created as an example for restaurant owners without a webpage and shows how a restaurant website might look like in case their business is not active on the internet.
-Information about the restaurant you can find on the index (home) page. A stylish menu page is included to give potential customers an idea of what the restaurant has to offer.
-Additionally, a reservation and contact page was added to show the usefulness of the website to potential clients.
-Because the example website is located in the Netherlands, customers can even select the website's preferred language (English or Dutch). The website is responsive on all devices with a minimum screen width of 320 pixels.  
+These days there are still restaurant owners who are not active on the internet by owning a website or being active on social media.
+By creating this example 'Japanese Restaurant Shibuya' website, we will show the importance of being active on the internet to these restaurant owners.
+We will give them an idea how a typical restaurant website will look like and we will show what the added value for them is.
+This website could also be valuable for restaurant owners who already own a personal restaurant website, but are looking for inspiration or new ideas.
   
 
 <!-- Table of Contents -->
