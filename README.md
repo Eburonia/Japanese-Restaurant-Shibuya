@@ -92,11 +92,19 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 
 #### Wireframes
 
+Wireframes belonging to the website's project have been made in Adobe XD. PDF files of them can be found here:
 - Wireframes for Index Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-index.pdf)
 - Wireframes for Menu Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-menu.pdf)
 - Wireframes for Reservations Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-reservations.pdf)
 - Wireframes for Contact Us Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-contact.pdf)
 
+All wireframes are designed for three different devices:
+- Desktop - Web: maximum pixels 1920px
+- iPad - Nexus 9: maximum pixels 768px
+- iPhone 12 Pro Max: maximum pixels 428px
+
+#### Mockups
+- The intention was to also create mockups for the website project. Due to the limited available time of the web developer, it has been skipped. Nevertheless, it is important to also invest time in creating mockups for future projects. Lesson learned by the project creator.
 
 
 <!-- Features -->
