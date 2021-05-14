@@ -356,7 +356,6 @@ You can clone the repository by following the next procedure:
 ### Downloading
 
 You can download the repository by following the next procedure:
-
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
 3. Click on the 'Code' button next to the Green 'GitPod' button and then click on 'Download ZIP'.
@@ -368,20 +367,26 @@ You can download the repository by following the next procedure:
 ## Credits
 
 ### Code
-- All code was written by the website creator: Maurice Vossen
-- Colours were selected by using Photoshop v8.0
-- Understanding float and clear CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I)
-- Understanding display: flex CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- All html and CSS code was written by the website creator: Maurice Vossen.
+- Colours were selected by using Photoshop v8.0.
+- Understanding 'float' and 'clear' CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I).
+- Understanding 'display: flex' CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+- W3Schools example code for creating a Bootstrap navigation bar in the header. [link](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
 
 ### Content
-- The following README files were used as inspiration for creating this README file:
-   * Boredom Guide [README](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md) file
-   * Code Institute Website[README](https://github.com/Code-Institute-Solutions/SampleREADME) file
-   * Code Institute Love Running [README](https://github.com/Code-Institute-Solutions/readme-template) file
-- Inspiration for Restaurant's about section
+
+#### README file
+- The following README files were used as inspiration for creating the README file of the project:
+   * Boredom Guide [link](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md) file
+   * Code Institute Website[link](https://github.com/Code-Institute-Solutions/SampleREADME) file
+   * Code Institute Love Running [link](https://github.com/Code-Institute-Solutions/readme-template) file
+
+#### About Section
+- Inspiration for Restaurant's 'About' section:
    * Partly copied and adjusted from: [Japanese Restaurant Kobe Maastricht](https://www.restaurantkobe.com/)
    * Partly copied and adjusted from a New York based Japanese restaurant, can't find the link to the website anymore.
 
+#### Menu Page
 - Inspiration for the menu page:
    * Example Japanese menu [link](https://i.pinimg.com/originals/d3/2e/f4/d32ef41a9a546250ab54f856e1f71b6f.jpg)
    * The 8 Most Popular Types of Fish Served as Sashimi [link](https://rbsushi.com/blog/8-most-popular-types-of-fish-served-as-sashimi/)
@@ -393,7 +398,7 @@ You can download the repository by following the next procedure:
 ### Media
 
 #### Images
-- All pictures shown are for illustration purposes only and are not owned by the web developer, all copyrights and credit go to the respective owner
+- All pictures shown are for illustration purposes only and are not owned by the web developer, all copyrights and credit go to the respective owner.
 - The free to use background hero image is coming from [Unsplash.com](https://unsplash.com/@dineshramaswamy)
 - For the menu page, the following images were taken from the [pixabay](https://www.pixabay.com/) website:
    * Sushi image [link](https://pixabay.com/photos/sushi-food-japan-2363418/)
@@ -401,11 +406,11 @@ You can download the repository by following the next procedure:
    * Okinawa Soba [link](https://pixabay.com/photos/okinawa-soba-okinawa-1697765/)
    * Takoyaki [link](https://pixabay.com/photos/food-takoyaki-ball-1614130/)
    * Highball Whiskey [link](https://pixabay.com/photos/whiskey-highball-nanning-654449/)   
-- The Dutch and United Kingdom flag used for selecting the website language were created by the website developer
+- The Dutch and United Kingdom flag used for selecting the website language were created by the website developer himself.
 
 #### Audio
-- The audio player's Jazz Loop mp3 file is a copyright free audio file coming from Youtube / Soundclound: [Ryan - Milk Coffee [No Copyright Music]](https://www.youtube.com/watch?v=eSOV2Zo_J1A)  
+- The audio player's Jazz Loop mp3 file is a copyright free audio file coming from Youtube/Soundclound: [Ryan - Milk Coffee [No Copyright Music]](https://www.youtube.com/watch?v=eSOV2Zo_J1A)  
 
 ### Acknowledgements
-- Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback.
-- The many free coding forums on the internet for providing answers to my coding questions.
+- Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback to this project.
+- The many free coding forums on the internet, especially [Stackoverflow.com](https://www.stackoverflow.com/) for providing answers to my coding questions.
