@@ -57,12 +57,12 @@ This website could also be valuable for restaurant owners who already own a pers
 ### User Stories
 
 #### Potential Restaurant Guest - First-time Visitor Goals
-1. As a first-time visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it did not meet my expectation.
+1. As a first-time visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it does not meet my expectation.
 2. As a first-time visitor of the website, I want to know more about the restaurant's atmosphere.
-3. As a first-time visitor of the website, I want to know what food the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my expectations.
+3. As a first-time visitor of the website, I want to know what food the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my needs and expectations.
 4. As a first-time visitor of the website, I want to know where the restaurant is located, so that I can decide whether the restaurant is within my desired traveling distance.
 5. As a first-time visitor of the website, I want to know what previous guests have to say about the restaurant, so that I have an idea of what to expect when visiting the restaurant.
-6. As a first-time visitor of the website, I want to know whether it is needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
+6. As a first-time visitor of the website, I want to know whether it is possible and needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
 7. As a first-time visitor of the website, I want to know on what day and at what time it is possible to visit the restaurant, so that I know when to make a reservation in case I want to visit the restaurant in the future.
 8. As a first-time visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
 9. As a first-time visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
@@ -266,51 +266,50 @@ W3C CSS Validator Results of Style Sheets:
 
 ### Testing User Stories from User Experience (UX) Section
 
-#### Potential Restaurant Guest - First Time Visitor Goals
-1. As a First Time Visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it did not meet my expectation.
-* At the upper left corner in the website's header, the website's company logo 'Japanese Restaurant Shibuya' immediately tells new visitors that they have ended up on a Japanese Restaurant website.
-* To make it even more clear, a background (hero) image of the restaurant has been added to every page, telling first time visitors they probably have ended up on a restaurant website.
-* A navigation bar in the header at the top of every page, including links to a 'Menu' and 'Reservation' page also suggest the website is probably about a restaurant.
-* To make the purpose of the website fully clear, a 'Welcome' section on the 'Home' page has been added, stating that visitors have ended up on a Japanese Restaurant website. Also, the 'About Section' below the 'Welcome Section' tells more about what the purpose of the website is.
+#### Potential Restaurant Guest - First-time Visitor Goals
+1. As a first-time visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it does not meet my expectation.
+   * At the upper left corner in the website's header, the website's company logo 'Japanese Restaurant Shibuya' immediately tells new visitors that they have ended up on a Japanese Restaurant website.
+   * To make it even more clear, a background (hero) image of the restaurant has been added to every page, telling first time visitors they probably have ended up on a restaurant website.
+   * A navigation bar in the header at the top of every page, including links to a 'Menu' and 'Reservation' page also suggest the website is probably about a restaurant.
+   * To make the purpose of the website fully clear, a 'Welcome' section on the 'Index' page has been added, stating that visitors have ended up on a Japanese Restaurant website. Also, the 'About Section' below the 'Welcome Section' tells more about what the purpose of the website is, which of course is an introduction to the restaurant.
 
-2. As a First Time Visitor of the website,  I want to know more about the restaurant's atmosphere.
-* A clear background (hero) image of the restaurant has been added to every page, so that visitors of the website immediately know how the interior of the restaurant looks like. 
+2. As a first-time visitor of the website, I want to know more about the restaurant's atmosphere.
+   * A clear background (hero) image of the restaurant has been added to every page, so that visitors of the website immediately know how the interior of the restaurant looks like. 
 
-3. As a First Time Visitor of the website, I want to know what the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my expectations.
-* In the navigation bar, a link to the 'Menu' page has been added. Also in the 'Welcome Section' on the starting page, a call to action button has been added to directly send potential guests to the 'Menu' page.
-* On the 'Menu' page, the menu has been subdivided into Categories listing menu items including their price. To make it clear what guests can expect when ordering some of the menu items, images of these menu items have been added to the menu.
+3. As a first-time visitor of the website, I want to know what food the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my needs and expectations.
+   * In the navigation bar, a link to the 'Menu' page has been added. Also in the 'Welcome' section on the index page, a styled anchor link (looks like a button) has been added to directly send potential guests to the 'Menu' page.
+   * On the 'Menu' page, the menu has been subdivided into categories listing menu items including their prices. To make it clear what guests can expect when ordering some of the menu items, images of these menu items have been added to the menu.
 
-4. As a First Time Visitor of the website, I want to know where the restaurant is located, so that I can decide whether the restaurant is within my desired traveling distance.
-* In the navigation bar, a link to the 'Menu' page has been added. Also in the 'Welcome Section' on the starting page, a call to action button has been added to directly send potential guests to the 'Menu' page.
-* On the 'Menu' page, the menu has been subdivided into Categories listing menu items including their price. To make it clear what guests can expect when ordering some of the menu items, images of these menu items have been added to the menu.
+4. As a first-time visitor of the website, I want to know where the restaurant is located, so that I can decide whether the restaurant is within my desired traveling distance.
+   * On the index page in the 'About' section, it is indicated that the restaurant is located in the city of Maastricht. The 'Find Us' section on the index page, clearly states the restaurant's address. Also, a 'Google Maps' image of the location of the restaurant has been added to the index page.
 
-5. As a First Time Visitor of the website, I want to know what previous guests have to say about the restaurant, so that I have an idea of what to expect when visiting the restaurant.
-* In the website's footer, external links to the restaurant's social media channels have been added. Here previous and returning guests of the restaurant make comments and discuss with other people how they have experienced their visit to the restaurant.
-* Not implemented on the website for now, but an online guestbook on the website would also be a good idea to get feedback from previous guests.
+5. As a first-time visitor of the website, I want to know what previous guests have to say about the restaurant, so that I have an idea of what to expect when visiting the restaurant.
+   * In the website's footer, external links to the restaurant's social media channels have been added. Here previous and returning guests of the restaurant make comments and discuss with other people how they have experienced their visit to the restaurant.
+   * Not implemented on the website for now, but an online guestbook on the website would also be a good idea to get feedback from previous guests.
 
-6. As a First Time Visitor of the website, I want to know whether it is needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
-* In the navigation bar, a link to the 'Reservation' page has been added.
-* In the 'About our Restaurant' Section, a call to action button has been added which will send you to the 'Reservation' page.
-* On the 'Reservation' page a clear form has been added with all the needed information to make a reservation at the restaurant.
+6. As a first-time visitor of the website, I want to know whether it is possible and needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
+   * In the navigation bar, a link to the 'Reservation' page has been added.
+   * In the 'About' section of the index page, a styled anchor link (looks like a button) has been added to directly send potential guests to the 'Reservations' page.
+   * On the 'Reservation' page a clear form has been added with all the needed information to make a reservation at the restaurant.
 
-7. As a First Time Visitor of the website,  I want to know on what day and at what time it is possible to visit the restaurant, so that I know when to make a reservation in case I want to visit the restaurant in the future.
-* On the 'Home' page of the restaurant, an 'Opening Hours' section has been added which indicates on what day and between what times the restaurant is opened.
-* On the Reservation form on the 'Reservation' page, a pulldown menu where you can select your desired date and a pulldown menu where you can select a limited time when you can make a reservation have been added.
+7. As a first-time visitor of the website, I want to know on what day and at what time it is possible to visit the restaurant, so that I know when to make a reservation in case I want to visit the restaurant in the future.
+   * On the index page of the restaurant, an 'Opening Hours' section has been added which indicates on what day and between what times the restaurant is opened.
+   * On the Reservation form on the 'Reservation' page, a pulldown menu where you can select your desired date and a pulldown menu where you can select a limited time when you can make a reservation have been added.
 
-8. As a First Time Visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
-* In the navbar, a link to the 'Contact' page has been added. On this page, a form has been added where you can include a message in case you want to ask a question or you want additional information about the restaurant.
-* The 'Where to Find us' section on the 'Home' page, also states the website's e-mail address.
+8. As a first-time visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
+   * On the index page of the website, a 'Payment Methods' section has been added. It clearly states cash is accepted (Euro only). It also indicates icons of accepted credit cards and even a bitcoin cash icon has been added. 
 
-9. As a First Time Visitor of the website, I want to know what the methods of payments are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
-* On the website 'Home' page a 'Payments Method' section has been added. Next to paying with cash, it also indicates what credit cards are accepted by utilizing small images of the accepted credit cards including their logos. The remaining accepted payment method is bitcoin cash which is also indicated with a small image.
+9. As a first-time visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
+   * In the navbar, a link to the 'Contact' page has been added. On this page, a form has been added where you can include a message in case you want to ask a question or you want additional information about the restaurant.
+   * The 'Find us' section on the index page, also states the website's e-mail address and a telephone number.
 
 #### Returning Restaurant Guest - Returning Visitor Goals
-1. As a Returning Visitor of the website, I want to know whether there are new items added to the menu in the recent weeks or months, so that I can decide whether I might order them next time when visiting the restaurant.
-* On the menu, it is indicated which menu items are added by adding next to the menu item's description 'new' with a red colour.
-* Also on the menu, it is clearly stated when the menu was updated the last time.
+1. As a returning visitor of the website, I want to know whether there are new items added to the menu in the recent weeks or months, so that I can decide whether I might order them next time when I visit the restaurant.
+   * On the menu, it is indicated which new menu items are added by adding next to the menu item's description 'new' with a red colour.
+   * Also at the bottom of the menu, it is clearly stated when the menu was updated for the last time.
 
-2. As a Returning Visitor of the website, I want to know whether there is any important news or announcement about the restaurant without having to check the website regularly.
-* On the 'Home' page a 'Mailing List' section has been added. Here interested visitors can add their e-mail address, so that they will receive the latest news and announcements about the restaurant in their e-mail box.
+2. As a returning visitor of the website, I want to know whether there is any important news or announcement about the restaurant without having to check the website regularly.
+   * On the index page a 'Mailing List' section has been added. Here interested visitors can add their e-mail address, so that they will receive the latest news and announcements about the restaurant in their e-mail box.
 
 ### Further Testing
 ...
