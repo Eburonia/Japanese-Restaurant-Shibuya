@@ -51,7 +51,7 @@ This website could also be valuable for restaurant owners who already own a pers
 
 
 <!-- User Experience (UX) -->
-<a name="UX"></a>
+<a id="UX"></a>
 ## User Experience (UX)
 
 ### User Stories
@@ -108,7 +108,7 @@ All wireframes are designed for three different devices:
 
 
 <!-- Features -->
-<a name="features"></a>
+<a id="features"></a>
 ## Features
 
 ### Header
@@ -156,7 +156,7 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 * An older version of bootstrap has been implemented for the navigation bar only. Update to the latest version in the future.
 
 <!-- Technologies Used -->
-<a name="technologies"></a>
+<a id="technologies"></a>
 ## Technologies Used
 
 ### Languages Used
@@ -177,7 +177,7 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 
 
 <!-- Testing -->
-<a name="testing"></a>
+<a id="testing"></a>
 ## Testing
 
 ### Functionality Checklist
@@ -315,29 +315,28 @@ W3C CSS Validator Results of Style Sheets:
 ...
 
 <!-- Known Bugs -->
-<a name="bugs"></a>
+<a id="bugs"></a>
 ## Known Bugs
 - Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size.
 - Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar is loaded.
 
 <!-- Deployment -->
-<a name="deployment"></a>
+<a id="deployment"></a>
 ## Deployment
 
 ### Publishing
-GitHub Pages was used for publishing the website. The procedure was as follows:
+'GitHub Pages' was used for publishing the website. The procedure was as follows:
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
-3. You can find a ribbon on the top of your screen, click on 'Settings'.
+3. You can find a ribbon on the top of your screen. In the ribbon, click on 'Settings'.
 4. In the selection menu on the left side of your screen, click on 'Pages'.
-5. Under 'Source' you will find a small pull-down menu. Click on it and select 'main' and then press the 'Save' button.
-6. You will automatically get redirected to the 'GitHub Pages' page. There will be a blue box telling the site will be published.
-7. Refresh the page and when this box turns green, the website has been published.
-8. Click the link in the green box to check the website.
+5. Beneath 'Source' you will find a small pull-down menu. Click on it and select 'main', then press the 'Save' button.
+6. You will get automatically redirected to the 'GitHub Pages' page. There you will see a blue text box telling the site will be published.
+7. Refresh the page and when this text box turns green, the website has been published.
+8. Click the link in the green text box to go to your website.
 
 ### Forking
 If you want to make a copy of the repository you can Fork it without changing the original repository by following the next procedure:
-
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
 3. On the right side of your screen, next to the 'Unwatch' pull-down menu, and the 'Star' button, you can find the 'Fork' button.
@@ -346,11 +345,10 @@ If you want to make a copy of the repository you can Fork it without changing th
 ### Cloning
 
 You can clone the repository by following the next procedure:
-
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
 3. Click on the 'Code' button next to the Green 'GitPod' button.
-4. Click on 'HTTPS' and copy the hyperlink: https://github.com/Eburonia/Test-project.git below it.
+4. Click on 'HTTPS' and copy the hyperlinkbelow it: https://github.com/Eburonia/Test-project.git.
 5. Go to the repository where you want to make a clone of the website. Or create a new repository.
 6. When in this repository, select the folder or create a folder where you want to copy the cloned directory.
 7. Go to the terminal and type: 'Git Clone https://github.com/Eburonia/Test-project.git' and press enter. The directory has been cloned now.
@@ -366,7 +364,7 @@ You can download the repository by following the next procedure:
 
 
 <!-- Credits -->
-<a name="credits"></a>
+<a id="credits"></a>
 ## Credits
 
 ### Code
