@@ -132,35 +132,27 @@ Only the index page has clickable links outside the header and footer.
 ### Buttons
 Buttons can be found on the index, reservations, and contact page and are all styled the same way: cream colour border and text with a black background. When hovering the buttons also the background colour changes to a cream type of colour, making it clear to visitors it's a clickable button.
 
-### Accessibility
-* ARIA LABELS
-
-### Buttons
-
-
-### ARIA labels
-* <b>...</b> - 
-
 ### Sections
-
 * <b>Sections</b> - The website has one or multiple sections, depending on which page you are on. These sections are recognized by a black transparent box surrounded by an orange border including a border radius. All sections start with an orange header title with a fontawesome.com icon at the end.
-* <b>Paragraphs</b> - For consistency, all paragraphs in the sections have the same styling on every page.
 
-### Buttons
+### Paragraphs
+For consistency, all paragraphs have the same styling.
 
-* <b>Buttons</b> - For consistency, all buttons are styled the same on every page. When you hover a button, the background colour of the button will change into a darker colour.
+### Menu Page
+The menu page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes too small, the sections and divisions will be on top of each other (block) to keep it readable.
+
+### Forms
+The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, fields, and header h2 will be smaller in size on smaller devices (smart phones) for readability purposes.
 
 ### Responsiveness
-<b>Responsivess</b> - All pages are Responsive. Minimum viewport width: 320px.
-
+<b>Responsivess</b> - All pages are responsive. Minimum viewport width: 320px.
 
 ### Images
 * <b>Images</b> - All images have been foreseen with 'alt' text.
 
-
 ### Future Features
-* Feedback from previous visitors can be found on the social media pages of the restaurant. To directly implement feedback on the website, a guestbook might be a good idea to incorporate on the website. 
-* An older version of bootstrap has been implemented, update to the latest version.
+* Feedback from previous visitors can be found on the social media pages of the restaurant. To directly implement feedback on the website, a guestbook might be a good idea to incorporate on the website in the future.
+* An older version of bootstrap has been implemented for the navigation bar only. Update to the latest version in the future.
 
 
 
