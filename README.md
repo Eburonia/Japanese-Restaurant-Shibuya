@@ -15,10 +15,13 @@
 
 <h1>Japanese Restaurant Shibuya - Example Website</h1>
 
-<!-- Mock up here-->
+<!-- Responsive Image -->
+<img src="assets/readme-images/responsive.png" alt="Responsive Design of Website">
 
-<!-- check link -->
-[View the live project here.](#) <span style="color:red;">CHECK</span>
+
+<!-- Links -->
+View the live project [here](https://eburonia.github.io/japanese-restaurant-shibuya/)<br>
+View the GitHub Repository [here](https://github.com/Eburonia/japanese-restaurant-shibuya)
 
 
 <!-- About -->
