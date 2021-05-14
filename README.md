@@ -112,19 +112,31 @@ All wireframes are designed for three different devices:
 ## Features
 
 ### Header
-
-* <b>Header</b> - The header is located at the top of every page and exists out of the restaurant logo, navigation bar, and the preferred website language using clickable language flags 'English or Dutch' and is automatically loaded on every page.
-* <b>Restaurant Logo</b> - The restaurant logo on the upper left side indicates the website is about a Japanese restaurant named Shibuya and is a clickable anchor element always linking to the website's index page.
-* <b>The Navigation Bar</b> - The navigation bar is part of the header to let the visitor intuitively find it.
-The Bootstrap CSS wireframe is used for creating the navigation bar. The current page the visitor is on is indicated by underlining the page in the navigation bar. Hovering the remaining links in the navigation bar will change the colour of the link from a white colour to an orange colour, telling the visitor that it is clickable. The navigation bar will collapse in a hamburger-styled menu when viewed on smaller devices like a smartphone.
-* <b>Header Background Colour</b> - A black transparent background colour has been chosen to keep the hero image in the background partly visible. An orange colour has been used on the bottom border of the header to indicate where the header stops and the main content starts.
-* <b>Language Flags</b> - Visitors can select the preferred language of the website in the header by clicking one of the two available language flags English or Dutch. By hovering over the flags, a tooltip will show up telling which language the flag image presents.
-* <b>Background Audio</b> - Directly below the header on the right side, a small audio player is introduced including a Jazz song. The audio will not automatically play to not disturb the visitors when entering the website. By pressing the play button, the audio player will be looping the audio file. Together with the hero background image, it presents the restaurant's atmosphere.
+The header is located at the top of every page and exists out of the restaurant logo, navigation bar, and the preferred website language using clickable language flags 'English or Dutch' will be automatically loaded on every page.
+* <b>Restaurant Logo</b> - The restaurant logo on the upper left side indicates the website is about a Japanese Restaurant named Shibuya and is a clickable anchor element always linking to the website's index page.
+* <b>The Navigation Bar</b> - The navigation bar is part of the header and will be intuitively found by the visitor. A cream coloured stripe above a navbar item makes it clear to visitors on which active page they are on at the moment. The navbar will automatically change to a 'hamburger' type navbar at smaller devices (smart-phones). Hovering the navbar items will change the colour making it clear to visitors it's clickable.
+* <b>Background Colour</b> - A black transparent background colour has been chosen for the header to keep the hero image in the background partly visible.
+* <b>Language Flags</b> - Visitors can select the preferred language of the website in the header by clicking on one of the two available language flags 'English' or 'Dutch'. The website will be automatically loaded in the English language when landing on the homepage. By hovering over the flags, a tooltip will show up telling which language the flag presents.
+* <b>Background Audio</b> - On the bottom right side, directly below the header, a small audio player is introduced. A Jazz styled audio file has been added and to not disturb the visitors when entering the website, you need to push the play button first to start the audio playing in the background. The audio file loops until you press the pause button.
 
 ### Footer
-* <b>Footer</b> - The footer has been located at the bottom of every page and exists out of links to the restaurant's social media pages, and a copyright notice.
-* <b>Social Media Links</b> - Icons presenting specific social media platforms from the fontawesome.com website are introduced in anchor links to redirect the visitor to the restaurant's external social media pages. By hovering the links the colour changes from white to orange, indicating these are clickable links.
+The footer has been located at the bottom of every page and exists out of anchor links to the restaurant's social media pages, and a copyright notice.
+* <b>Background Colour</b> - A black transparent background colour has been chosen for the footer to keep the hero image in the background partly visible.
+* <b>Social Media Links</b> - Icons presenting social media platforms from the fontawesome.com website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering the links the colour changes from white to cream colour, indicating these are clickable links.
 * <b>Copyright Notice</b> - A clear copyright notice is visible at the bottom of the footer.
+
+### Links
+Only the index page has clickable links outside the header and footer.
+* <b>Index Page</b> - Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are styled the same way as real buttons used on the website. The anchor links in the 'About' section are styled by a bold cream colour to distinguish themselves from the remaining text. By hovering the links an underline will appear, making it clear to visitors these are clickable links. 
+
+### Buttons
+Buttons can be found on the index, reservations, and contact page and are all styled the same way: cream colour border and text with a black background. When hovering the buttons also the background colour changes to a cream type of colour, making it clear to visitors it's a clickable button.
+
+### Accessibility
+* ARIA LABELS
+
+### Buttons
+
 
 ### ARIA labels
 * <b>...</b> - 
