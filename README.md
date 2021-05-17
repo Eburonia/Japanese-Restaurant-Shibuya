@@ -319,6 +319,7 @@ W3C CSS Validator Results of Style Sheets:
 ## Known Bugs
 - Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size.
 - Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar is loaded.
+- Styling of audio player gives bad styling quality in Microsoft Explorer and Google Chrome.
 
 <!-- Deployment -->
 <a id="deployment"></a>
