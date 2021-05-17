@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+
+    <!-- Credit: Navigation bar created by using bootstrap: https://www.getbootstrap.com/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <title>Japanese Restaurant Shibuya | Menu-Dutch</title>
+
+    <!-- Credit: social media icons imported from fontawesome: https://www.fontawesome.com/ -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous" />
+
+</head>
+
+
+<body>
+    
+<!-- header -->
+<header>
+
+    <!-- restaurant logo -->
+    <div id="header-logo-div">
+            
+        <div id="logo-div">
+
+            <a href="index-nl.html" title="Terug naar de Thuispagina">
+                <span id="logo-text-top">JAPANESE RESTAURANT</span><br>
+                <span id="logo-text-bottom">SHIBUYA</span>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- language selection (flags) -->
+    <div id="header-flags-div">
+
+        <!-- Language flags .png files created by website creator, see also README.md file -->
+        <div class="flag-div"><a href="menu.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
+        <div class="flag-div"><a href="menu-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse">
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+        
+                <ul class="nav navbar-nav">
+                    <li><a id="index-anchor" href="index-nl.html">HOME</a></li>
+                    <li><a id="active" href="menu-nl.html">MENU</a></li>
+                    <li><a id="reservations-anchor" href="reservations-nl.html">RESERVEREN</a></li>
+                    <li><a id="contact-anchor" href="contact-nl.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav> 
+
+</header>
+
+
+<!-- background audio -->
+<div id="audio-div">
+
+        <audio src="assets/audio/background-audio.mp3" controls loop>
+        
+            <span>Your browser doesn't support HTML5 audio:</span>
+
+            <!-- Credit: Audio coming from Youtube / Soundclound: Ryan - Milk Coffee -->
+            <!-- https://www.youtube.com/watch?v=eSOV2Zo_J1A -->
+            <!-- Free to use audio -->
+
+            <a href="assets/audio/background-audio.mp3">Link to the audio</a>
+        
+        </audio>
+        
+</div>
+
+
+<div id="main-div">
+
+    <div id="menu-outer-div">
+                
+        <h2>Ons Menu <i class="fas fa-utensils "></i></h2>
+
+        <div id="menu-inner-div">
+                    
+            
+            <section id="menu-A" class="menu-text-image">
+               
+            <h3>Sushi</h3>
+
+                <table class="menu-table">
+
+                    <!-- Credit: Sushi menu items: https://i.pinimg.com/originals/d3/2e/f4/d32ef41a9a546250ab54f856e1f71b6f.jpg -->
+              
+                    <tr>
+                        <td class="menu-item-top"><b>Tonijn</b> (Maguro)<br><i class="menu-item-bottom">Verse Tonijn</i></td>
+                        <td class="menu-item-top">€2,80</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Tonijn</b> (Hon Maguro)<br><i class="menu-item-bottom">Blauwvintonijn</i></td>
+                        <td class="menu-item-top">€3,20</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Zalm</b> (Sake)<br><i class="menu-item-bottom">Verse Zalm</i></td>
+                        <td class="menu-item-top">€2,60</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Yellowtail (Geelstaart)</b> (Hamachi)<br><i class="menu-item-bottom">Verse Hon Hamachi</i></td>
+                        <td class="menu-item-top">€2,80</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Escolar (Botorvis)</b> (Bara Matsu) <span class="new-menu-item"> (NEW)</span><br><i class="menu-item-bottom">Met Groene Uitjes & Mosterd Dressing</i></td>
+                        <td class="menu-item-top">€2,85</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Halibut (Heilbot)</b> (Hirame)<br><i class="menu-item-bottom">Met Groene Uitjes & Citroensap</i></td>
+                        <td class="menu-item-top">€2,90</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Makreel</b> (Saba)<br><i class="menu-item-bottom">Met Azijn</i></td>
+                        <td class="menu-item-top">€3,00</td>
+                    </tr>
+
+                    <tr>
+                        <td class="menu-item-top"><b>Scallop (Jakobsschelp)</b> (Kaibashira)<br><i class="menu-item-bottom">Gemixt met Mayonnaise</i></td>
+                        <td class="menu-item-top">€2,85</td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+
+            <div id="menu-B" class="menu-text-image">
+                            
+                <div class="menu-image">
+
+                    <!-- Credit: Sushi Image: https://pixabay.com/photos/sushi-food-japan-2363418/ -->
+                    <figure>
+
+                        <img src="assets/images/menu-image-sushi.jpg" alt="Sushi">
+                        <figcaption>Sushi</figcaption>
+                                    
+                    </figure> 
+
+                </div>
+
+            </div>
+
+
+            <div id="menu-C" class="menu-text-image">
+                            
+                <div class="menu-image">
+
+                    <!-- Credit: Sashimi Image: https://pixabay.com/photos/sashimi-food-seafood-tuna-cuisine-2563650/ -->
+                    <figure>
+
+                        <img src="assets/images/menu-image-sashimi.jpg" alt="Sashimi">
+                        <figcaption>Sashimi</figcaption>
+                                    
+                    </figure> 
+
+                </div>
+
+            </div>
+
+
+            <section id="menu-D" class="menu-text-image">
+                     
+                
+                <h3>Sashimi</h3>    
+
+                <table class="menu-table">
+
+                    
+
+                        <!-- Credit: Sashimi menu items: https://rbsushi.com/blog/8-most-popular-types-of-fish-served-as-sashimi/-->
+                        <!-- Credit: Sashimi menu items: https://gurunavi.com/en/japanfoodie/2016/10/sashimi-in-japan.html?__ngt__=TT11bfdb473003ac1e4ae61dJHkbBnFG9SLeZoHOmkr4Ow-->
+                           
+                        <tr>
+                            <td class="menu-item-top"><b>Zalm</b> (Sake Sashimi)<br><i class="menu-item-bottom">Met Ponzu Saus</i></td>
+                            <td class="menu-item-top">€7,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Haring</b> (Nishin Sashimi)<br><i class="menu-item-bottom">Met Viskruit</i></td>
+                            <td class="menu-item-top">€9,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Inktvis</b> (Ika Sashimi)<br><i class="menu-item-bottom">Met Avocado & Zwarte Knoflook</i></td>
+                            <td class="menu-item-top">€11,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Octopus</b> (Tako Sashimi)<br><i class="menu-item-bottom">Verse Octopus</i></td>
+                            <td class="menu-item-top">€11,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Tonijn</b> (Maguro Sashimi)<br><i class="menu-item-bottom">Met Gember & Knoflook</i></td>
+                            <td class="menu-item-top">€8,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Gestreepte Tonijn</b> (Katsuo Sashimi)<br><i class="menu-item-bottom">Met Ponzu Saus & Knoflook</i></td>
+                            <td class="menu-item-top">€8,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Scallop (Jakobsschelp)</b> (Hotate Sashimi)<br><i class="menu-item-bottom">Met Citroen</i></td>
+                            <td class="menu-item-top">€9,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Garnaal</b> (Ebi Sashimi) <span class="new-menu-item"> (NEW)</span><br><i class="menu-item-bottom">Met Pittige Vis Saus</i></td>
+                            <td class="menu-item-top">€6,50</td>
+                        </tr>
+
+                </table>
+
+            </section>
+
+
+            <section id="menu-E" class="menu-text-image">
+                            
+
+                <h3>Soep & Stoofpot</h3> 
+
+                <table class="menu-table">
+
+                          
+
+                        <!-- Credit: Soups & Stews menu items: https://en.wikipedia.org/wiki/List_of_Japanese_soups_and_stews -->
+                           
+                        <tr>
+                            <td class="menu-item-top"><b>Butajiru/Tonjiru </b>(Varkensvleessoep)<br><i class="menu-item-bottom">Soep gemaakt met Varkensvlees en Groenten</i></td>
+                            <td class="menu-item-top">€6,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Hōtō</b> (Noodelsoep)<br><i class="menu-item-bottom">Gestoofde Platte Udon Noodles & Groenten</i></td>
+                            <td class="menu-item-top">€6,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Kenchin Jiru</b> (Groentensoep)<br><i class="menu-item-bottom">Root Vegetables & Tofu</i></td>
+                            <td class="menu-item-top">€7,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Zōni</b> (Rijstsoep)<br><i class="menu-item-bottom">Rijstkoekjes, Kip & Groenten</i></td>
+                            <td class="menu-item-top">€5,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Tonkotsu Ramen</b> (Varkenssoep)<br><i class="menu-item-bottom">Ramen, Uitjes & Knoflook</i></td>
+                            <td class="menu-item-top">€6,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Okinawa Soba</b> (Noodelsoep)<br><i class="menu-item-bottom">Boekweitnoedels, Zweewier & Varkensvlees</i></td>
+                            <td class="menu-item-top">€7,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Cream Stew</b> (Stoofpot)<br><i class="menu-item-bottom">Kip, Aardappelen & Kool</i></td>
+                            <td class="menu-item-top">€5,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Zōsui</b> (Rijstsoep)<br><i class="menu-item-bottom">Zeevruchten, Paddestoelen & Groenten</i></td>
+                            <td class="menu-item-top">€9,00</td>
+                        </tr>
+
+                </table>
+
+            </section>
+
+
+            <div id="menu-F" class="menu-text-image">
+                            
+                <div class="menu-image">
+
+                    <!-- Credit: Okinawa Soba Image: https://pixabay.com/photos/okinawa-soba-okinawa-1697765/ -->
+                    <!-- Image adjusted in Photoshop to make it fit horizontally -->
+                    <figure>
+
+                        <img src="assets/images/menu-image-okinawasoba.jpg" alt="Okinawa Soba">
+                        <figcaption>Okinawa Soba</figcaption>
+                                    
+                    </figure> 
+
+                </div>
+
+            </div>
+
+
+            <div id="menu-G" class="menu-text-image">
+                            
+                <div class="menu-image">
+
+                    <!-- Credit: Takoyaki Image: https://pixabay.com/photos/food-takoyaki-ball-1614130/ -->
+                    <figure>
+
+                        <img src="assets/images/menu-image-takoyaki.jpg" alt="Takoyaki">
+                        <figcaption>Takoyaki</figcaption>
+                                    
+                    </figure> 
+
+                </div>
+
+            </div>
+
+            <section id="menu-H" class="menu-text-image">
+                      
+                <h3>Grill/Gebraden</h3> 
+
+                <table class="menu-table">
+
+                        <!-- Credit: Grill/Roasted items: https://jpninfo.com/105574 -->
+                      
+                        <tr>
+                            <td class="menu-item-top"><b>Okonomiyaki</b> (Japanse Pannenkoek)<br><i class="menu-item-bottom">Beslag, Kool & Vlees Ingrediënten</i></td>
+                            <td class="menu-item-top">€4,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Monjayaki</b> (Tokio Pannenkoek<br><i class="menu-item-bottom">Beslag, Kool & Vlees Ingrediënten</i></td>
+                            <td class="menu-item-top">€4,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Takoyaki</b> (Octopus Balletjes) <span class="new-menu-item"> (NEW)</span><br><i class="menu-item-bottom">Beslag, vermalen Kool & Octopus</i></td>
+                            <td class="menu-item-top">€8,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Yakisoba</b> (Gefrituurde Soba)<br><i class="menu-item-bottom">Boekweitnoedels, Varkensvlees, Kool & Wortel</i></td>
+                            <td class="menu-item-top">€5,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Yakitori</b> (Gegrilde Kip)<br><i class="menu-item-bottom">Kippenborst (Zoet of Zout)</i></td>
+                            <td class="menu-item-top">€5,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Yakiniku</b> (Gegrilde Rundvlees)<br><i class="menu-item-bottom">Smalle & Dunne plakjes</i></td>
+                            <td class="menu-item-top">€5,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Motoyaki</b> (Gebakken Oester)<br><i class="menu-item-bottom">Oester, Mayonnaise, Uitjes & Paddestoelen</i></td>
+                            <td class="menu-item-top">€12,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Gyoza</b> (Dumplings)<br><i class="menu-item-bottom">Dunne Deeg, Varkensvlees, Kool & Knoflook</i></td>
+                            <td class="menu-item-top">€4,50</td>
+                        </tr>
+
+                </table>
+
+            </section>
+
+
+            <section id="menu-I" class="menu-text-image">
+                        
+                
+                <h3>Dranken</h3> 
+
+                    <table class="menu-table">
+
+                        <!-- Credit: Drinks menu items: https://gurunavi.com/en/japanfoodie/2017/07/10-must-drink-japanese-alcohol.html -->
+
+                        <tr>
+                            <td class="menu-item-top"><b>Kirin</b> (Bier)<br><i class="menu-item-bottom">Pils 5.0% alc.</i></td>
+                            <td class="menu-item-top">€3,50</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Asahi</b> (Bier)<br><i class="menu-item-bottom">Pils 5.5% alc.</i></td>
+                            <td class="menu-item-top">€4,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Oolong Hai</b> (Shochu)<br><i class="menu-item-bottom">8.0% alc. Oolong Thee & Shochu</i></td>
+                            <td class="menu-item-top">€3,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Highball</b> (Whiskey)<br><i class="menu-item-bottom">9.0% alc. Whiskey & Ginger Ale</i></td>
+                            <td class="menu-item-top">€3,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Lemon Sour</b> (Shochu)<br><i class="menu-item-bottom">8.0% alc. Club Soda, Shochu & Citroen</i></td>
+                            <td class="menu-item-top">€3,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Cola</b> (Frisdrank)<br><i class="menu-item-bottom">Pepsi of Coca Cola</i></td>
+                            <td class="menu-item-top">€2,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Sinaasappelsap</b> (Fruitdrank)<br><i class="menu-item-bottom">Vers geperst</i></td>
+                            <td class="menu-item-top">€2,00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="menu-item-top"><b>Water</b> (Mineraal Water)<br><i class="menu-item-bottom">Zonder Bubbles</i></td>
+                            <td class="menu-item-top">€1,80</td>
+                        </tr>
+
+                </table>
+
+            </section>
+
+
+            <div id="menu-J" class="menu-text-image">
+                            
+                <div class="menu-image">
+
+                    <!-- Credit: Highball Whiskey Image: https://pixabay.com/photos/whiskey-highball-nanning-654449/ -->
+                    <figure>
+
+                        <img src="assets/images/menu-image-highball.jpg" alt="Highball Whiskey">
+                        <figcaption>Highball Whiskey</figcaption>
+                                    
+                    </figure> 
+
+                </div>
+
+            </div>
+
+                        
+        </div>
+                        
+        <p id="menu-updated">Menu voor het laatst aangepast:<br>13-04-2021</p>
+        
+    </div>
+    
+</div>
+
+<!-- footer -->
+<footer>
+
+    <div id="footer-div">
+
+        <span>Volg ons op social media</span>
+
+        <ul>
+            <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter socials-link" title="twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target ="_blank"><i class="fab fa-facebook socials-link" title="facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram socials-link" title="instagram"></i></a></li>
+        </ul>
+
+        <p id="copyright">COPYRIGHT © 2021<br id="copyright-breakline"> JAPANESE RESTAURANT SHIBUYA<br>- ALLE RECHTEN VOORBEHOUDEN -</p>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
