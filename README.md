@@ -1,18 +1,4 @@
 
-#### TODO LIST
-<ul style="color: red;">
-
-    - CHECK DOUBLE CODE
-    - MAKE ONE STYLING CLASS FOR ALL SECTIONS
-    - CHECK ALL CREDITS
-    - CHECK ALL LINKS IN README FILE
-    - CHECK SPELLING IN README FILE
-    - ADD ARIA LABELS
-    - CHECK PARAGRAPH SIZES
-    - CHECK ALT TEXT
-
-</ul>
-
 <h1>Japanese Restaurant Shibuya</h1>
 
 <!-- Responsive Image -->
