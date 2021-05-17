@@ -192,7 +192,7 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 #### Hero Image
 - Check if there is any strange behavior of the hero image on different devices.
 
-#### Header
+#### Header/Navigation Bar
 - Check whether the header is always on top of the page.
 - Check whether the restaurant logo links back to the index page.
 - Check the Active page in the navigation bar and the remaining links change colour while being hovered.
@@ -222,13 +222,35 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 
 #### Reservations Page
 - Check the responsiveness of the reservations form when changing the width of the viewport.
-- Check the correct html code used for the form.
+- Check the action page after submitting.
 - Check functionality of required fields.
 
 #### Contact Page
 - Check the responsiveness of the contact form when changing the width of the viewport.
-- Check the correct html code used for the form.
+- Check the action page after submitting.
 - Check functionality of required fields.
+
+### Usability Testing
+- Family and friends were asked to test the website and to navigate through all four website pages. Buttons, links, and forms were tested by them.
+
+### Compatibility Testing
+The following browsers were used for compatibility testing:
+- Firefox
+- Google Chrome
+- Microsoft Edge
+
+Outcome?
+
+### Further Testing
+The following devices were used for testing the website:
+- Desktop: Asus ZenBook (viewport: 1920px x 1080px) 
+- Desktop Asus Zenbook + External screen connected (viewport: px x px)
+- Desktop: Laptop werk (viewport: px x px)
+- Smart phone: Samsung S9+ (viewport: 360px x 740px)
+- Smart phone: iPhone (viewport: px x px)
+
+During the building of the website [Google Chrome DevTools](https://developer.chrome.com/) were used to simulate different viewport sizes.
+The website is designed for a minimum viewport width of 320px and a maximum viewport size of ...
 
 ### Testing Code
 The following online validators were used to check whether every page of the project gave any syntax errors:
