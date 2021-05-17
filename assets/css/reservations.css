@@ -68,6 +68,11 @@
     letter-spacing: 1px;
     }
 
+#time option, #guests option {
+    /* Credit: Overriding color (!important): https://crosstec.org/en/forums/15-usage/125393-change-the-background-color-of-the-select-list.html */
+    color: black !important;
+}
+
 #request {
     resize: none;
     color: whitesmoke;
@@ -108,8 +113,12 @@
             padding: 2px 5px;
             }
 
-        #time option, #guests option {
-            color: black;
+     
+
+        .option-time {
+            appearance: none;
+            background-color: rgb(0, 0, 0, 0.85);
+            color: red;
         }
 
         .button {
