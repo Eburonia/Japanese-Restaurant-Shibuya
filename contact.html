@@ -53,7 +53,7 @@
 
         <!-- Language flags .png files created by website creator, see also README.md file -->
         <div class="flag-div"><a href="contact.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
-        <div class="flag-div"><a href="contact-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+        <div class="flag-div"><a href="nl/contact-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
 
     </div>
 
@@ -112,7 +112,7 @@
 
     <h2>Contact us <i class="fas fa-phone"></i></h2>
 
-        <form id="contact-form" action="#" method="POST">
+        <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
 
             <label for="fname">Firstname<span class="mandatory-astrisk"> *</span></label><br>
             <input type="text" class="contact-textbox" id="fname" name="firstname" required><br>
@@ -123,8 +123,9 @@
             <label for="email">E-mail<span class="mandatory-astrisk"> *</span></label><br>
             <input type="email" class="contact-textbox" id="email" name="email" required><br>
 
-            <label for="pnumber">Phone number<span class="mandatory-astrisk"> *</span></label><br>
-            <input type="tel" class="contact-textbox" id="pnumber" name="phone-number" required><br>
+            <label for="pnumber">Phone number (06-xxxxxxxx)<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="tel" class="contact-textbox" id="pnumber" name="phone-number" pattern="[0-9]{2}-[0-9]{8}" required><br>
+
 
             <label for="message">Your message <span class="mandatory-astrisk"> *</span></label><br>
             <textarea id="message" class="contact-textbox" name="message" rows="6" cols="50" placeholder="Ask us anything" required></textarea><br>

@@ -15,10 +15,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 
     <title>Japanese Restaurant Shibuya | Contact-Dutch</title>
 
@@ -52,8 +52,8 @@
     <div id="header-flags-div">
 
         <!-- Language flags .png files created by website creator, see also README.md file -->
-        <div class="flag-div"><a href="contact.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
-        <div class="flag-div"><a href="contact-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+        <div class="flag-div"><a href="../contact.html"><img src="../assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
+        <div class="flag-div"><a href="contact-nl.html"><img src="../assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
 
     </div>
 
@@ -93,7 +93,7 @@
 <!-- background audio -->
 <div id="audio-div">
 
-        <audio src="assets/audio/background-audio.mp3" controls loop>
+        <audio src="../assets/audio/background-audio.mp3" controls loop>
         
             <span>Your browser doesn't support HTML5 audio:</span>
 
@@ -101,7 +101,7 @@
             <!-- https://www.youtube.com/watch?v=eSOV2Zo_J1A -->
             <!-- Free to use audio -->
 
-            <a href="assets/audio/background-audio.mp3">Link to the audio</a>
+            <a href="../assets/audio/background-audio.mp3">Link to the audio</a>
         
         </audio>
         
@@ -112,7 +112,7 @@
 
     <h2>Neem Contact Op <i class="fas fa-phone"></i></h2>
 
-        <form id="contact-form" action="#" method="POST">
+        <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
 
             <label for="fname">Voornaam<span class="mandatory-astrisk"> *</span></label><br>
             <input type="text" class="contact-textbox" id="fname" name="firstname" required><br>
@@ -123,8 +123,8 @@
             <label for="email">E-mail<span class="mandatory-astrisk"> *</span></label><br>
             <input type="email" class="contact-textbox" id="email" name="email" required><br>
 
-            <label for="pnumber">Telefoonnummer<span class="mandatory-astrisk"> *</span></label><br>
-            <input type="tel" class="contact-textbox" id="pnumber" name="phone-number" required><br>
+            <label for="pnumber">Telefoonnummer (06-xxxxxxxx)<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="tel" class="contact-textbox" id="pnumber" name="phone-number" pattern="[0-9]{2}-[0-9]{8}" required><br>
 
             <label for="message">Bericht <span class="mandatory-astrisk"> *</span></label><br>
             <textarea id="message" class="contact-textbox" name="message" rows="6" cols="50" placeholder="Stel Je Vraag" required></textarea><br>

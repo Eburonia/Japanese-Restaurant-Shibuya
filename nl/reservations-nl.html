@@ -15,10 +15,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/reservations.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/reservations.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 
     <title>Japanese Restaurant Shibuya | Reservations-Dutch</title>
 
@@ -52,8 +52,8 @@
     <div id="header-flags-div">
 
         <!-- Language flags .png files created by website creator, see also README.md file -->
-        <div class="flag-div"><a href="reservations.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
-        <div class="flag-div"><a href="reservations-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+        <div class="flag-div"><a href="../reservations.html"><img src="../assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
+        <div class="flag-div"><a href="reservations-nl.html"><img src="../assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
 
     </div>
 
@@ -93,7 +93,7 @@
 <!-- background audio -->
 <div id="audio-div">
 
-        <audio src="assets/audio/background-audio.mp3" controls loop>
+        <audio src="../assets/audio/background-audio.mp3" controls loop>
         
             <span>Your browser doesn't support HTML5 audio:</span>
 
@@ -101,7 +101,7 @@
             <!-- https://www.youtube.com/watch?v=eSOV2Zo_J1A -->
             <!-- Free to use audio -->
 
-            <a href="assets/audio/background-audio.mp3">Link to the audio</a>
+            <a href="../assets/audio/background-audio.mp3">Link to the audio</a>
         
         </audio>
         
@@ -112,7 +112,7 @@
 
     <h2>Tafel Reserveren <i class="fas fa-pencil-alt"></i></h2>
 
-        <form id="reservations-form" action="#" method="POST">
+        <form id="reservations-form" action="https://formdump.codeinstitute.net" method="POST">
 
             <label for="fname">Voornaam<span class="mandatory-astrisk"> *</span></label><br>
             <input type="text" class="reservation-textbox" id="fname" name="firstname" required><br>
@@ -123,8 +123,8 @@
             <label for="email">E-mail<span class="mandatory-astrisk"> *</span></label><br>
             <input type="email" class="reservation-textbox" id="email" name="e-mail" required><br>
 
-            <label for="pnumber">Telefoonnummer<span class="mandatory-astrisk"> *</span></label><br>
-            <input type="tel" class="reservation-textbox" id="pnumber" name="phone-number" required><br>
+            <label for="pnumber">Telefoonnummer (06-xxxxxxxx)<span class="mandatory-astrisk"> *</span></label><br>
+            <input type="tel" class="reservation-textbox" id="pnumber" name="phone-number" pattern="[0-9]{2}-[0-9]{8}" required><br>
 
             <label for="date">Datum<span class="mandatory-astrisk"> *</span></label><br>
             <input type="date" class="reservation-textbox small-textbox" id="date" name="date" min="2021-06-01" max="2021-12-31" value="2021-06-05" required><br>
