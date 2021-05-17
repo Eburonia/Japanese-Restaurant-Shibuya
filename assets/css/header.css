@@ -105,7 +105,7 @@ audio {
 
 /* media queries for header only */
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 767px)
     {
         #active {
             color: black;
