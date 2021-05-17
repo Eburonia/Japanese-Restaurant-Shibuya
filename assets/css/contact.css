@@ -49,12 +49,12 @@
     }
 
 .small-textbox {
-    width: 150px;
+    width: 100%;
     padding: 5px 0 5px 10px;
     }
 
 .small-selectbox {
-    width: 160px;
+    width: 100%;
     }
 
 .button {
