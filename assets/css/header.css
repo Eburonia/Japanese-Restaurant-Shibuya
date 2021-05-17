@@ -99,11 +99,8 @@
     }
 
 audio {
-    width: 124px;
+    width: 150px;
     height: 30px;
-    background-color: transparent;
-    border-radius: 10px;
-    border: 2px solid rgb(195, 161, 104);
     }
 
 /* media queries for header only */
