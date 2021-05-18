@@ -225,15 +225,14 @@ The following browsers were used for compatibility testing:
 - Google Chrome
 - Microsoft Edge
 
-Outcome?
+<span style="color: red;">Outcome?</span>
 
 ### Further Testing
 The following devices were used for testing the website:
 - Desktop: Asus ZenBook (viewport: 1920px x 1080px) 
 - Desktop Asus Zenbook + External screen connected (viewport: px x px)
-- Desktop: Laptop werk (viewport: px x px)
 - Smart phone: Samsung S9+ (viewport: 360px x 740px)
-- Smart phone: iPhone (viewport: px x px)
+- Smart phone: iPhone 11 (viewport: 414px x 896px)
 
 During the building of the website [Google Chrome DevTools](https://developer.chrome.com/) were used to simulate different viewport sizes.
 The website is designed for a minimum viewport width of 320px and a maximum viewport size of ...
@@ -328,6 +327,7 @@ W3C CSS Validator Results of Style Sheets:
 - Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size.
 - Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar is loaded.
 - Styling of audio player gives bad styling quality in Microsoft Explorer and Google Chrome.
+- The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. While clicking on the date field, a calendar pops up in Firefox, while this is not the case with Google Chrome and Microsoft Edge.  Here you have to manually add the day and month in the text field. 
 
 <!-- Deployment -->
 <a id="deployment"></a>
