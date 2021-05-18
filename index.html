@@ -39,7 +39,7 @@
             
         <div id="logo-div">
 
-            <a href="index.html" title="Back home">
+            <a href="index.html" title="Back home" aria-label="This is the restaurant logo, click on it to go back to the homepage">
                 <span id="logo-text-top">JAPANESE RESTAURANT</span><br>
                 <span id="logo-text-bottom">SHIBUYA</span>
             </a>
@@ -52,8 +52,8 @@
     <div id="header-flags-div">
 
         <!-- Language flags .png files created by website creator, see also README.md file -->
-        <div class="flag-div"><a href="index.html"><img src="assets/images/uk-flag.png" alt="British flag" title="English"></a></div>
-        <div class="flag-div"><a href="nl/index-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" title="Dutch"></a></div>
+        <div class="flag-div"><a href="index.html"><img src="assets/images/uk-flag.png" alt="British flag" aria-label="British flag, click on it to go to the English version of the website" title="English"></a></div>
+        <div class="flag-div"><a href="nl/index-nl.html"><img src="assets/images/dutch-flag.png" alt="Dutch flag" aria-label="Dutch flag, click on it to go to the Dutch version of the website" title="Dutch"></a></div>
 
     </div>
 
@@ -75,10 +75,10 @@
             <div class="collapse navbar-collapse" id="myNavbar">
         
                 <ul class="nav navbar-nav">
-                    <li><a id="active" href="index.html">HOME</a></li>
-                    <li><a href="menu.html">MENU</a></li>
-                    <li><a href="reservations.html">RESERVATIONS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a id="active" href="index.html" aria-label="Click here to go the home page">HOME</a></li>
+                    <li><a href="menu.html" aria-label="Click here to go to the restaurant's menu page">MENU</a></li>
+                    <li><a href="reservations.html" aria-label="Click here to make a reservation at the restaurant by using a form">RESERVATIONS</a></li>
+                    <li><a href="contact.html" aria-label="Click here to go to the contact page to ask us a question by using a form">CONTACT</a></li>
                 </ul>
 
             </div>
@@ -92,7 +92,7 @@
 <!-- background audio -->
 <div id="audio-div">
 
-        <audio src="assets/audio/background-audio.mp3" controls loop List="nodownload">
+        <audio src="assets/audio/background-audio.mp3" controls loop List="nodownload" aria-label="This is a audio player, press the play button to start a jazzy background song">
         
             <span>Your browser doesn't support HTML5 audio:</span>
 
@@ -100,7 +100,7 @@
             <!-- https://www.youtube.com/watch?v=eSOV2Zo_J1A -->
             <!-- Free to use audio -->
 
-            <a href="assets/audio/background-audio.mp3">Link to the audio</a>
+            <a href="assets/audio/background-audio.mp3" aria-label="This is a audio player, press the play button to start a jazzy background song">Link to the audio</a>
         
         </audio>
         
@@ -122,14 +122,14 @@
 
         <div class="anchor-button">
             
-            <a href="menu.html">Menu Page</a>
+            <a href="menu.html" aria-label="Click here to go to the restaurant's menu page">Menu Page</a>
 
         </div>
 
 
         <div class="anchor-button">
                 
-            <a href="reservations.html">Reservations Page</a>
+            <a href="reservations.html" aria-label="Click here to make a reservation at the restaurant by using a form">Reservations Page</a>
 
         </div>
 
@@ -143,11 +143,11 @@
         <p>The Nakamoto family warmly invites you to dine at our restaurant and experience Japanese cuisine at its finest.</p>
         <p>As a family-owned restaurant, Shibuya instantly established a superior name for itself when it opened in 2000.</p>
         <p>After 21 years in business, we still serve the best Japanese food in the area.</p>
-        <p>Our restaurant specializes in authentic Japanese cuisine. Try our delicious <a class="index-anchor" href="menu.html">Sushi and Sashimi</a> dishes prepared by Satoshi Nakamoto and his team.</p>
+        <p>Our restaurant specializes in authentic Japanese cuisine. Try our delicious <a class="index-anchor" href="menu.html" aria-label="Click here to go to the restaurant's menu page">Sushi and Sashimi</a> dishes prepared by Satoshi Nakamoto and his team.</p>
         <p>At Japanese Restaurant Shibuya, we honor Japanese cuisine by selecting only the best high-quality and fresh ingrediënts.</p>
-        <p>Are you looking for a night-out dining experience? Make a <a class="index-anchor" href="reservations.html">reservation</a> and enjoy the authentic Japanese cuisine at Japanese Restaurant Shibuya.</p>
-        <p>We are <a class="index-anchor" href="#location" aria-label="Jump to the Restaurant Location section">located</a> in the city center of Maastricht.</p>
-        <p>In case of questions or comments, please feel free to fill in the <a class="index-anchor" href="contact.html">contact form</a> for more information.</p>
+        <p>Are you looking for a night-out dining experience? Make a <a class="index-anchor" href="reservations.html" aria-label="Click here to make a reservation at the restaurant by using a form">reservation</a> and enjoy the authentic Japanese cuisine at Japanese Restaurant Shibuya.</p>
+        <p>We are <a class="index-anchor" aria-label="Click here to scroll down to the restaurant's location map" href="#location" aria-label="Jump to the Restaurant Location section">located</a> in the city center of Maastricht.</p>
+        <p>In case of questions or comments, please feel free to fill in the <a class="index-anchor" href="contact.html" aria-label="Click here to go to the contact page to ask us a question by using a form">contact form</a> for more information.</p>
 
     </section>
 
@@ -180,7 +180,7 @@
 
         <div id="location-map">
 
-            <a href="assets/images/map.png" target="_blank">
+            <a href="assets/images/map.png" target="_blank" aria-label="Click here to open an image map of the restaurant's location">
             <img src="assets/images/map.png" alt="Map including restaurant location"></a>
 
         </div>
@@ -200,8 +200,8 @@
                   
             <form action="https://formdump.codeinstitute.net" method="POST">
                     
-                <input class="text-field" type="email" id="mailing-list" name="e-mail" placeholder="Your e-mail address" required><br>
-                <input class="button" type="submit" value="Subscribe">
+                <input class="text-field" type="email" id="mailing-list" name="e-mail" placeholder="Your e-mail address" aria-label="Please enter your e-mail address, this is a required field" required><br>
+                <input class="button" type="submit" value="Subscribe" aria-label="Click button to subscribe to our mailing list, make sure you have added your e-mail address in the text-field above">
 
             </form>
 
@@ -216,10 +216,10 @@
             <p>Cash: Euro accepted only<br>Credit-card / Crypto:</p>
 
             <p>
-                <i class="fab fa-cc-visa payment-icon" title="Visa"></i>
-                <i class="fab fa-cc-mastercard payment-icon" title="Mastercard"></i>
-                <i class="fab fa-cc-amex payment-icon" title="American Express"></i>
-                <i class="fab fa-bitcoin payment-icon" title="Bitcoin Cash"></i>
+                <a href="https://www.visa.com/" target="_blank page" aria-label="Visa credit card icon, we accept visa credit card at our restaurant, go to the visa website by clicking this link (opens in new tab)"><i class="fab fa-cc-visa payment-icon" title="Visa"></i></a>
+                <a href="https://www.mastercard.com/" target="_blank page" aria-label="Mastercard credit card icon, we accept mastercard credit card at our restaurant, go to the mastercard website by clicking this link (opens in new tab)"><i class="fab fa-cc-mastercard payment-icon" title="Mastercard"></i></a>
+                <a href="https://www.americanexpress.com/" target="_blank page" aria-label="American express credit card icon, we accept american express credit card at our restaurant, go to the american express website by clicking this link (opens in new tab)"><i class="fab fa-cc-amex payment-icon" title="American Express"></i></a>
+                <a href="https://www.bitcoin.com/" target="_blank page" aria-label="Bitcoin cash, we accept bitcoin cash at our restaurant, go to the bitcoin website by clicking this link (opens in new tab)"><i class="fab fa-bitcoin payment-icon" title="Bitcoin Cash"></i></a>
             </p>
                 
         </div>
@@ -237,9 +237,9 @@
         <span>Follow us on social media</span>
 
         <ul>
-            <li><a href="https://www.twitter.com/" aria-label="Go to our twitter page (opens in new tab)" target="_blank"><i class="fab fa-twitter socials-link" title="twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/" aria-label="Go to our facebook page (opens in new tab)" target ="_blank"><i class="fab fa-facebook socials-link" title="facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/" aria-label="Go to our instagram page (opens in new tab)" target="_blank"><i class="fab fa-instagram socials-link" title="instagram"></i></a></li>
+            <li><a href="https://www.twitter.com/" aria-label="Go to our twitter page by clicking this link (opens in new tab)" target="_blank"><i class="fab fa-twitter socials-link" title="twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" aria-label="Go to our facebook page by clicking this link (opens in new tab)" target ="_blank"><i class="fab fa-facebook socials-link" title="facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" aria-label="Go to our instagram page by clicking this link (opens in new tab)" target="_blank"><i class="fab fa-instagram socials-link" title="instagram"></i></a></li>
         </ul>
 
         <p id="copyright">COPYRIGHT © 2021<br id="copyright-breakline"> JAPANESE RESTAURANT SHIBUYA<br>- ALL RIGHTS RESERVED -</p>
