@@ -133,6 +133,18 @@
     color: rgb(195, 161, 104);
     }
 
+.fa-cc-visa:hover, .fa-cc-mastercard:hover, .fa-cc-amex:hover {
+    color: rgb(124, 103, 66);
+}
+
+
+.fa-bitcoin {
+    color: rgb(0, 202, 143);
+}
+
+.fa-bitcoin:hover {
+    color: rgb(0, 121, 84);
+}
 
 /* media queries for index.html only */
 @media only screen and (max-width: 900px)
