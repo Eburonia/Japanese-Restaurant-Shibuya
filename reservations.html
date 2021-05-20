@@ -93,7 +93,7 @@
 <!-- background audio -->
 <div id="audio-div">
 
-        <audio src="assets/audio/background-audio.mp3" controls loop>
+        <audio src="assets/audio/background-audio.mp3" controls loop List="nodownload" aria-label="This is a audio player, press the play button to start a jazzy background song">
         
             <span>Your browser doesn't support HTML5 audio:</span>
 
@@ -101,7 +101,7 @@
             <!-- https://www.youtube.com/watch?v=eSOV2Zo_J1A -->
             <!-- Free to use audio -->
 
-            <a href="assets/audio/background-audio.mp3">Link to the audio</a>
+            <a href="assets/audio/background-audio.mp3" aria-label="This is a link, press the link to start a jazzy background song">Link to the audio</a>
         
         </audio>
         
@@ -127,10 +127,10 @@
             <input type="tel" class="reservation-textbox" id="pnumber" name="phone-number" pattern="[0-9]{2}-[0-9]{8}" aria-label="please enter your phone number, this a required field" required><br>
 
             <label for="date">Date (DD/MM/YYYY)<span class="mandatory-astrisk"> *</span></label><br>
-            <input type="date" class="reservation-textbox small-textbox" id="date" name="date" aria-label="please enter your reservation date, this is a dropdown menu, please check the selected value" min="2021-06-01" max="2021-12-31" value="2021-06-05" required><br>
+            <input type="date" class="reservation-textbox small-textbox" id="date" name="date" aria-label="please enter your reservation date, this is a dropdown menu, check the selected value" min="2021-06-01" max="2021-12-31" value="2021-06-05" required><br>
 
             <label for="time">Time<span class="mandatory-astrisk"> *</span></label><br>
-            <select id="time" name="time" class="reservation-textbox small-selectbox" aria-label="please enter your reservation time, this is a dropdown menu, please check the selected value">
+            <select id="time" name="time" class="reservation-textbox small-selectbox" aria-label="please enter your reservation time, this is a dropdown menu, check the selected value">
 
                 <option value="16:00">16:00</option>
                 <option value="16:30">16:30</option>
@@ -147,7 +147,7 @@
             </select><br>
 
             <label for="guests">Number of guests<span class="mandatory-astrisk"> *</span></label><br>
-            <select id="guests" name="guests" class="reservation-textbox small-selectbox" aria-label="please enter the number of guests, this is a dropdown menu, please check the selected value">
+            <select id="guests" name="guests" class="reservation-textbox small-selectbox" aria-label="please enter the number of guests, this is a dropdown menu, check the selected value">
 
                 <option value="1">1</option>
                 <option value="2">2</option>
