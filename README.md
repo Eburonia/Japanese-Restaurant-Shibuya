@@ -333,10 +333,10 @@ No errors found.
 <!-- Known Bugs -->
 <a id="bugs"></a>
 ## Known Bugs
-- Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size.
-- Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar is loaded.
-- Styling of audio player gives bad styling quality in Microsoft Explorer and Google Chrome.
-- The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. While clicking on the date field, a calendar pops up in Firefox, while this is not the case with Google Chrome and Microsoft Edge.  Here you have to manually add the day and month in the text field. 
+- Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size. **This has been fixed but still can be optimized**.
+- Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar has been loaded.
+- Styling of audio player gives bad styling quality in Microsoft Explorer and Google Chrome. The styling of the audio player has been removed for now.
+- The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers.
 
 <!-- Deployment -->
 <a id="deployment"></a>
@@ -345,37 +345,37 @@ No errors found.
 ### Publishing
 'GitHub Pages' was used for publishing the website. The procedure was as follows:
 1. Login to the [GitHub](https://www.github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
 3. You can find a ribbon on the top of your screen. In the ribbon, click on 'Settings'.
 4. In the selection menu on the left side of your screen, click on 'Pages'.
 5. Beneath 'Source' you will find a small pull-down menu. Click on it and select 'main', then press the 'Save' button.
 6. You will get automatically redirected to the 'GitHub Pages' page. There you will see a blue text box telling the site will be published.
-7. Refresh the page and when this text box turns green, the website has been published.
-8. Click the link in the green text box to go to your website.
+7. Refresh the page after a minute and when this text box turns green, the website has been published.
+8. Click the link in the green text box to go to your published website.
 
 ### Forking
 If you want to make a copy of the repository you can Fork it without changing the original repository by following the next procedure:
 1. Login to the [GitHub](https://www.github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
-3. On the right side of your screen, next to the 'Unwatch' pull-down menu, and the 'Star' button, you can find the 'Fork' button.
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
+3. On the right side of your screen, next to 'Unwatch' pull-down menu, and the 'Star' button, you can find the 'Fork' button.
 4. By clicking this button, it will create a copy of the website in your repository.
 
 ### Cloning
 
 You can clone the repository by following the next procedure:
 1. Login to the [GitHub](https://www.github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
 3. Click on the 'Code' button next to the Green 'GitPod' button.
-4. Click on 'HTTPS' and copy the hyperlinkbelow it: https://github.com/Eburonia/Test-project.git.
+4. Click on 'HTTPS' and copy the hyperlink below it.
 5. Go to the repository where you want to make a clone of the website. Or create a new repository.
-6. When in this repository, select the folder or create a folder where you want to copy the cloned directory.
-7. Go to the terminal and type: 'Git Clone https://github.com/Eburonia/Test-project.git' and press enter. The directory has been cloned now.
+6. When in this repository, select the folder or create a folder where you want to clone the directory.
+7. Go to the terminal and type: 'Git Clone (copied link)' and press enter. The directory has been cloned now.
 
 ### Downloading
 
 You can download the repository by following the next procedure:
 1. Login to the [GitHub](https://www.github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
 3. Click on the 'Code' button next to the Green 'GitPod' button and then click on 'Download ZIP'.
 4. A .zip file of the repository content will be downloaded. 
 
@@ -387,22 +387,22 @@ You can download the repository by following the next procedure:
 ### Code
 - All html and CSS code was written by the website creator: Maurice Vossen.
 - Colours were selected by using Photoshop v8.0.
-- Understanding 'float' and 'clear' CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I).
-- Understanding 'display: flex' CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+- Understanding 'float' and 'clear' CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I)
+- Understanding 'display: flex' CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - W3Schools example code for creating a Bootstrap navigation bar in the header. [link](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
 
 ### Content
 
 #### README file
 - The following README files were used as inspiration for creating the README file of the project:
-   * Boredom Guide [link](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md) file
-   * Code Institute Website[link](https://github.com/Code-Institute-Solutions/SampleREADME) file
-   * Code Institute Love Running [link](https://github.com/Code-Institute-Solutions/readme-template) file
+   * Boredom Guide [link](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md)
+   * Code Institute Website [link](https://github.com/Code-Institute-Solutions/SampleREADME)
+   * Code Institute Love Running [link](https://github.com/Code-Institute-Solutions/readme-template)
 
 #### About Section
 - Inspiration for Restaurant's 'About' section:
    * Partly copied and adjusted from: [Japanese Restaurant Kobe Maastricht](https://www.restaurantkobe.com/)
-   * Partly copied and adjusted from a New York based Japanese restaurant, can't find the link to the website anymore.
+   * Partly copied and adjusted from a New York based Japanese restaurant. The source couldn't be found anymore.
 
 #### Menu Page
 - Inspiration for the menu page:
@@ -427,8 +427,8 @@ You can download the repository by following the next procedure:
 - The Dutch and United Kingdom flag used for selecting the website language were created by the website developer himself.
 
 #### Audio
-- The audio player's Jazz Loop mp3 file is a copyright free audio file coming from Youtube/Soundclound: [Ryan - Milk Coffee [No Copyright Music]](https://www.youtube.com/watch?v=eSOV2Zo_J1A)  
+- The audio player's Jazzy mp3 file is a copyright free audio file coming from Youtube/Soundclound: [Ryan - Milk Coffee [No Copyright Music]](https://www.youtube.com/watch?v=eSOV2Zo_J1A)  
 
 ### Acknowledgements
 - Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback to this project.
-- The many free coding forums on the internet, especially [Stackoverflow.com](https://www.stackoverflow.com/) for providing answers to my coding questions.
+- The many free coding forums on the internet, especially [Stackoverflow.com](https://www.stackoverflow.com/) for providing answers to my coding questions. Most of my questions were already asked by other users of the stackoverflow website, making it easy to find quick answers.
