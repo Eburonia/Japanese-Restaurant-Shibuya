@@ -159,12 +159,12 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 - [jquery v3.5.1](https://jquery.com/download/) - Used for the hamburger-styled menu for the navigation bar, part of the bootstrap framework.
 - [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the header.css file. This font is only used font on all pages of the website.
 - [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant, payment methods, and in the heading h2 of the website sections/divisions.
-- [Git](https://wwww.git-scm.com/) - Git was used for version control and code change tracking of the website project. The terminal in Gitpod was used to commit and to push the project to the Github repository.
-- [Github](https://github.com/Eburonia/japanese-restaurant-shibuya) - The project code has been stored on the Github website.
+- [Git](https://git-scm.com/) - Git was used for version control and code change tracking of the website project. The terminal in Gitpod was used to commit and to push the project to the Github repository.
+- [Github](https://github.com/) - The project code has been stored on the Github website.
 - [GitPod](https://www.gitpod.io/) - GitPod was used for creating the code, testing of the website, commiting, and pushing the code to the github repository. 
-- [Photoshop v8.0](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize images and to create the Dutch and United Kingdom language flags you can find in the header.
-- [Adobe XD](https://www.adobe.com/products/xd.html) - Adobe XD was used to create the website's Wireframes. See the Wireframes section above for the endresult.
-- [JPEG Optimizer](http://jpeg-optimizer.com/) - JPEG Optimizer website was used to compress image size in order to speed up loading time when loading the website/webpage.
+- [Photoshop v8.0](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize images and to create the Dutch and United Kingdom language flags which you can find in the header.
+- [Adobe XD](https://www.adobe.com/products/xd.html) - Adobe XD was used to create the website's Wireframes. To see the Wireframes, go to the Design section above to see the results.
+- [JPEG Optimizer](http://jpeg-optimizer.com/) - JPEG Optimizer website was used to compress the sizing of the images to speed up loading time when loading the website/webpage.
 
 
 <!-- Testing -->
