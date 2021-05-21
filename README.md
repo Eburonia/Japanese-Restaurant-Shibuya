@@ -1,13 +1,13 @@
 
-<h1>Japanese Restaurant Shibuya</h1>
+<h1 style="text-align: center;">Japanese Restaurant Shibuya</h1>
 
 <!-- Responsive Image -->
 <img src="assets/readme-images/responsive.png" alt="Responsive Design of Website">
 
 
 <!-- Links -->
-View the live project [here](https://eburonia.github.io/japanese-restaurant-shibuya/)<br>
-View the GitHub Repository [here](https://github.com/Eburonia/japanese-restaurant-shibuya)
+View the live project [link](https://eburonia.github.io/japanese-restaurant-shibuya/)<br>
+View the GitHub Repository [link](https://github.com/Eburonia/japanese-restaurant-shibuya)
 
 
 <!-- About -->
