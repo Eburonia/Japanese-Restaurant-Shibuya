@@ -1,5 +1,5 @@
 
-<h1 style="text-align: center;">Japanese Restaurant Shibuya</h1>
+<h1 style="align: center;">Japanese Restaurant Shibuya</h1>
 
 <!-- Responsive Image -->
 <img src="assets/readme-images/responsive.png" alt="Responsive Design of Website">
@@ -230,8 +230,9 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 The following browsers were used for compatibility testing:
 - Firefox
 - Google Chrome
-- Microsoft Edge
-See 'Known Bugs' section for more information about the outcome.
+- Microsoft Edge  
+See 'Known Bugs' 
+section for more information about the outcome.
 
 
 ### Further Testing
@@ -345,7 +346,7 @@ No errors found.
 ### Publishing
 'GitHub Pages' was used for publishing the website. The procedure was as follows:
 1. Login to the [GitHub](https://www.github.com/) website.
-2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya).
+2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
 3. You can find a ribbon on the top of your screen. In the ribbon, click on 'Settings'.
 4. In the selection menu on the left side of your screen, click on 'Pages'.
 5. Beneath 'Source' you will find a small pull-down menu. Click on it and select 'main', then press the 'Save' button.
