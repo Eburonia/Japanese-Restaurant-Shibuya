@@ -61,12 +61,12 @@ This website could also be valuable for restaurant owners who already own a pers
 ### Design
 
 #### Colour Scheme
-- To not get distracted too much, the used colours on the website meet the colours of the background hero image. Three types are used for styling the html elements:
-   * Black: rgba(0, 0, 0, 0.95) - used in headers, footers, and sections background.
-   * Cream colour type: rgb(195, 161, 104) - used in restaurant logo, h2 and h3 headers, sections, image borders, buttons, and textboxes.
+- To not get distracted too much, and for readability purposes, the used colours on the website meet the colours of the background hero image. Three types are used for styling the html elements:
+   * Black: rgba(0, 0, 0, 0.85) - used in headers, footers, and sections background.
+   * Cream colour type: rgb(195, 161, 104) - used in the restaurant logo text, h2 and h3 headers, sections, some divisions, image borders, buttons, form text fields, and form drop-down menus.
    * Smokewhite: rgb(245, 245, 245) - used in header, footer, navbar, paragraphs, menu items, and form labels.
-- The sections of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
-- For emphasizing purposes a red colour is used for new menu items and important messages like required text fields on a form.
+- The sections ans some divisions of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
+- For emphasizing purposes a red colour is used for new menu items on the menu page and important messages like required text fields on the reservations and contact form.
 
 #### Typography
 - [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin#about) is the only font used throughout the website. Sans Serif is set as a fallback font type. Libre Franklin is a well-readable font. 
@@ -74,23 +74,24 @@ This font is based on the 1912 Morris Fuller Benton classic and was designed by 
 
 #### Imagery
 - A background image (hero) has been added to every page showing the restaurant's interior, giving the visitor an idea about the restaurant's atmosphere.
-- Potential customers need to have an idea how some of the menu items might look like in reality. For that reason, every menu category has an image belonging to that category added including an example dish.  
+- Potential customers need to have an idea how some of the menu items might look like in reality. For that reason, every menu category has an example dish image belonging to that category added.
+- All images are 'free to use' images, see the credit section for more information about them.
 
 #### Wireframes
 
-Wireframes belonging to the website's project have been made in Adobe XD. PDF files of them can be found here:
-- Wireframes for Index Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-index.pdf)
-- Wireframes for Menu Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-menu.pdf)
-- Wireframes for Reservations Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-reservations.pdf)
-- Wireframes for Contact Us Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-contact.pdf)
+Wireframes belonging to the website's project have been made in [Adobe XD](https://www.adobe.com/products/xd.html). PDF files of them can be found here:
+- Wireframes of the Index Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-index.pdf)
+- Wireframes of the Menu Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-menu.pdf)
+- Wireframes of the Reservations Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-reservations.pdf)
+- Wireframes of the Contact Us Page - [link](https://github.com/Eburonia/japanese-restaurant-shibuya/blob/2ffdafa655a8ec6e7725af011a44c6b9dacfc1e8/wireframes/wireframes-contact.pdf)
 
-All wireframes are designed for three different devices:
-- Desktop - Web: maximum pixels 1920px
-- iPad - Nexus 9: maximum pixels 768px
-- iPhone 12 Pro Max: maximum pixels 428px
+All wireframes were designed for three different devices:
+- Desktop - Web: maximum viewport width 1920px
+- iPad - Nexus 9: maximum viewport width 768px
+- iPhone - 12 Pro Max: maximum viewport width 428px
 
 #### Mockups
-- The intention was to also create mockups for the website project. Due to the limited available time of the web developer, it has been skipped. Nevertheless, it is important to also invest time in creating mockups for future projects. Lesson learned by the project creator.
+The intention was to also create mockups for the website project. Due to the limited available time of the web developer, it has been skipped. Nevertheless, it is important to also invest time in creating mockups for future projects and won't be skipped next time.
 
 
 <!-- Features -->
@@ -98,48 +99,52 @@ All wireframes are designed for three different devices:
 ## Features
 
 ### Header
-The header is located at the top of every page and exists out of the restaurant logo, navigation bar, and the preferred website language using clickable language flags 'English or Dutch' will be automatically loaded on every page.
-* <b>Restaurant Logo</b> - The restaurant logo on the upper left side indicates the website is about a Japanese Restaurant named Shibuya and is a clickable anchor element always linking to the website's index page.
-* <b>The Navigation Bar</b> - The navigation bar is part of the header and will be intuitively found by the visitor. A cream coloured stripe above a navbar item makes it clear to visitors on which active page they are on at the moment. The navbar will automatically change to a 'hamburger' type navbar at smaller devices (smart-phones). Hovering the navbar items will change the colour making it clear to visitors it's clickable.
+The header is located at the top of every page and exists out of the restaurant logo, navigation bar, and the preferred website language which are clickable language flags 'English or 'Dutch' and will be automatically loaded on every page.
+* <b>Restaurant Logo</b> - The restaurant logo on the upper left side of the screen indicates the website is about a 'Japanese Restaurant' named 'Shibuya' and is a clickable link always redirecting the visitor to the website's index page.
+* <b>The Navigation Bar</b> - The navigation bar is part of the header and will be intuitively found by the visitor. A Cream coloured stripe above a navigation item makes it clear to visitors on which active page they are on at the moment. The navigation bar will automatically change to a 'Hamburger' type navigation bar at smaller devices (smartphones). Hovering over a navigation bar item will change the colour making it clear to the visitor it's a clickable link.
 * <b>Background Colour</b> - A black transparent background colour has been chosen for the header to keep the hero image in the background partly visible.
-* <b>Language Flags</b> - Visitors can select the preferred language of the website in the header by clicking on one of the two available language flags 'English' or 'Dutch'. The website will be automatically loaded in the English language when landing on the homepage. By hovering over the flags, a tooltip will show up telling which language the flag presents.
-* <b>Background Audio</b> - On the bottom right side, directly below the header, a small audio player is introduced. A Jazz styled audio file has been added and to not disturb the visitors when entering the website, you need to push the play button first to start the audio playing in the background. The audio file loops until you press the pause button.
+* <b>Language Flags</b> - Visitors can select the preferred language of the website in the header by clicking on one of the two available language flags 'English' or 'Dutch'. The website will be automatically loaded in the English language when landing on the homepage. By hovering over the flags, a tooltip will show up telling which language the flag represents.
+* <b>Background Audio</b> - On the bottom right side of the header, a small audio player has been introduced. A 'Jazzy' audio file has been added to the audio player. To not disturb the visitor when landing on the website, you first need to push the play button to start the audio file. The audio file loops until you press the pause button.
 
 ### Footer
-The footer has been located at the bottom of every page and exists out of anchor links to the restaurant's social media pages, and a copyright notice.
+The footer has been located at the bottom of every page and exists out social media link, and a copyright notice.
 * <b>Background Colour</b> - A black transparent background colour has been chosen for the footer to keep the hero image in the background partly visible.
-* <b>Social Media Links</b> - Icons presenting social media platforms from the fontawesome.com website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering the links the colour changes from white to cream colour, indicating these are clickable links.
+* <b>Social Media Links</b> - Icons presenting social media platforms from the [fontawesome.com](https://www.fontawesome.com/) website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering over the links, the colour changes from Whitesmoke to Cream colour indicating these are clickable links.
 * <b>Copyright Notice</b> - A clear copyright notice is visible at the bottom of the footer.
 
+### Hero Background Image
+A fixed hero image of the Restaurant interior has been added to every page.
+
 ### Sections/Divisions
-The website has one or multiple sections/divisions with content, depending on which page you are on. These sections/divisions are recognized by a black transparent box surrounded by a cream-coloured border including a border-radius. All sections/divisions start with a cream-coloured header h2 with a fontawesome.com icon at the end.
+Depending on which page you are on, the website has one or multiple sections/divisions containing content. You can recognize these sections/divisions by a black transparent container surrounded by a Cream coloured border including a border-radius. All sections/divisions start with a Cream coloured heading h2 with a [fontawesome.com](https://www.fontawesome.com/) icon at the end.
 
 ### Menu Page
 The 'Menu' page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes too small, the sections and divisions will be on top of each other (block) to keep it readable.
 
 ### Forms
-The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, fields, and header h2 will be smaller in size on smaller devices (smart phones) for readability purposes.
+The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, text fields, drop-down menus, and heading h2 will be smaller in size on smaller devices (smartphones) for readability purposes.
 
 ### Paragraphs
 For consistency, all paragraphs have the same styling.
 
 ### Links
-Only the index page has clickable links outside the header and footer.
-* <b>Index Page</b> - Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are styled the same way as real buttons used on the website. The anchor links in the 'About' section are styled by a bold cream colour to distinguish themselves from the remaining text. By hovering the links an underline will appear, making it clear to visitors these are clickable links. 
+Only the index page has clickable links outside the header and footer of every page.
+Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are styled the same way as the buttons used on the website. A button could no be used because JaveScript was needed to redirect them to the other pages, for that reason the anchor links were styled to look like a button.
+The anchor links in the 'About' section are styled into a Cream coloured bold text to distinguish themselves from the remaining text. By hovering over the links, an underline will appear making it clear to the visitor these are clickable links. 
 
 ### Buttons
-Buttons can be found on the index, reservations, and contact page and are all styled the same way: cream colour border and text with a black background. When hovering the buttons also the background colour changes to a cream type of colour, making it clear to visitors it's a clickable button.
+Buttons can be found on the Index, Reservations, and Contact page and are all styled the same way: Cream colour border and text and a black background. When hovering over the buttons also the background colour will change into a Cream type of colour, making it clear to the visitor it's a clickable button.
 
 ### Responsiveness
 All pages are responsive on all devices. Minimum viewport width: 320px.
 
 ### Accessibility
-* All images have been foreseen with an alternative (alt) text in case the image cannot be loaded but also helps screen readers.
-<span color:red>ARIA LABELS</span>
+* All images have been foreseen with an alternative (alt) text in case the image cannot be loaded. This also helps the screen readers.
+* Aria-labels have been introduced where needed to give important information to the screen readers.
 
 ### Future Features
 * Feedback from previous visitors can be found on the social media pages of the restaurant. To directly implement feedback on the website, a guestbook might be a good idea to incorporate on the website in the future.
-* An older version of bootstrap has been implemented for the navigation bar only. Update to the latest version in the future.
+* An older version of bootstrap has been implemented for the navigation bar only. To be updated to the latest version in the future.
 
 <!-- Technologies Used -->
 <a id="technologies"></a>
@@ -152,9 +157,9 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 ### Frameworks, Libraries & Programs Used
 - [Bootstrap v3.4.1](https://getbootstrap.com/docs/3.4/) - Only used for the responsive navigation bar, especially needed for creating the hamburger-styled menu on smaller devices like smartphones.
 - [jquery v3.5.1](https://jquery.com/download/) - Used for the hamburger-styled menu for the navigation bar, part of the bootstrap framework.
-- [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the header.css file. This font style is used on all pages of the website.
-- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant and in the header h2/h3 of the website sections/divisions.
-- [Git](https://wwww.git-scm.com/) - Git was used for version control of this project. The terminal in Gitpod was used to commit and to push the project to Github.
+- [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the header.css file. This font is only used font on all pages of the website.
+- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant, payment methods, and in the heading h2 of the website sections/divisions.
+- [Git](https://wwww.git-scm.com/) - Git was used for version control and code change tracking of the website project. The terminal in Gitpod was used to commit and to push the project to the Github repository.
 - [Github](https://github.com/Eburonia/japanese-restaurant-shibuya) - The project code has been stored on the Github website.
 - [GitPod](https://www.gitpod.io/) - GitPod was used for creating the code, testing of the website, commiting, and pushing the code to the github repository. 
 - [Photoshop v8.0](https://www.photoshop.com/en) - An older version of Photoshop (Photoshop CS version 8.0) was used to resize images and to create the Dutch and United Kingdom language flags you can find in the header.
@@ -231,8 +236,8 @@ The following browsers were used for compatibility testing:
 The following devices were used for testing the website:
 - Desktop: Asus ZenBook (viewport: 1920px x 1080px) 
 - Desktop Asus Zenbook + External screen connected (viewport: px x px)
-- Smart phone: Samsung S9+ (viewport: 360px x 740px)
-- Smart phone: iPhone 11 (viewport: 414px x 896px)
+- Smartphone: Samsung S9+ (viewport: 360px x 740px)
+- Smartphone: iPhone 11 (viewport: 414px x 896px)
 
 During the building of the website [Google Chrome DevTools](https://developer.chrome.com/) were used to simulate different viewport sizes.
 The website is designed for a minimum viewport width of 320px and a maximum viewport size of ...
