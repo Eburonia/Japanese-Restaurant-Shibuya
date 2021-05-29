@@ -191,6 +191,9 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 #### Hero Image
 - Check whether there is any strange behavior of the hero image on different devices. **(to be checked)**
 
+<img src="assets/readme-images/ipad-mini.png" alt="iPad mini screenshot"><br>
+iPad mini screenshot
+
 #### Header/Navigation Bar
 - Check whether the header is always on top of the page. **(to be checked)**
 - Check whether the restaurant logo links back to the index page. **(to be checked)**
