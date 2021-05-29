@@ -404,11 +404,21 @@ You can download the repository by following the next procedure:
 ## Credits
 
 ### Code
-- All html and CSS code was written by the website creator: Maurice Vossen.
-- Colours were selected by using Photoshop v8.0.
+- All html and CSS code was written by the website creator: Maurice Vossen
+- Colours were selected by using Photoshop v8.0
 - Understanding 'float' and 'clear' CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I)
 - Understanding 'display: flex' CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- W3Schools example code for creating a Bootstrap navigation bar in the header. [link](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
+- W3Schools example code for creating a Bootstrap navigation bar in the header [link](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
+- Changing the outline color of a textarea [link](https://stackoverflow.com/questions/9345656/changing-the-outline-color-of-a-textarea)
+- Transition on Hover [link](https://www.w3schools.com/howto/howto_css_transition_hover.asp)
+- Change text color in nav bar “Bootstrap” [link](https://stackoverflow.com/questions/30842694/change-text-color-in-nav-bar-bootstrap/30842777)
+- Selecting first child CSS code [link](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild)
+- Selecting second child CSS code [link](https://www.w3schools.com/cssref/sel_nth-child.asp)
+- CSS Flex Responsive [link](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
+- Change the background color of the select list [link](https://crosstec.org/en/forums/15-usage/125393-change-the-background-color-of-the-select-list.html)
+- Change color of Chrome's calendar icon in HTML date input [link](https://stackoverflow.com/questions/62162645/change-color-of-chromes-calendar-icon-in-html-date-input)
+
+
 
 ### Content
 
@@ -445,8 +455,13 @@ You can download the repository by following the next procedure:
    * Highball Whiskey [link](https://pixabay.com/photos/whiskey-highball-nanning-654449/)   
 - The Dutch and United Kingdom flag used for selecting the website language were created by the website developer himself.
 
+<img src="assets/images/dutch-flag.png" alt="Dutch flag">
+<img src="assets/images/uk-flag.png" alt="United Kingdom flag">
+
 #### Audio
-- The audio player's Jazzy mp3 file is a copyright free audio file coming from Youtube/Soundclound: [Ryan - Milk Coffee [No Copyright Music]](https://www.youtube.com/watch?v=eSOV2Zo_J1A)  
+- The audio player's Jazzy mp3 file is a copyright free audio file coming from Youtube/Soundclound: Ryan - Milk Coffee [No Copyright Music]
+   * [Youtube link](https://www.youtube.com/watch?v=eSOV2Zo_J1A)
+   * [Soundcloud link](https://soundcloud.com/user-909504386/milk-coffee-jazz)
 
 ### Acknowledgements
 - Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback to this project.
