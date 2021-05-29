@@ -366,6 +366,8 @@ No errors found.
 7. Refresh the page after a minute and when this text box turns green, the website has been published.
 8. Click the link in the green text box to go to your published website.
 
+<img src="assets/readme-images/publishing.png" alt="Github pages publishing">
+
 ### Forking
 If you want to make a copy of the repository you can Fork it without changing the original repository by following the next procedure:
 1. Login to the [GitHub](https://www.github.com/) website.
@@ -373,8 +375,9 @@ If you want to make a copy of the repository you can Fork it without changing th
 3. On the right side of your screen, next to 'Unwatch' pull-down menu, and the 'Star' button, you can find the 'Fork' button.
 4. By clicking this button, it will create a copy of the website in your repository.
 
-### Cloning
+<img src="assets/readme-images/forking.png" alt="Forking webpage">
 
+### Cloning
 You can clone the repository by following the next procedure:
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
@@ -384,13 +387,16 @@ You can clone the repository by following the next procedure:
 6. When in this repository, select the folder or create a folder where you want to clone the directory.
 7. Go to the terminal and type: 'Git Clone (copied link)' and press enter. The directory has been cloned now.
 
-### Downloading
+<img src="assets/readme-images/cloning.png" alt="Cloning webpage">
 
+### Downloading
 You can download the repository by following the next procedure:
 1. Login to the [GitHub](https://www.github.com/) website.
 2. On the left side of your screen, you can find a summary of all your repositories. Select [Eburonia/japanese-restaurant-shibuya](https://github.com/Eburonia/japanese-restaurant-shibuya)
 3. Click on the 'Code' button next to the Green 'GitPod' button and then click on 'Download ZIP'.
 4. A .zip file of the repository content will be downloaded. 
+
+<img src="assets/readme-images/downloading.png" alt="Downloading webpage">
 
 
 <!-- Credits -->
