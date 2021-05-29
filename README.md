@@ -241,7 +241,7 @@ Footer screenshot
 - Family and friends were asked to test the website and to navigate through all four website pages. Buttons, links, and forms were tested by them.
 
 <img src="assets/readme-images/iphone-5.png" alt="iPhone 5 screenshot"><br>
-iPhone 5
+iPhone 5 screenshot
 
 ### Compatibility Testing
 The following browsers were used for compatibility testing:
