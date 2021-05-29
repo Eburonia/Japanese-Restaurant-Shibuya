@@ -141,7 +141,9 @@ Links on the index page you can find in the 'Welcome' and 'About' sections of th
 The anchor links in the 'About' section are styled into a Cream coloured bold text to distinguish themselves from the remaining text. By hovering over the links, an underline will appear making it clear to the visitor these are clickable links. 
 
 ### Buttons
-Buttons can be found on the Index, Reservations, and Contact page and are all styled the same way: Cream colour border and text and a black background. When hovering over the buttons also the background colour will change into a Cream type of colour, making it clear to the visitor it's a clickable button.
+Buttons can be found on the Index, Reservations, and Contact page in the form section and are all styled the same way: Cream colour border and text and a black background. When hovering over the buttons also the background colour will change into a Cream type of colour, making it clear to the visitor it's a clickable button.  
+<br><img src="assets/readme-images/button.png" alt="Form button screenshot"><br>
+Typical form button
 
 ### Responsiveness
 All pages are responsive on all devices. Minimum viewport width: 320px.
