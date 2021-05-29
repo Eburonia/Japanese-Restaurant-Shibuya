@@ -1,5 +1,5 @@
 
-<h1 style="align: center;">Japanese Restaurant Shibuya</h1>
+<h1 style="text-align: center;">Japanese Restaurant Shibuya</h1>
 
 <!-- Responsive Image -->
 <img src="assets/readme-images/responsive.png" alt="Responsive Design of Website">
@@ -65,12 +65,20 @@ This website could also be valuable for restaurant owners who already own a pers
    * Black: rgba(0, 0, 0, 0.85) - used in headers, footers, and sections background.
    * Cream colour type: rgb(195, 161, 104) - used in the restaurant logo text, h2 and h3 headers, sections, some divisions, image borders, buttons, form text fields, and form drop-down menus.
    * Smokewhite: rgb(245, 245, 245) - used in header, footer, navigation bar, paragraphs, menu items, and form labels.
-- The sections ans some divisions of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
-- For emphasizing purposes a red colour is used for new menu items on the menu page and important messages like required text fields on the reservations and contact form.
+- The sections and some divisions of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
+- For emphasizing purposes a red colour rgb(255, 0, 0) is used for new menu items on the menu page and important messages like required text fields on the reservations and contact form.
+- The hover colour of the buttons is a transparent type of Orange colour: rgba(129, 91, 28, 0.5).<br>
+
+
+<img src="assets/readme-images/colour-scheme.png" alt="Colour scheme">
+
 
 #### Typography
 - [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin#about) is the only font used throughout the website. Sans Serif is set as a fallback font type. Libre Franklin is a well-readable font. 
 This font is based on the 1912 Morris Fuller Benton classic and was designed by Pablo Impallari, an Argentinian type designer based in Rosario.
+
+<img src="assets/readme-images/libre-franklin-font.png" alt="Libre Franklin Font"><br>
+
 
 #### Imagery
 - A background image (hero) has been added to every page showing the restaurant's interior, giving the visitor an idea about the restaurant's atmosphere.
