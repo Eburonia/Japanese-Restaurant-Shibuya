@@ -460,8 +460,8 @@ You can download the repository by following the next procedure:
 
 #### Audio
 - The audio player's Jazzy mp3 file is a copyright free audio file coming from Youtube/Soundclound: Ryan - Milk Coffee [No Copyright Music]
-   * [Youtube link](https://www.youtube.com/watch?v=eSOV2Zo_J1A)
-   * [Soundcloud link](https://soundcloud.com/user-909504386/milk-coffee-jazz)
+   * Youtube [link](https://www.youtube.com/watch?v=eSOV2Zo_J1A)
+   * Soundcloud [link](https://soundcloud.com/user-909504386/milk-coffee-jazz)
 
 ### Acknowledgements
 - Thanks to my personal mentor Maranatha Ilesanmi for answering my questions and giving feedback to this project.
