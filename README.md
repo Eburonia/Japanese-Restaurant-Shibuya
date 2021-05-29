@@ -337,7 +337,7 @@ No errors found.
    * On the reservation form on the 'Reservation' page, a drop-down menu where you can select your desired date and a drop-down menu where you can select the desired time when you can make a reservation have been added.
 
 8. As a first-time visitor of the website, I want to know what the methods of payment are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
-   * On the index page of the website, a 'Payment Methods' section has been added. It clearly states cash is accepted (Euro only). It also indicates icons of accepted credit cards and even bitcoin cash is accepted.
+   * On the index page of the website, a 'Payment Methods' section has been added. It clearly states cash is accepted (Euro only). It also indicates icons of accepted credit cards and even bitcoin cash is accepted (the green colour for the bitcoin icon is on purpose).
 
 9. As a first-time visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
    * In the navigation bar, a link to the 'Contact' page has been added. On this page, a form has been added where you can send a message in case you want to ask a question or you want additional information about the restaurant.
@@ -357,7 +357,7 @@ No errors found.
 ## Known Bugs
 - Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size. **This has been fixed but still can be optimized**.
 - Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar has been loaded.
-- Styling of audio player gives bad styling quality in Microsoft Explorer and Google Chrome. The styling of the audio player has been removed for now.
+- Styling of audio player gives bad styling quality in Microsoft Edge and Google Chrome. The styling of the audio player has been removed for now. I am also not satisfied how the audio player looks in these browsers.
 - The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers.
 
 <!-- Deployment -->
