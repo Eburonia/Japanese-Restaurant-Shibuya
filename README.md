@@ -1,5 +1,5 @@
 
-<h1 style="text-align: center;">Japanese Restaurant Shibuya</h1>
+<h1 align="center">Japanese Restaurant Shibuya</h1>
 
 <!-- Responsive Image -->
 <img src="assets/readme-images/responsive.png" alt="Responsive Design of Website">
@@ -211,6 +211,9 @@ iPad mini screenshot
 - Check for dead links. **(to be checked)**
 - Check the responsiveness of the footer when changing the size of the viewport. **(to be checked)**
 
+<img src="assets/readme-images/footer.png" alt="Footer screenshot"><br>
+Footer screenshot
+
 #### Index Page
 - Check for dead links. **(to be checked)**
 - Check whether the required e-mail field in the mailing list section is functioning. **(to be checked)**
@@ -236,6 +239,9 @@ iPad mini screenshot
 
 ### Usability Testing
 - Family and friends were asked to test the website and to navigate through all four website pages. Buttons, links, and forms were tested by them.
+
+<img src="assets/readme-images/iphone-5.png" alt="iPhone 5 screenshot"><br>
+iPhone 5
 
 ### Compatibility Testing
 The following browsers were used for compatibility testing:
