@@ -263,7 +263,6 @@ W3C Markup Validator, results of English language pages:
 * [reservations.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Freservations.html)
 * [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fcontact.html)
 
-
 No errors found.
 
 W3C Markup Validator results of Dutch language pages:
@@ -276,6 +275,7 @@ W3C Markup Validator results of 404 page:
 * [404.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2F404.html)
 
 No errors found.
+Remark: Mixing up section and article elements gives problems to pass the W3C Markup Validator. Article elements were deleted.
 
 #### W3C CSS Validator
 
