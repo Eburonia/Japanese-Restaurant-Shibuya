@@ -70,7 +70,8 @@ This website could also be valuable for restaurant owners who already own a pers
 - The hover colour of the buttons is a transparent type of Orange colour: rgba(129, 91, 28, 0.5).<br>
 
 
-<img src="assets/readme-images/colour-scheme.png" alt="Colour scheme">
+<img src="assets/readme-images/colour-scheme.png" alt="Colour scheme"><br>
+<sub>Colour scheme</sub>
 
 
 #### Typography
@@ -78,6 +79,7 @@ This website could also be valuable for restaurant owners who already own a pers
 This font is based on the 1912 Morris Fuller Benton classic and was designed by Pablo Impallari, an Argentinian type designer based in Rosario.
 
 <img src="assets/readme-images/libre-franklin-font.png" alt="Libre Franklin Font"><br>
+<sub>Libre Franklin font</sub>
 
 
 #### Imagery
@@ -143,7 +145,7 @@ The anchor links in the 'About' section are styled into a Cream coloured bold te
 ### Buttons
 Buttons can be found on the Index, Reservations, and Contact page in the form section and are all styled the same way: Cream colour border and text and a black background. When hovering over the buttons also the background colour will change into a Cream type of colour, making it clear to the visitor it's a clickable button.  
 <br><img src="assets/readme-images/button.png" alt="Form button screenshot"><br>
-Typical form button
+<sub>Typical form button</sub>
 
 ### Responsiveness
 All pages are responsive on all devices. Minimum viewport width: 320px.
@@ -194,7 +196,7 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 - Check whether there is any strange behavior of the hero image on different devices. **(to be checked)**
 
 <img src="assets/readme-images/ipad-mini.png" alt="iPad mini screenshot"><br>
-iPad mini screenshot
+<sub>iPad mini screenshot</sub>
 
 #### Header/Navigation Bar
 - Check whether the header is always on top of the page. **(to be checked)**
@@ -214,7 +216,7 @@ iPad mini screenshot
 - Check the responsiveness of the footer when changing the size of the viewport. **(to be checked)**
 
 <img src="assets/readme-images/footer.png" alt="Footer screenshot"><br>
-Footer screenshot
+<sub>Footer screenshot</sub>
 
 #### Index Page
 - Check for dead links. **(to be checked)**
@@ -243,7 +245,7 @@ Footer screenshot
 - Family and friends were asked to test the website and to navigate through all four website pages. Buttons, links, and forms were tested by them.
 
 <img src="assets/readme-images/iphone-5.png" alt="iPhone 5 screenshot"><br>
-iPhone 5 screenshot
+<sub>iPhone 5 screenshot</sub>
 
 ### Compatibility Testing
 The following browsers were used for compatibility testing:
@@ -464,10 +466,11 @@ You can download the repository by following the next procedure:
    * Okinawa Soba [link](https://pixabay.com/photos/okinawa-soba-okinawa-1697765/)
    * Takoyaki [link](https://pixabay.com/photos/food-takoyaki-ball-1614130/)
    * Highball Whiskey [link](https://pixabay.com/photos/whiskey-highball-nanning-654449/)   
-- The Dutch and United Kingdom flag used for selecting the website language were created by the website developer himself.
+- The Dutch and United Kingdom flag used for selecting the website language were created by the website developer himself.  
 
 <img src="assets/images/dutch-flag.png" alt="Dutch flag">
-<img src="assets/images/uk-flag.png" alt="United Kingdom flag">
+<img src="assets/images/uk-flag.png" alt="United Kingdom flag"><br>
+<sub>Dutch/United Kingdom flags</sub>
 
 #### Audio
 - The audio player's Jazzy mp3 file is a copyright free audio file coming from Youtube/Soundclound: Ryan - Milk Coffee [No Copyright Music]
