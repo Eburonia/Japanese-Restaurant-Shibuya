@@ -365,9 +365,10 @@ No errors found.
 <a id="bugs"></a>
 ## Known Bugs
 - Slow loading time of the hero image and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size. **This has been fixed but still can be optimized if needed.**
-- Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar has been loaded (override).
+- The bootstrap navigation bar shows a small black border (1px?) around the navigation bar. 
 - Styling of audio player gives bad styling quality in Microsoft Edge and Google Chrome. The styling of the audio player has been removed for now. I am also not satisfied how the audio player looks in these browsers.
 - The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers (see also Credits section).
+- Hero image moves up 
 
 <!-- Deployment -->
 <a id="deployment"></a>
