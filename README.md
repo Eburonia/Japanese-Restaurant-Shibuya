@@ -187,64 +187,64 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 ### Functionality Checklist
 
 #### Common
-- Check aria labels. **(to be checked)**
-- Check alternative 'alt' text. **(to be checked)**
-- Check transparency of header, footer, and sections/divisions. **(to be checked)**
-- Check the spelling of the page content (English and Dutch). **(to be checked)**
-- Check loading speed of images on all pages. **(to be checked)**
+- Check aria labels. **(checked)**
+- Check alternative 'alt' text. **(checked)**
+- Check transparency of header, footer, and sections/divisions. **(checked)**
+- Check the spelling of the page content (English and Dutch). **(checked)**
+- Check loading speed of images on all pages. **(checked)**
 
 #### Hero Image
-- Check whether there is any strange behavior of the hero image on different devices. **(to be checked)**
+- Check whether there is any strange behavior of the hero image on different devices. **(checked / see known bugs section)**
 
 <img src="assets/readme-images/ipad-mini.png" alt="iPad mini screenshot"><br>
 <sub>iPad mini screenshot</sub>
 
 #### Header/Navigation Bar
-- Check whether the header is always on top of the page. **(to be checked)**
-- Check whether the restaurant logo links back to the index page. **(to be checked)**
-- Check the 'Active' page in the navigation bar and the remaining links change colour while hovering. **(to be checked)**
-- Check for dead links. **(to be checked)**
-- Check whether website language links are working properly. **(to be checked)**
-- Check the responsiveness of the navigation bar (change to hamburger-style navigation). **(to be checked)**
-- Check whether there is no overflow of the sections/division while reducing the screen size. **(to be checked)**
-- Check whether audio player is working properly. **(to be checked)**
+- Check whether the header is always on top of the page. **(checked)**
+- Check whether the restaurant logo links back to the index page. **(checked)**
+- Check the 'Active' page in the navigation bar and the remaining links change colour while hovering. **(checked)**
+- Check for dead links. **(checked)**
+- Check whether website language links are working properly. **(checked)**
+- Check the responsiveness of the navigation bar (change to hamburger-style navigation). **(checked)**
+- Check whether there is no overflow of the sections/division while reducing the screen size. **(checked)**
+- Check whether audio player is working properly. **(checked)**
 
 #### Footer
-- Check whether the footer is always at the bottom of the page. **(to be checked)**
-- Check whether all social media links are working properly and are opening a new blank page. **(to be checked)**
-- Check whether the social media links change colour while being hovered. **(to be checked)**
-- Check for dead links. **(to be checked)**
-- Check the responsiveness of the footer when changing the size of the viewport. **(to be checked)**
+- Check whether the footer is always at the bottom of the page. **(checked)**
+- Check whether all social media links are working properly and are opening a new blank page. **(checked)**
+- Check whether the social media links change colour while being hovered. **(checked)**
+- Check for dead links. **(checked)**
+- Check the responsiveness of the footer when changing the size of the viewport. **(checked)**
 
 <img src="assets/readme-images/footer.png" alt="Footer screenshot"><br>
 <sub>Footer screenshot</sub>
 
 #### Index Page
-- Check for dead links. **(to be checked)**
-- Check whether the required e-mail field in the mailing list section is functioning. **(to be checked)**
-- Check the responsiveness of the sections when changing the size of the viewport. **(to be checked)**
-- Check transparency of the background in the sections. **(to be checked)**
-- Check Functionality of restaurant location section / image. **(to be checked)**
-- Check Payment section links. **(to be checked)**
+- Check for dead links. **(checked)**
+- Check whether the required e-mail field in the mailing list section is functioning. **(checked)**
+- Check the responsiveness of the sections when changing the size of the viewport. **(checked)**
+- Check transparency of the background in the sections. **(checked)**
+- Check Functionality of restaurant location section / image. **(checked)**
+- Check Payment section links. **(checked)**
 
 #### Menu Page
-- Check the responsiveness of the menu sections when changing the size of the viewport. **(to be checked)**
-- Check correct order of menu categories and images at smaller viewport width. **(to be checked)**
-- Check correct styling for every menu category. **(to be checked)**
+- Check the responsiveness of the menu sections when changing the size of the viewport. **(checked)**
+- Check correct order of menu categories and images at smaller viewport width. **(checked)**
+- Check correct styling for every menu category. **(checked)**
 
 #### Reservations Page
-- Check the responsiveness of the reservations form when changing the width of the viewport. **(to be checked)**
-- Check functionality of required fields. **(to be checked)**
-- Check the result of Code Institute's 'action' page after submitting the form. **(to be checked)**
+- Check the responsiveness of the reservations form when changing the width of the viewport. **(checked)**
+- Check functionality of required fields. **(checked)**
+- Check the result of Code Institute's 'action' page after submitting the form. **(checked)**
 
 #### Contact Page
-- Check the responsiveness of the contact form when changing the width of the viewport. **(to be checked)**
-- Check functionality of required fields. **(to be checked)**
-- Check the result of Code Institute's 'action' page after submitting the form. **(to be checked)**
+- Check the responsiveness of the contact form when changing the width of the viewport. **(checked)**
+- Check functionality of required fields. **(checked)**
+- Check the result of Code Institute's 'action' page after submitting the form. **(checked)**
 
 #### 404 Page
-- Check whether 404 page loads when entering a wrong link address. **(to be checked)**
-- Check the 'back to homepage' anchor links 'going to English index page' and 'going to Dutch index page'. **(to be checked)**
+- Check whether 404 page loads when entering a wrong link address. **(checked)**
+- Check the 'back to homepage' anchor links 'going to English index page' and 'going to Dutch index page'. **(checked)**
 
 ### Usability Testing
 - Family and friends were asked to test the website and to navigate through all four website pages. Buttons, links, and forms were tested by them.
@@ -368,7 +368,11 @@ No errors found.
 - The bootstrap navigation bar shows a small black border (1px?) around the navigation bar. 
 - Styling of audio player gives bad styling quality in Microsoft Edge and Google Chrome. The styling of the audio player has been removed for now. I am also not satisfied how the audio player looks in these browsers.
 - The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers (see also Credits section).
-- Hero image moves up 
+- The hero background image sometimes won't stay fixed when scrolling on smaller devices (smartphone), it moves up a little bit showing a white background on the bottom of the hero image. When releasing your finger from the screen (stop scrolling) the hero image will reposition itself and automatically covers the whole viewport, see also image below. Maybe this has something to do with loading the hero image in the body element instead of the division element?
+
+<img src="assets/readme-images/hero-bug.png" alt="Screen capture of hero image bug">
+
+
 
 <!-- Deployment -->
 <a id="deployment"></a>
