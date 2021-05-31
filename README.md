@@ -14,7 +14,7 @@ View the GitHub Repository [link](https://github.com/Eburonia/japanese-restauran
 ## About
 These days there are still restaurant owners who are not active on the internet by owning a website or being active on social media.
 By creating this example 'Japanese Restaurant Shibuya' website, we will show the importance of being active on the internet to these restaurant owners.
-We will give them an idea how a typical restaurant website will look like and we will show what the added value for them is.
+We will give them an idea how a typical restaurant website will look like and we will show them what the added value for is.
 This website could also be valuable for restaurant owners who already own a personal restaurant website, but are looking for inspiration or new ideas.
   
 
@@ -62,12 +62,13 @@ This website could also be valuable for restaurant owners who already own a pers
 
 #### Colour Scheme
 - To not get distracted too much, and for readability purposes, the used colours on the website meet the colours of the background hero image. Three types are used for styling the html elements:
-   * Black: rgba(0, 0, 0, 0.85) - used in headers, footers, and sections background.
+   * Transparent Black colour: rgba(0, 0, 0, 0.85) - used in headers, footers, and sections background.
    * Cream colour type: rgb(195, 161, 104) - used in the restaurant logo text, h2 and h3 headers, sections, some divisions, image borders, buttons, form text fields, and form drop-down menus.
-   * Smokewhite: rgb(245, 245, 245) - used in header, footer, navigation bar, paragraphs, menu items, and form labels.
+   * Smokewhite colour: rgb(245, 245, 245) - used in header, footer, navigation bar, paragraphs, menu items, and form labels.
 - The sections and some divisions of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
-- For emphasizing purposes a red colour rgb(255, 0, 0) is used for new menu items on the menu page and important messages like required text fields on the reservations and contact form.
-- The hover colour of the buttons is a transparent type of Orange colour: rgba(129, 91, 28, 0.5).<br>
+- For emphasizing purposes a red colour rgb(255, 0, 0) is used for new menu items on the menu page and important messages like required text fields (*) on the reservations and contact form.
+- The hover colour of the buttons is a transparent type of Orange colour: rgba(129, 91, 28, 0.5).
+- The audio player has not been styled (see also 'Known Bugs' section).<br>
 
 
 <img src="assets/readme-images/colour-scheme.png" alt="Colour scheme"><br>
@@ -101,7 +102,7 @@ All wireframes were designed for three different devices:
 - iPhone - 12 Pro Max: maximum viewport width 428px
 
 #### Mockups
-The intention was to also create mockups for the website project. Due to the limited available time of the web developer, it has been skipped. Nevertheless, it is important to also invest time in creating mockups for future projects and won't be skipped next time.
+The intention was to also create mockups for the website project. Due to the limited available time of the web developer, it has been skipped. Nevertheless, it is important to also invest time in creating mockups for future projects.
 
 
 <!-- Features -->
@@ -111,25 +112,25 @@ The intention was to also create mockups for the website project. Due to the lim
 ### Header
 The header is located at the top of every page and exists out of the restaurant logo, navigation bar, and the preferred website language which are clickable language flags 'English or 'Dutch' and will be automatically loaded on every page.
 * <b>Restaurant Logo</b> - The restaurant logo on the upper left side of the screen indicates the website is about a 'Japanese Restaurant' named 'Shibuya' and is a clickable link always redirecting the visitor to the website's index page.
-* <b>The Navigation Bar</b> - The navigation bar is part of the header and will be intuitively found by the visitor. A Cream coloured stripe above a navigation item makes it clear to visitors on which active page they are on at the moment. The navigation bar will automatically change to a 'Hamburger' type navigation bar at smaller devices (smartphones). Hovering over a navigation bar item will change the colour making it clear to the visitor it's a clickable link.
+* <b>The Navigation Bar</b> - The navigation bar is part of the header and will be intuitively found by the visitor. A Cream coloured stripe above a navigation item makes it clear to visitors on which active page they are at the moment. The navigation bar will automatically change to a 'Hamburger' type navigation bar at smaller devices (smartphones). Hovering over a navigation bar item will change the colour making it clear to the visitor it's a clickable link.
 * <b>Background Colour</b> - A black transparent background colour has been chosen for the header to keep the hero image in the background partly visible.
 * <b>Language Flags</b> - Visitors can select the preferred language of the website in the header by clicking on one of the two available language flags 'English' or 'Dutch'. The website will be automatically loaded in the English language when landing on the homepage. By hovering over the flags, a tooltip will show up telling which language the flag represents.
 * <b>Background Audio</b> - On the bottom right side of the header, a small audio player has been introduced. A 'Jazzy' audio file has been added to the audio player. To not disturb the visitor when landing on the website, you first need to push the play button to start the audio file. The audio file loops until you press the pause button.
 
 ### Footer
-The footer has been located at the bottom of every page and exists out social media link, and a copyright notice.
+The footer has been located at the bottom of every page and exists out of social media links, and a copyright notice.
 * <b>Background Colour</b> - A black transparent background colour has been chosen for the footer to keep the hero image in the background partly visible.
-* <b>Social Media Links</b> - Icons presenting social media platforms from the [fontawesome.com](https://www.fontawesome.com/) website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering over the links, the colour changes from Whitesmoke to Cream colour indicating these are clickable links.
+* <b>Social Media Links</b> - Icons representing social media platforms from the [fontawesome.com](https://www.fontawesome.com/) website are introduced as anchor links to redirect the visitor to the restaurant's external social media pages (blank page). By hovering over the links, the colour changes from Whitesmoke to Cream colour indicating these are clickable links.
 * <b>Copyright Notice</b> - A clear copyright notice is visible at the bottom of the footer.
 
 ### Hero Background Image
-A fixed hero image of the Restaurant interior has been added to every page.
+A fixed background (hero) image of the Restaurant interior has been added to every page.
 
 ### Sections/Divisions
-Depending on which page you are on, the website has one or multiple sections/divisions containing content. You can recognize these sections/divisions by a black transparent container surrounded by a Cream coloured border including a border-radius. All sections/divisions start with a Cream coloured heading h2 with a [fontawesome.com](https://www.fontawesome.com/) icon at the end.
+Depending on which page you are on, the website has one or multiple sections/divisions containing content. You can recognize these sections/divisions by a black transparent container surrounded by a Cream coloured border including a border-radius. All sections/divisions start with a Cream coloured heading h2 including a [fontawesome.com](https://www.fontawesome.com/) icon at the end.
 
 ### Menu Page
-The 'Menu' page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes too small, the sections and divisions will be on top of each other (block) to keep it readable.
+The 'Menu' page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes smaller, the sections and divisions will be on top of each other (block) to keep it readable.
 
 ### Forms
 The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, text fields, drop-down menus, and heading h2 will be smaller in size on smaller devices (smartphones) for readability purposes.
@@ -139,11 +140,11 @@ For consistency, all paragraphs have the same styling.
 
 ### Links
 Only the index page has clickable links outside the header and footer of every page.
-Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are styled the same way as the buttons used on the website. A button could no be used because JaveScript was needed to redirect them to the other pages, for that reason the anchor links were styled to look like a button.
+Links on the index page you can find in the 'Welcome' and 'About' sections of the page. The anchor links in the 'Welcome' section are styled in such a way they look like buttons and are also styled the same way as the buttons used on the website. A button could no be used because JaveScript was needed to redirect them to the other pages, for that reason the anchor links were styled to look like a button.
 The anchor links in the 'About' section are styled into a Cream coloured bold text to distinguish themselves from the remaining text. By hovering over the links, an underline will appear making it clear to the visitor these are clickable links. 
 
 ### Buttons
-Buttons can be found on the Index, Reservations, and Contact page in the form section and are all styled the same way: Cream colour border and text and a black background. When hovering over the buttons also the background colour will change into a Cream type of colour, making it clear to the visitor it's a clickable button.  
+Buttons can be found in the form sections of the Index page (Mailing List), Reservations page, and Contact page and are all styled in the same way: Cream colour border and text and a black background. When hovering over the buttons, also the background colour will change into a Cream type of colour, making it clear to the visitor it's a clickable button.  
 <br><img src="assets/readme-images/button.png" alt="Form button screenshot"><br>
 <sub>Typical form button</sub>
 
@@ -241,6 +242,10 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 - Check functionality of required fields. **(to be checked)**
 - Check the result of Code Institute's 'action' page after submitting the form. **(to be checked)**
 
+#### 404 Page
+- Check whether 404 page loads when entering a wrong link address. **(to be checked)**
+- Check the 'back to homepage' anchor links 'going to English index page' and 'going to Dutch index page'. **(to be checked)**
+
 ### Usability Testing
 - Family and friends were asked to test the website and to navigate through all four website pages. Buttons, links, and forms were tested by them.
 
@@ -278,7 +283,7 @@ W3C Markup Validator, results of English language pages:
 
 No errors found.
 
-W3C Markup Validator results of Dutch language pages:
+W3C Markup Validator, results of Dutch language pages:
 * [index-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fnl%2Findex-nl.html)
 * [menu-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fnl%2Fmenu-nl.html)
 * [reservations-nl.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Feburonia.github.io%2Fjapanese-restaurant-shibuya%2Fnl%2Freservations-nl.html)
@@ -304,7 +309,7 @@ W3C CSS Validator, results of the style sheets:
 No errors found.
 
 ### Testing Grammar and Spelling 
-- [Grammarly.com](https://www.grammarly.com/) was used to check grammar and spelling mistakes.
+- [Grammarly.com](https://www.grammarly.com/) was used to check grammar and spelling.
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -313,7 +318,7 @@ No errors found.
 1. As a first-time visitor of the website, I want to understand what the website's purpose is, so I can decide to navigate through the website and read all the available information or leave the website in case it does not meet my expectations.
    * At the upper left corner in the website's header, the website's company logo 'Japanese Restaurant Shibuya' immediately tells new visitors that they have ended up on a Japanese Restaurant website.
    * To make it even more clear, a background (hero) image of the restaurant has been added to every page, telling the first time visitors they probably have ended up on a restaurant website.
-   * A navigation bar in the header at the top of every page has links included to a 'Menu' and 'Reservation' page which also suggests the website is probably about a restaurant.
+   * A navigation bar in the header at the top of every page has links included to a 'Menu' and 'Reservations' page which also suggests the website is probably about a restaurant.
    * To make the purpose of the website totally clear, a 'Welcome' section on the index page has been added, stating that visitors have ended up on a Japanese Restaurant website. Also, the 'About' section below the 'Welcome' section gives more background information about the website and its purpose, which of course is an introduction to the restaurant.
 
 2. As a first-time visitor of the website, I want to know more about the restaurant's atmosphere.
@@ -321,7 +326,7 @@ No errors found.
 
 3. As a first-time visitor of the website, I want to know what food the restaurant has to offer and at what price, so that I can decide whether I want to visit the restaurant somewhere in the future in case it meets my needs and expectations.
    * In the navigation bar, a link to the 'Menu' page has been added. Also in the 'Welcome' section on the index page, a styled anchor link (looks like a button) has been added to directly send potential guests to the 'Menu' page.
-   * On the 'Menu' page, the menu has been subdivided into categories, listing category items including their prices. To make it clear to guests what they can expect when they make an order, one menu item image per category has been added to the menu.
+   * On the 'Menu' page, the menu has been subdivided into different categories (listing category items including pricing). To make it clear to guests what they can expect when they make an order, one menu item image per category has been added to the menu.
 
 4. As a first-time visitor of the website, I want to know where the restaurant is located, so that I can decide whether the restaurant is within my desired traveling distance.
    * On the index page in the 'About' section, it is indicated that the restaurant is located in the city of Maastricht. The 'Find Us' section on the index page, clearly states the restaurant's address. Also, a 'Google Maps' image of the location of the restaurant has been added to the index page.
@@ -331,17 +336,17 @@ No errors found.
    * Not implemented on the website for now, but an online guestbook on the website would also be a good idea to get feedback from previous guests.
 
 6. As a first-time visitor of the website, I want to know whether it is possible and needed to make a reservation, so that I can take that into account when I want to visit the restaurant in the future.
-   * In the navigation bar, a link to the 'Reservation' page has been added.
+   * In the navigation bar, a link to the 'Reservations' page has been added.
    * In the 'About' section of the index page, a styled anchor link (looks like a button) has been added to directly send potential guests to the 'Reservations' page.
-   * On the 'Reservation' page a clear form has been added with all the needed information to make a reservation at the restaurant.
+   * On the 'Reservations' page a clear form has been added with all the needed information to make a reservation at the restaurant.
    * The 'About' section on the index page states to make a reservation with a link to the reservations page.
 
 7. As a first-time visitor of the website, I want to know on what day and at what time it is possible to visit the restaurant, so that I know when to make a reservation in case I want to visit the restaurant in the future.
-   * On the index page of the restaurant, an 'Opening Hours' section has been added which indicates on what day and between what times the restaurant is opened.
-   * On the reservation form on the 'Reservation' page, a drop-down menu where you can select your desired date and a drop-down menu where you can select the desired time when you can make a reservation have been added.
+   * On the index page of the restaurant, an 'Opening Hours' section has been added which indicates on what day and between what hours the restaurant is opened.
+   * On the reservation form on the 'Reservations' page, a drop-down menu where you can select your desired date and a drop-down menu where you can select your desired time when you can make a reservation have been added.
 
 8. As a first-time visitor of the website, I want to know what the methods of payment are, so that I know whether to bring cash or a credit card before visiting the restaurant in the future.
-   * On the index page of the website, a 'Payment Methods' section has been added. It clearly states cash is accepted (Euro only). It also indicates icons of accepted credit cards and even bitcoin cash is accepted (the green colour for the bitcoin icon is on purpose).
+   * On the index page of the website, a 'Payment Methods' section has been added. It clearly states cash is accepted (Euro only). It also indicates icons of accepted credit cards and even bitcoin cash is accepted (the green colour for the bitcoin icon is on purpose to make a distinction between credit cards and crypto).
 
 9. As a first-time visitor of the website, I want to know how and if I can get additional information about the restaurant in case it's not mentioned on the website.
    * In the navigation bar, a link to the 'Contact' page has been added. On this page, a form has been added where you can send a message in case you want to ask a question or you want additional information about the restaurant.
@@ -353,16 +358,16 @@ No errors found.
    * At the bottom of the menu, it's clearly stated when the menu was updated for the last time.
 
 2. As a returning visitor of the website, I want to know whether there is any important news or announcement about the restaurant without having to check the website regularly.
-   * On the index page, a 'Mailing List' section has been added. Here visitors who are interested can add their e-mail address, so that they will receive the latest news and announcements about the restaurant in their e-mail box.
+   * On the index page, a 'Mailing List' section has been added. Here visitors who are interested can add their e-mail address, so they will receive the latest news and announcements about the restaurant in their e-mail box.
 
 
 <!-- Known Bugs -->
 <a id="bugs"></a>
 ## Known Bugs
-- Slow loading time of the hero images and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size. **This has been fixed but still can be optimized**.
-- Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar has been loaded.
+- Slow loading time of the hero image and menu images when loading the website for the first time. The problem can probably be solved by reducing the file size. **This has been fixed but still can be optimized if needed.**
+- Loading the bootstrap navigation bar for the first time shows a small black border around the navigation bar, but will disappear when the custom CSS style of the navigation bar has been loaded (override).
 - Styling of audio player gives bad styling quality in Microsoft Edge and Google Chrome. The styling of the audio player has been removed for now. I am also not satisfied how the audio player looks in these browsers.
-- The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers.
+- The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers (see also Credits section).
 
 <!-- Deployment -->
 <a id="deployment"></a>
@@ -422,14 +427,14 @@ You can download the repository by following the next procedure:
 - Understanding 'float' and 'clear' CSS code [link](https://www.youtube.com/watch?v=xara4Z1b18I)
 - Understanding 'display: flex' CSS code [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - W3Schools example code for creating a Bootstrap navigation bar in the header [link](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
-- Changing the outline color of a textarea [link](https://stackoverflow.com/questions/9345656/changing-the-outline-color-of-a-textarea)
+- Changing the outline colour of a textarea [link](https://stackoverflow.com/questions/9345656/changing-the-outline-color-of-a-textarea)
 - Transition on Hover [link](https://www.w3schools.com/howto/howto_css_transition_hover.asp)
-- Change text color in nav bar “Bootstrap” [link](https://stackoverflow.com/questions/30842694/change-text-color-in-nav-bar-bootstrap/30842777)
+- Change text colour in nav bar “Bootstrap” [link](https://stackoverflow.com/questions/30842694/change-text-color-in-nav-bar-bootstrap/30842777)
 - Selecting first child CSS code [link](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild)
 - Selecting second child CSS code [link](https://www.w3schools.com/cssref/sel_nth-child.asp)
 - CSS Flex Responsive [link](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
-- Change the background color of the select list [link](https://crosstec.org/en/forums/15-usage/125393-change-the-background-color-of-the-select-list.html)
-- Change color of Chrome's calendar icon in HTML date input [link](https://stackoverflow.com/questions/62162645/change-color-of-chromes-calendar-icon-in-html-date-input)
+- Change the background colour of the select list [link](https://crosstec.org/en/forums/15-usage/125393-change-the-background-color-of-the-select-list.html)
+- Change colour of Chrome's calendar icon in HTML date input (see also 'Known Bugs' section)[link](https://stackoverflow.com/questions/62162645/change-color-of-chromes-calendar-icon-in-html-date-input)
 
 
 
@@ -459,14 +464,14 @@ You can download the repository by following the next procedure:
 
 #### Images
 - All pictures shown are for illustration purposes only and are not owned by the web developer, all copyrights and credit go to the respective owner.
-- The free to use background hero image is coming from [Unsplash.com](https://unsplash.com/@dineshramaswamy)
+- The free to use background (hero) image is coming from [Unsplash.com](https://unsplash.com/@dineshramaswamy)
 - For the menu page, the following images were taken from the [pixabay](https://www.pixabay.com/) website:
    * Sushi image [link](https://pixabay.com/photos/sushi-food-japan-2363418/)
    * Sashimi image [link](https://pixabay.com/photos/sashimi-food-seafood-tuna-cuisine-2563650/)
    * Okinawa Soba [link](https://pixabay.com/photos/okinawa-soba-okinawa-1697765/)
    * Takoyaki [link](https://pixabay.com/photos/food-takoyaki-ball-1614130/)
    * Highball Whiskey [link](https://pixabay.com/photos/whiskey-highball-nanning-654449/)   
-- The Dutch and United Kingdom flag used for selecting the website language were created by the website developer himself.  
+- The Dutch and United Kingdom flags used for selecting the website language were created by the website developer himself.  
 
 <img src="assets/images/dutch-flag.png" alt="Dutch flag">
 <img src="assets/images/uk-flag.png" alt="United Kingdom flag"><br>
