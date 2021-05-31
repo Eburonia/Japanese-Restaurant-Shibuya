@@ -13,7 +13,7 @@ body {
    
     /* Hero image used for illustration purposes only. Image is not owned by the web developer, all copyrights and credit go to the respective owner */
     /* Credit: Hero Image:  */
-    background: url('https://eburonia.github.io/japanese-restaurant-shibuya/assets/images/hero-image.jpg') no-repeat top center;
+    background: url('https://eburonia.github.io/japanese-restaurant-shibuya/assets/images/hero-image.jpg') no-repeat center center;
 
     background-attachment: fixed;
     background-size: cover;
@@ -23,7 +23,7 @@ h2 {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: rgb(195, 161, 104);
+    color: red;
     margin: 20px 20px 10px 20px;
     }
 
@@ -61,7 +61,7 @@ h3 {
 @media only screen and (max-width: 600px) {
 
     body {
-        background-size: auto 100%;
+        background-size: auto 100vh;
         bottom: 0;
     }
 
