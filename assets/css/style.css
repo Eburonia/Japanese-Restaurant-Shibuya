@@ -57,5 +57,15 @@ h3 {
     }
 
 
+/* media queries for style page only */
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-size: auto 100%;
+    }
+
+}
+
+
 
 
