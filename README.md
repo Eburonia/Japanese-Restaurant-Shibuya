@@ -439,7 +439,7 @@ You can download the repository by following the next procedure:
 - Selecting second child CSS code [link](https://www.w3schools.com/cssref/sel_nth-child.asp)
 - CSS Flex Responsive [link](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
 - Change the background colour of the select list [link](https://crosstec.org/en/forums/15-usage/125393-change-the-background-color-of-the-select-list.html)
-- Change colour of Chrome's calendar icon in HTML date input (see also 'Known Bugs' section)[link](https://stackoverflow.com/questions/62162645/change-color-of-chromes-calendar-icon-in-html-date-input)
+- Change colour of Chrome's calendar icon in HTML date input (see also 'Known Bugs' section) [link](https://stackoverflow.com/questions/62162645/change-color-of-chromes-calendar-icon-in-html-date-input)
 
 
 
