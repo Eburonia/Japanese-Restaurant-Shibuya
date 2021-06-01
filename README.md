@@ -14,7 +14,7 @@ View the GitHub Repository [link](https://github.com/Eburonia/japanese-restauran
 ## About
 These days there are still restaurant owners who are not active on the internet by owning a website or being active on social media.
 By creating this example 'Japanese Restaurant Shibuya' website, we will show the importance of being active on the internet to these restaurant owners.
-We will give them an idea how a typical restaurant website will look like and we will show them what the added value for is.
+We will give them an idea how a typical restaurant website will look like and we will show them what the added value is.
 This website could also be valuable for restaurant owners who already own a personal restaurant website, but are looking for inspiration or new ideas.
   
 
@@ -63,11 +63,11 @@ This website could also be valuable for restaurant owners who already own a pers
 #### Colour Scheme
 - To not get distracted too much, and for readability purposes, the used colours on the website meet the colours of the background hero image. Three types are used for styling the html elements:
    * Transparent Black colour: rgba(0, 0, 0, 0.85) - used in headers, footers, and sections background.
-   * Cream colour type: rgb(195, 161, 104) - used in the restaurant logo text, h2 and h3 headers, sections, some divisions, image borders, buttons, form text fields, and form drop-down menus.
+   * Cream colour type: rgb(195, 161, 104) - used in the restaurant logo text, h2 and h3 headings, sections, some divisions, image borders, buttons, form text fields, and form drop-down menus.
    * Smokewhite colour: rgb(245, 245, 245) - used in header, footer, navigation bar, paragraphs, menu items, and form labels.
 - The sections and some divisions of the website have a black transparent colour. This to keep the hero image in the background a little bit visible, but not too much that you can't read the text anymore.
 - For emphasizing purposes a red colour rgb(255, 0, 0) is used for new menu items on the menu page and important messages like required text fields (*) on the reservations and contact form.
-- The hover colour of the buttons is a transparent type of Orange colour: rgba(129, 91, 28, 0.5).
+- The hover colour of the buttons is a transparent type of Cream colour: rgba(129, 91, 28, 0.5).
 - The audio player has not been styled (see also 'Known Bugs' section).<br>
 
 
@@ -127,13 +127,13 @@ The footer has been located at the bottom of every page and exists out of social
 A fixed background (hero) image of the Restaurant interior has been added to every page.
 
 ### Sections/Divisions
-Depending on which page you are on, the website has one or multiple sections/divisions containing content. You can recognize these sections/divisions by a black transparent container surrounded by a Cream coloured border including a border-radius. All sections/divisions start with a Cream coloured heading h2 including a [fontawesome.com](https://www.fontawesome.com/) icon at the end.
+Depending on which page you are, the website has one or multiple sections/divisions containing content. You can recognize these sections/divisions by a black transparent container surrounded by a Cream coloured border including a border-radius. All sections/divisions start with a Cream coloured h2 heading including a [fontawesome.com](https://www.fontawesome.com/) icon at the end.
 
 ### Menu Page
-The 'Menu' page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger devices. When the device width becomes smaller, the sections and divisions will be on top of each other (block) to keep it readable.
+The 'Menu' page exists out of a combination of sections (menu items) and divisions (images). These are inline next to each other for bigger screen sizes. When the device width becomes smaller, the sections and divisions will be on top of each other (block type) to keep it readable.
 
 ### Forms
-The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, text fields, drop-down menus, and heading h2 will be smaller in size on smaller devices (smartphones) for readability purposes.
+The forms on the 'Reservations' and 'Contact' pages both have the same styling. The labels, text fields, drop-down menus, and h2 heading will be smaller in size on smaller devices (smartphones) for readability purposes.
 
 ### Paragraphs
 For consistency, all paragraphs have the same styling.
@@ -170,8 +170,8 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 ### Frameworks, Libraries and Programs Used
 - [Bootstrap v3.4.1](https://getbootstrap.com/docs/3.4/) - Only used for the responsive navigation bar, especially needed for creating the hamburger-styled menu on smaller devices like smartphones.
 - [jquery v3.5.1](https://jquery.com/download/) - Used for the hamburger-styled menu for the navigation bar, part of the bootstrap framework.
-- [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the header.css file. This font is only used font on all pages of the website.
-- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant, payment methods, and in the heading h2 of the website sections/divisions.
+- [Google Fonts:](https://fonts.google.com/specimen/Libre+Franklin) - The 'Libre Franklin' font is imported from the Google Fonts Website into the header.css file. This font is the only used font on all pages of the website.
+- [Font Awesome](https://www.fontawesome.com/) - Font Awesome icons are used on the website for linking to the social media pages of the restaurant, payment methods, and in the h2 heading of the website sections/divisions.
 - [Git](https://git-scm.com/) - Git was used for version control and code change tracking of the website project. The terminal in Gitpod was used to commit and to push the project to the Github repository.
 - [Github](https://github.com/) - The project code has been stored on the Github website.
 - [GitPod](https://www.gitpod.io/) - GitPod was used for creating the code, testing of the website, commiting, and pushing the code to the github repository. 
@@ -206,7 +206,7 @@ All pages are responsive on all devices. Minimum viewport width: 320px.
 - Check for dead links. **(checked)**
 - Check whether website language links are working properly. **(checked)**
 - Check the responsiveness of the navigation bar (change to hamburger-style navigation). **(checked)**
-- Check whether there is no overflow of the sections/division while reducing the screen size. **(checked)**
+- Check whether there is no overflow while reducing the screen size. **(checked)**
 - Check whether audio player is working properly. **(checked)**
 
 #### Footer
@@ -263,9 +263,9 @@ section for more information about the outcome.
 
 ### Further Testing
 The following devices were used for testing the website:
-- Desktop: Asus ZenBook (viewport: 1920px x 1080px) 
-- Smartphone: Samsung S9+ (viewport: 360px x 740px)
-- Smartphone: iPhone 11 (viewport: 414px x 896px)
+- Desktop: Asus ZenBook (viewport: 1920px * 1080px) 
+- Smartphone: Samsung S9+ (viewport: 360px * 740px)
+- Smartphone: iPhone 11 (viewport: 414px * 896px)
 
 During the building of the website, [Google Chrome DevTools](https://developer.chrome.com/) was used to simulate different viewport sizes.
 The website is designed for a minimum viewport width of 320px (iPhone 5 size).
@@ -368,7 +368,7 @@ No errors found.
 - The bootstrap navigation bar shows a small black border (1px?) around the navigation bar. 
 - Styling of audio player gives bad styling quality in Microsoft Edge and Google Chrome. The styling of the audio player has been removed for now. I am also not satisfied how the audio player looks in these browsers.
 - The date field on the reservations page works differently using Google Chrome, Microsoft Edge, and Firefox browsers. The styling of the date input field had to be adjusted for the Google Chrome and Microsoft Edge browsers (see also Credits section).
-- The hero background image sometimes won't stay fixed when scrolling on smaller devices (smartphone), it moves up a little bit showing a white background on the bottom of the hero image. When releasing your finger from the screen (stop scrolling) the hero image will reposition itself and automatically covers the whole viewport, see also image below. Maybe this has something to do with loading the hero image in the body element instead of the division element?
+- The hero background image sometimes won't stay fixed when scrolling on smaller devices (smartphone), it moves up a little bit showing a white background on the bottom of the hero image. When releasing your finger from the screen (stop scrolling) the hero image will reposition itself and will automatically cover the whole viewport, see also image below. Maybe this has something to do with loading the hero image in the body element instead of the division element?
 
 <img src="assets/readme-images/hero-bug.png" alt="Screen capture of hero image bug">
 
